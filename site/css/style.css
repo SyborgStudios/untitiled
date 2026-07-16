@@ -1,0 +1,553 @@
+/* ------------------------------------------------------------------ */
+/* untitled.movie — Drehbuch- / Schreibmaschinen-Anmutung             */
+/* ------------------------------------------------------------------ */
+
+@font-face {
+  font-family: "Courier Prime";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/courier-prime-regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Courier Prime";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/courier-prime-bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Courier Prime";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/courier-prime-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Courier Prime";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/courier-prime-bold-italic.woff2") format("woff2");
+}
+
+:root {
+  --paper: #f4f1ea;
+  --page: #fbf9f4;
+  --ink: #232323;
+  --ink-faint: #6f6c66;
+  --rule: #d8d3c8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--paper);
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: "Courier Prime", "Courier New", Courier, monospace;
+  font-size: 17px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* --- Die "Seite" ------------------------------------------------- */
+
+.page {
+  max-width: 41rem;
+  margin: 3rem auto 5rem;
+  padding: 4.5rem 3.5rem 4rem;
+  background: var(--page);
+  border: 1px solid var(--rule);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07), 0 12px 34px rgba(0, 0, 0, 0.06);
+}
+
+@media (max-width: 640px) {
+  body { font-size: 15px; }
+  .page {
+    margin: 0;
+    padding: 4.5rem 1.4rem 3rem;
+    border: none;
+    box-shadow: none;
+  }
+}
+
+/* --- Sprachumschaltung ------------------------------------------- */
+
+.lang-switch {
+  position: fixed;
+  top: 1rem;
+  right: 1.25rem;
+  z-index: 10;
+  color: var(--ink-faint);
+  font-family: "Courier Prime", "Courier New", Courier, monospace;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+}
+
+.lang-switch button {
+  appearance: none;
+  background: none;
+  border: none;
+  padding: 0.25rem 0.2rem;
+  color: var(--ink-faint);
+  font: inherit;
+  letter-spacing: inherit;
+  cursor: pointer;
+}
+
+.lang-switch button:hover {
+  color: var(--ink);
+}
+
+.lang-switch button[aria-pressed="true"] {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+}
+
+/* --- Sichtbarkeit der Sprachfassungen ----------------------------- */
+
+article[data-lang] {
+  display: none;
+}
+
+body[data-lang="de"] article[data-lang="de"],
+body[data-lang="en"] article[data-lang="en"] {
+  display: block;
+}
+
+/* --- Typografie ---------------------------------------------------- */
+
+.title-page {
+  margin-bottom: 4.5rem;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+}
+
+.title-page::after {
+  content: "* * *";
+  display: block;
+  margin-top: 1.6rem;
+  color: var(--ink-faint);
+  letter-spacing: 0.5em;
+  font-size: 0.85rem;
+}
+
+h2 {
+  margin: 3.2rem 0 1.4rem;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin: 2.4rem 0 1.2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+}
+
+p {
+  margin: 0 0 1.4rem;
+}
+
+/* Filmtitel: unterstrichen statt kursiv — wie mit der Schreibmaschine */
+em {
+  font-style: normal;
+  text-decoration: underline;
+  text-underline-offset: 0.22em;
+}
+
+/* "Hier setzt der Film ein." — wie eine Regieanweisung */
+.beat {
+  margin: 2.6rem 0;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+/* --- Unterschrift --------------------------------------------------- */
+
+.signature {
+  margin-top: 4.5rem;
+}
+
+.signature p {
+  margin: 0;
+  text-align: right;
+}
+
+/* --- Blinkender Cursor ---------------------------------------------- */
+
+.cursor {
+  display: inline-block;
+  margin-left: 0.1em;
+  animation: blink 1.1s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cursor { animation: none; }
+}
+
+/* ------------------------------------------------------------------ */
+/* Folgeseiten: blaue Seiten, Blättern, Szenenformat, Anlagen          */
+/* ------------------------------------------------------------------ */
+
+/* --- Blaue Seite (Änderungsseite des Co-Autors) --------------------- */
+/* Wie im alten Kopierverfahren: Die erste Änderung ist blau.          */
+
+body.revision-blue {
+  --page: #e6edf5;
+  --rule: #c6d3e2;
+}
+
+body.revision-blue .attachment {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* --- Seitenkopf: Änderungsvermerk + Seitenzahl ----------------------- */
+
+.page-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: -2.6rem 0 3.2rem;
+  color: var(--ink-faint);
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* --- Blätter-Navigation ---------------------------------------------- */
+
+.pager {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-top: 4rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--rule);
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.pager:empty { display: none; }
+
+.pager a {
+  color: var(--ink-faint);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.pager a:hover {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+}
+
+.pager-pos  { color: var(--ink-faint); text-align: center; }
+.pager-prev { text-align: left; }
+.pager-next { text-align: right; }
+
+/* Sprachabhängige Kleinteile außerhalb der Artikel */
+.pager [data-lang],
+.page-meta [data-lang],
+.thumbs [data-lang],
+.newsletter [data-lang],
+.legal [data-lang] { display: none; }
+
+body[data-lang="de"] .pager [data-lang="de"],
+body[data-lang="de"] .page-meta [data-lang="de"],
+body[data-lang="de"] .thumbs [data-lang="de"],
+body[data-lang="de"] .newsletter [data-lang="de"],
+body[data-lang="de"] .legal [data-lang="de"],
+body[data-lang="en"] .pager [data-lang="en"],
+body[data-lang="en"] .page-meta [data-lang="en"],
+body[data-lang="en"] .thumbs [data-lang="en"],
+body[data-lang="en"] .newsletter [data-lang="en"],
+body[data-lang="en"] .legal [data-lang="en"] { display: inline; }
+
+/* --- Rechtslinks im Fuß ----------------------------------------------- */
+
+.legal {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.legal p { margin: 0; }
+
+.legal a {
+  color: var(--ink-faint);
+  text-decoration: none;
+}
+
+.legal a:hover {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+}
+
+.legal span[aria-hidden] {
+  color: var(--ink-faint);
+  margin: 0 0.4rem;
+}
+
+/* --- Newsletter-Anmeldung -------------------------------------------- */
+
+.newsletter {
+  margin-top: 2.6rem;
+  padding-top: 1.6rem;
+  border-top: 1px solid var(--rule);
+  text-align: center;
+}
+
+.newsletter-title {
+  margin: 0 0 1rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.newsletter-form input[type="email"] {
+  width: 16rem;
+  max-width: 100%;
+  padding: 0.35rem 0.5rem;
+  font: inherit;
+  color: var(--ink);
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--ink-faint);
+  border-radius: 0;
+}
+
+.newsletter-form input[type="email"]:focus {
+  outline: none;
+  border-bottom-color: var(--ink);
+}
+
+.newsletter-form button {
+  padding: 0.35rem 0.9rem;
+  font: inherit;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink);
+  background: transparent;
+  border: 1px solid var(--ink-faint);
+  cursor: pointer;
+}
+
+.newsletter-form button:hover { border-color: var(--ink); }
+
+.newsletter-note {
+  margin: 0.9rem 0 0;
+  font-size: 0.8rem;
+  color: var(--ink-faint);
+}
+
+/* --- Seitenleiste mit Miniaturen (wie in der macOS-Vorschau) --------- */
+
+.thumbs-toggle {
+  position: fixed;
+  top: 0.85rem;
+  left: 1.25rem;
+  z-index: 30;
+  appearance: none;
+  background: none;
+  border: none;
+  padding: 0.25rem 0.2rem;
+  color: var(--ink-faint);
+  font-family: "Courier Prime", "Courier New", Courier, monospace;
+  font-size: 1.05rem;
+  cursor: pointer;
+}
+
+.thumbs-toggle:hover { color: var(--ink); }
+
+.thumbs {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 20;
+  width: 11rem;
+  padding: 3.6rem 0 2rem;
+  overflow-y: auto;
+  background: var(--paper);
+  border-right: 1px solid var(--rule);
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.08);
+  transform: translateX(-100%);
+  visibility: hidden;
+  transition: transform 0.25s ease, visibility 0s 0.25s;
+}
+
+body.thumbs-open .thumbs {
+  transform: translateX(0);
+  visibility: visible;
+  transition: transform 0.25s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .thumbs { transition: none; }
+}
+
+.thumb {
+  display: block;
+  margin: 0 auto 1.5rem;
+  color: var(--ink-faint);
+  text-align: center;
+  text-decoration: none;
+}
+
+.thumb:hover { color: var(--ink); }
+
+.thumb-frame {
+  display: block;
+  width: 128px;
+  height: 166px;
+  margin: 0 auto 0.4rem;
+  overflow: hidden;
+  background: var(--page);
+  border: 1px solid var(--rule);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.thumb[aria-current="page"] .thumb-frame {
+  outline: 2px solid var(--ink);
+  outline-offset: 1px;
+}
+
+.thumb[aria-current="page"] { color: var(--ink); }
+
+.thumb-frame iframe {
+  width: 800px;
+  height: 1040px;
+  border: 0;
+  transform: scale(0.16);
+  transform-origin: 0 0;
+  pointer-events: none;
+}
+
+.thumb-label {
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 640px) {
+  .page-meta { margin-top: -1rem; }
+}
+
+/* --- Szenenformat: Slugline, Dialog ----------------------------------- */
+
+.slugline {
+  margin: 0 0 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.dialogue {
+  max-width: 26rem;
+  margin: 2.2rem auto;
+}
+
+.dialogue .character {
+  margin: 0 0 0.1rem;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.dialogue p { margin: 0 0 1.1rem; }
+.dialogue p:last-child { margin-bottom: 0; }
+
+/* --- Anlagen (aufklappbare Arbeitsdokumente) --------------------------- */
+
+.attachments { margin-top: 3.4rem; }
+
+details.attachment {
+  margin: 0 0 1.4rem;
+  border: 1px solid var(--rule);
+}
+
+details.attachment summary {
+  padding: 1rem 1.2rem;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+details.attachment summary::-webkit-details-marker { display: none; }
+details.attachment summary::before { content: "+ "; }
+details.attachment[open] summary::before { content: "\2013\00a0"; }
+details.attachment[open] summary { border-bottom: 1px dashed var(--rule); }
+
+.attachment-body { padding: 1.8rem 1.2rem 0.6rem; }
+
+.attachment-body h3 { margin-top: 2.6rem; }
+.attachment-body h3:first-of-type { margin-top: 0.4rem; }
+
+h4 {
+  margin: 2.2rem 0 0.4rem;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.teaches {
+  margin: 0 0 1.2rem;
+  color: var(--ink-faint);
+}
+
+.attachment-body ul,
+.attachment-body ol {
+  margin: 0 0 1.4rem;
+  padding-left: 1.6rem;
+}
+
+.attachment-body li { margin-bottom: 0.55rem; }
+
+.doc-meta {
+  color: var(--ink-faint);
+  font-size: 0.9rem;
+}

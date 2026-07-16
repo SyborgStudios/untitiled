@@ -1,0 +1,366 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:cx="http://celtx.com/NS/v1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="http://celtx.com/res/n38nf000"
+                   cx:sceneid="eP8nf000"
+                   cx:location=" "
+                   cx:alttitle="Verrat"
+                   dc:description="Js Vater erfährt das Ms Vater noch lebt"
+                   cx:colour="grey"
+                   cx:ordinal="16"
+                   cx:sortord="0016">
+    <cx:members RDF:resource="rdf:#$+sgAy3"/>
+    <cx:markup RDF:resource="rdf:#$0tgAy3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="http://celtx.com/res/FbHLf000"
+                   cx:sceneid="erHLf000"
+                   cx:location=" "
+                   cx:colour="grey"
+                   cx:alttitle="Ms Vater steigt auf. S/W"
+                   cx:ordinal="7"
+                   cx:sortord="0007">
+    <cx:members RDF:resource="rdf:#$5tgAy3"/>
+    <cx:markup RDF:resource="rdf:#$6tgAy3"/>
+    <dc:description>Vater erringt wichtiges Amt. 
+Hat sehr schnell Kariere gemacht.
+</dc:description>
+  </RDF:Description>
+  <RDF:Description RDF:about="http://celtx.com/res/jnLog000"
+                   cx:sceneid="dELog000"
+                   cx:location=" "
+                   cx:ordinal="17"
+                   cx:sortord="0017"
+                   cx:alttitle="Js Vater meldet sich zum Todeslauf"
+                   dc:description="">
+    <cx:members RDF:resource="rdf:#$qtgAy3"/>
+    <cx:markup RDF:resource="rdf:#$rtgAy3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="http://celtx.com/res/Ldl8f000"
+                   cx:sceneid="FLk8f000"
+                   cx:location=" "
+                   dc:description="Heile Welt."
+                   cx:colour="grey"
+                   cx:alttitle="Js Vater lebt gutes Leben S/W"
+                   cx:ordinal="8"
+                   cx:sortord="0008">
+    <cx:members RDF:resource="rdf:#$7tgAy3"/>
+    <cx:markup RDF:resource="rdf:#$8tgAy3"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf:#$ktgAy3">
+  </RDF:Seq>
+  <RDF:Description RDF:about="http://celtx.com/res/enAwf000"
+                   cx:sceneid="AtAwf000"
+                   cx:location=" "
+                   cx:alttitle="Austieg Ms Vater S/W - Vergangenheit "
+                   cx:colour="grey"
+                   cx:ordinal="3"
+                   cx:sortord="0003">
+    <cx:members RDF:resource="rdf:#$3tgAy3"/>
+    <cx:markup RDF:resource="rdf:#$4tgAy3"/>
+    <dc:description>Vater des Mädchens ist aufstrebender Politiker.
+
+M wird geboren.
+
+</dc:description>
+  </RDF:Description>
+  <RDF:Description RDF:about="http://celtx.com/res/gLr9g000"
+                   cx:sceneid="Qlq9g000"
+                   cx:location=" "
+                   cx:alttitle="M und J finden zueinander"
+                   cx:ordinal="12"
+                   cx:sortord="0012"
+                   dc:description="">
+    <cx:members RDF:resource="rdf:#$otgAy3"/>
+    <cx:markup RDF:resource="rdf:#$ptgAy3"/>
+  </RDF:Description>
+  <cx:Document RDF:about="http://celtx.com/res/W6f34KbFReoZ"
+                   dc:title="Hauptkatalog"
+                   cx:size="0">
+    <cx:doctype RDF:resource="http://celtx.com/NS/v1/CatalogDocument"/>
+    <cx:filter RDF:resource="celtx:filter:all"/>
+    <cx:members RDF:resource="rdf:#$TsgAy3"/>
+  </cx:Document>
+  <RDF:Seq RDF:about="rdf:#$ptgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$.sgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$mtgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$otgAy3">
+  </RDF:Seq>
+  <RDF:Description RDF:about="http://celtx.com/res/ht9Qg000"
+                   cx:sceneid="tk9Qg000"
+                   cx:location=" "
+                   cx:ordinal="19"
+                   cx:sortord="0019"
+                   cx:alttitle="M trifft auf Js Vater"
+                   dc:description="Erkennt ihn nicht. ">
+    <cx:members RDF:resource="rdf:#$wtgAy3"/>
+    <cx:markup RDF:resource="rdf:#$xtgAy3"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf:#$VsgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$dtgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$0tgAy3">
+  </RDF:Seq>
+  <RDF:Description RDF:about="http://celtx.com/res/euf5f000"
+                   cx:sceneid="lnf5f000"
+                   cx:location=" "
+                   cx:alttitle="Vier Jahre später"
+                   cx:ordinal="2"
+                   cx:sortord="0002">
+    <cx:members RDF:resource="rdf:#$XsgAy3"/>
+    <cx:markup RDF:resource="rdf:#$YsgAy3"/>
+    <dc:description>Mädchen flieht aus dem Heim.
+</dc:description>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf:#$7tgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$ttgAy3">
+  </RDF:Seq>
+  <RDF:Description RDF:about="http://celtx.com/res/DHLpf000"
+                   cx:sceneid="DCLpf000"
+                   cx:location=" "
+                   cx:colour="grey"
+                   cx:alttitle="Js Vater unterstützt Ms Vater S/W"
+                   cx:ordinal="4"
+                   cx:sortord="0004">
+    <cx:members RDF:resource="rdf:#$1tgAy3"/>
+    <cx:markup RDF:resource="rdf:#$2tgAy3"/>
+    <dc:description>Js Vater setzt sich für Ms Vater ein.
+
+Junge hat einen älteren Bruder</dc:description>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf:#$TsgAy3">
+  </RDF:Seq>
+  <cx:Document RDF:about="http://celtx.com/res/defaultsketchdoc"
+                   dc:title="Skizze">
+    <cx:doctype RDF:resource="http://celtx.com/NS/v1/SingleShotDocument"/>
+  </cx:Document>
+  <RDF:Seq RDF:about="rdf:#$ntgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$stgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$1tgAy3">
+  </RDF:Seq>
+  <cx:Document RDF:about="http://celtx.com/res/1kEqvojZWTHA"
+                   dc:title="Drehbuch"
+                   cx:localFile="script-5Tk.html"
+                   cx:auxFile="scratch-5Tk.html"
+                   cx:sidebarvisible="sidebarnotes">
+    <cx:doctype RDF:resource="http://celtx.com/NS/v1/ScriptDocument"/>
+    <cx:scenes RDF:resource="rdf:#$UsgAy3"/>
+    <cx:tagnames RDF:resource="rdf:#$htgAy3"/>
+  </cx:Document>
+  <RDF:Description RDF:about="http://celtx.com/res/uuCOg000"
+                   cx:sceneid="imCOg000"
+                   cx:location=" "
+                   cx:ordinal="18"
+                   cx:sortord="0018"
+                   cx:alttitle="Js Vater ist der FamilienMörder"
+                   dc:description=""
+                   cx:colour="grey">
+    <cx:members RDF:resource="rdf:#$utgAy3"/>
+    <cx:markup RDF:resource="rdf:#$vtgAy3"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf:#$5tgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$9tgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$+sgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$wtgAy3">
+  </RDF:Seq>
+  <RDF:Description RDF:about="http://celtx.com/res/qOohf000"
+                   cx:sceneid="4lohf000"
+                   cx:location=" "
+                   cx:alttitle="Projekt misslingt"
+                   cx:colour="grey"
+                   cx:ordinal="13"
+                   cx:sortord="0013">
+    <cx:members RDF:resource="rdf:#$btgAy3"/>
+    <cx:markup RDF:resource="rdf:#$ctgAy3"/>
+    <dc:description>Projekt geht schief.
+Intriege gegen Ms Vater. Wird gezwungen mit Familie in den Untergrund zu gehen.
+Wird als Terrorakt verkauft, in dessen Verlauf Ms Vater gestorben sei.</dc:description>
+  </RDF:Description>
+  <RDF:Description RDF:about="http://celtx.com/res/eLQog000"
+                   cx:sceneid="8FQog000"
+                   cx:location=" "
+                   cx:alttitle="M und J lernen sich kennen"
+                   cx:ordinal="9"
+                   cx:sortord="0009"
+                   dc:description="">
+    <cx:members RDF:resource="rdf:#$ktgAy3"/>
+    <cx:markup RDF:resource="rdf:#$ltgAy3"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf:#$etgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$atgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$8tgAy3">
+  </RDF:Seq>
+  <RDF:Description RDF:about="http://celtx.com/res/qmfgg000"
+                   cx:sceneid="7efgg000"
+                   cx:location=" "
+                   cx:alttitle="Js Frau ist schwerkrank"
+                   dc:description="Über J Familie lasstet "
+                   cx:ordinal="5"
+                   cx:sortord="0005">
+    <cx:members RDF:resource="rdf:#$itgAy3"/>
+    <cx:markup RDF:resource="rdf:#$jtgAy3"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf:#$XsgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="http://celtx.com/res/U0xHoW9oCmfD">
+    <RDF:li RDF:resource="http://celtx.com/res/9uEellKm1xdh"/>
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$vtgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$itgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="http://celtx.com/res/9uEellKm1xdh">
+    <RDF:li RDF:resource="http://celtx.com/res/W6f34KbFReoZ"/>
+    <RDF:li RDF:resource="http://celtx.com/res/1kEqvojZWTHA"/>
+    <RDF:li RDF:resource="http://celtx.com/res/defaultsketchdoc"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="http://celtx.com/res/9uEellKm1xdh"
+                   cx:projectRoot="true"
+                   dc:title="AmericanDream" />
+  <RDF:Seq RDF:about="rdf:#$4tgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$ctgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$xtgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$ltgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$WsgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$jtgAy3">
+  </RDF:Seq>
+  <cx:Project RDF:about="http://celtx.com/project/PHEQrXpbCGun"
+                   cx:fileVersion="1.4"
+                   dc:title="AmericanDream"
+                   dc:modified="2012-01-17T20:55:02Z">
+    <cx:components RDF:resource="http://celtx.com/res/U0xHoW9oCmfD"/>
+  </cx:Project>
+  <RDF:Seq RDF:about="rdf:#$utgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$rtgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$qtgAy3">
+  </RDF:Seq>
+  <RDF:Description RDF:about="http://celtx.com/res/k98Nf000"
+                   cx:sceneid="is8Nf000"
+                   cx:location=" "
+                   cx:colour="grey"
+                   cx:alttitle="Großes Projekt steht an"
+                   cx:ordinal="11"
+                   cx:sortord="0011">
+    <cx:members RDF:resource="rdf:#$9tgAy3"/>
+    <cx:markup RDF:resource="rdf:#$atgAy3"/>
+    <dc:description>Ein Projekt, dass die gesammte Stadt betrifft soll umgesetzt werden. Druck auf Ms Vater. 
+Ms Vater ist Skeptiker, muss sich beugen.</dc:description>
+  </RDF:Description>
+  <RDF:Description RDF:about="http://celtx.com/res/4in5g000"
+                   cx:sceneid="Ejn5g000"
+                   cx:location=" "
+                   cx:ordinal="10"
+                   cx:sortord="0010"
+                   cx:alttitle="Js Mutter stirbt"
+                   dc:description="Js Vater ist Säufer">
+    <cx:members RDF:resource="rdf:#$mtgAy3"/>
+    <cx:markup RDF:resource="rdf:#$ntgAy3"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf:#$UsgAy3">
+    <RDF:li RDF:resource="http://celtx.com/res/3HD0f000"/>
+    <RDF:li RDF:resource="http://celtx.com/res/euf5f000"/>
+    <RDF:li RDF:resource="http://celtx.com/res/enAwf000"/>
+    <RDF:li RDF:resource="http://celtx.com/res/DHLpf000"/>
+    <RDF:li RDF:resource="http://celtx.com/res/qmfgg000"/>
+    <RDF:li RDF:resource="http://celtx.com/res/zs7hf000"/>
+    <RDF:li RDF:resource="http://celtx.com/res/FbHLf000"/>
+    <RDF:li RDF:resource="http://celtx.com/res/Ldl8f000"/>
+    <RDF:li RDF:resource="http://celtx.com/res/eLQog000"/>
+    <RDF:li RDF:resource="http://celtx.com/res/4in5g000"/>
+    <RDF:li RDF:resource="http://celtx.com/res/k98Nf000"/>
+    <RDF:li RDF:resource="http://celtx.com/res/gLr9g000"/>
+    <RDF:li RDF:resource="http://celtx.com/res/qOohf000"/>
+    <RDF:li RDF:resource="http://celtx.com/res/2CHEg000"/>
+    <RDF:li RDF:resource="http://celtx.com/res/kdL7g000"/>
+    <RDF:li RDF:resource="http://celtx.com/res/n38nf000"/>
+    <RDF:li RDF:resource="http://celtx.com/res/jnLog000"/>
+    <RDF:li RDF:resource="http://celtx.com/res/uuCOg000"/>
+    <RDF:li RDF:resource="http://celtx.com/res/ht9Qg000"/>
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$YsgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$htgAy3">
+    <RDF:li>Handlung A</RDF:li>
+    <RDF:li>Handlung B - Vater Mädchen</RDF:li>
+    <RDF:li>Handlung C</RDF:li>
+    <RDF:li>Handlung D</RDF:li>
+    <RDF:li>Handlung E</RDF:li>
+    <RDF:li>Handlung C - Vater Junge</RDF:li>
+    <RDF:li>Handlung G</RDF:li>
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$3tgAy3">
+  </RDF:Seq>
+  <RDF:Description RDF:about="http://celtx.com/res/kdL7g000"
+                   cx:sceneid="uCL7g000"
+                   cx:location=" "
+                   cx:alttitle="Js Vater verliert alles"
+                   cx:colour="grey"
+                   cx:ordinal="15"
+                   cx:sortord="0015">
+    <cx:members RDF:resource="rdf:#$dtgAy3"/>
+    <cx:markup RDF:resource="rdf:#$etgAy3"/>
+    <dc:description>Js Vater ist durch Ausmaß der Aktion existenziell bedroht. Ältester Sohn stirbt.
+</dc:description>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf:#$6tgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$2tgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$btgAy3">
+  </RDF:Seq>
+  <RDF:Seq RDF:about="rdf:#$ZsgAy3">
+  </RDF:Seq>
+  <RDF:Description RDF:about="http://celtx.com/res/zs7hf000"
+                   cx:sceneid="Fo7hf000"
+                   cx:location=" "
+                   cx:alttitle="Mädchen findet Hund"
+                   cx:ordinal="6"
+                   cx:sortord="0006"
+                   dc:description="Mädchen lebt als &quot;Punk&quot; in Welt">
+    <cx:members RDF:resource="rdf:#$ZsgAy3"/>
+    <cx:markup RDF:resource="rdf:#$.sgAy3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="http://celtx.com/res/3HD0f000"
+                   cx:sceneid="fzD0f000"
+                   cx:location=" "
+                   cx:ordinal="1"
+                   cx:sortord="0001"
+                   cx:alttitle="Mord an Familie - Pretitle">
+    <cx:members RDF:resource="rdf:#$VsgAy3"/>
+    <cx:markup RDF:resource="rdf:#$WsgAy3"/>
+    <dc:description>Mädchen schaut zu wie Familie grausam umgebracht wird.
+
+Sie ist 4.
+
+Mädchen erkennt Signifikates Teil am Täter.</dc:description>
+  </RDF:Description>
+  <RDF:Description RDF:about="http://celtx.com/res/2CHEg000"
+                   cx:sceneid="84HEg000"
+                   cx:location=" "
+                   cx:ordinal="14"
+                   cx:sortord="0014">
+    <cx:members RDF:resource="rdf:#$stgAy3"/>
+    <cx:markup RDF:resource="rdf:#$ttgAy3"/>
+  </RDF:Description>
+</RDF:RDF>

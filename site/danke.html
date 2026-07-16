@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>untitled.movie — Danke / Thank you</title>
+  <meta name="description" content="Newsletter-Anmeldung: Bitte bestätigen. / Newsletter signup: please confirm.">
+  <meta name="robots" content="noindex">
+  <!-- Google tag (gtag.js) — lädt nur im Hauptfenster, nicht in den Miniatur-iframes der Seitenleiste -->
+  <script>
+    if (window.self === window.top) {
+      var gtagScript = document.createElement("script");
+      gtagScript.async = true;
+      gtagScript.src = "https://www.googletagmanager.com/gtag/js?id=G-F3DR5ZX5H7";
+      document.head.appendChild(gtagScript);
+
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function(){dataLayer.push(arguments);};
+      gtag('js', new Date());
+
+      gtag('config', 'G-F3DR5ZX5H7');
+    }
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="32x32 16x16">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+</head>
+<body data-lang="de">
+
+  <nav class="lang-switch" aria-label="Sprache / Language">
+    <button type="button" data-set-lang="de" aria-pressed="true">DE</button>
+    <span aria-hidden="true">/</span>
+    <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+  </nav>
+
+  <main class="page">
+
+    <!-- ============================== DEUTSCH ============================== -->
+    <article class="script" lang="de" data-lang="de">
+
+      <h2>Post ist unterwegs</h2>
+
+      <p>Danke für Ihr Interesse an der Werkstatt. In Ihrem
+      Postfach liegt gleich eine Bestätigungsmail &ndash; erst mit
+      einem Klick auf den Link darin sind Sie wirklich
+      angemeldet (Double-Opt-in). Keine Mail? Ein Blick in den
+      Spam-Ordner lohnt sich.</p>
+
+      <p><a href="index.html">&lsaquo; zurück zum Drehbuch</a></p>
+
+    </article>
+
+    <!-- ============================== ENGLISH ============================== -->
+    <article class="script" lang="en" data-lang="en">
+
+      <h2>The mail is on its way</h2>
+
+      <p>Thank you for your interest in the workshop. A
+      confirmation email is about to arrive in your inbox &ndash;
+      only the link inside makes your signup official (double
+      opt-in). No email? The spam folder is worth a look.</p>
+
+      <p><a href="index.html">&lsaquo; back to the screenplay</a></p>
+
+    </article>
+
+    <footer class="legal">
+      <p>
+        <a href="impressum.html"><span data-lang="de">Impressum</span><span data-lang="en">Legal notice</span></a>
+        <span aria-hidden="true">&middot;</span>
+        <a href="datenschutz.html"><span data-lang="de">Datenschutz</span><span data-lang="en">Privacy</span></a>
+      </p>
+    </footer>
+
+  </main>
+
+  <script src="js/lang.js"></script>
+</body>
+</html>
