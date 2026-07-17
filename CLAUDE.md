@@ -26,6 +26,8 @@ dorthin wird auf untitled.movie öffentlich dokumentiert.
   - `session-05.html` — Seite 5 (14.07.2026, der Co-Autor; blaue Seite — die Grob-Outline als Anlage, Original in `outline.md`; Spoiler-Stellen geschwärzt, `span.redacted`)
   - `session-06.html` — Seite 6 (15.07.2026, der Autor; Arbeitstagebuch — das Dossier Anna als Anlage, Original in `figuren.md`; Spoiler-Stellen geschwärzt)
   - `session-07.html` — Seite 7 (15.07.2026, Autor & Co-Autor; zwei Stimmen auf einer Seite — die Dossiers 2–8 als Anlagen A–E, Original in `figuren.md`; Spoiler-Stellen geschwärzt)
+  - `session-08.html` — Seite 8 (17.07.2026, der Autor; beide Treatments als Anlagen, ungeschwärzt, mit Audio-Playern DE/EN; Originale in `treatment-v1.md`/`treatment-v2.md`; Seite wird aus den Markdown-Quellen per Skript gebaut)
+  - `audio/` (in `site/`) — Audiofassungen der Treatments für die Website (DE + EN, je Fassung; ~25–30 MB pro Datei; per `.gitignore` vom Repo ausgenommen, müssen beim FTP-Upload mitkopiert werden)
   - `danke.html` — Ziel nach Newsletter-Anmeldung (noindex, keine Drehbuchseite — nicht in `pages.js` eintragen)
   - `impressum.html` / `datenschutz.html` — Rechtsseiten (DE rechtsverbindlich, EN als Service-Übersetzung; keine Drehbuchseiten — nicht in `pages.js` eintragen). Der Fußbereich `footer.legal` mit beiden Links steht auf **jeder** Seite — bei neuen Seiten mitkopieren. `datenschutz.html` nachziehen, wenn sich die Datenverarbeitung ändert (neues Tool = neuer Abschnitt).
   - `css/style.css` — Drehbuch-/Schreibmaschinen-Look (Courier Prime, Papier-Optik)
@@ -80,10 +82,15 @@ Document-Root. Deshalb gilt:
 - Der blinkende Cursor steht immer am Ende der jeweils letzten Seite
   (dort wächst das Dokument weiter) — beim Anlegen einer neuen Seite
   von der vorherigen dorthin verschieben.
-- **Spoiler-Schutz:** Was die Titelseite als Enthüllung zurückhält
-  (insb. die verdeckte Verbindung der beiden Kinder), darf auch in
-  veröffentlichten Anlagen nur angedeutet, nie ausgesprochen werden.
-  Interne Dokumente im Repo dürfen es aussprechen.
+- **Spoiler-Schutz (geändert 17.07.2026):** Mit Seite 8 hat der
+  Autor entschieden, die Treatments ungeschwärzt zu
+  veröffentlichen — die verdeckte Verbindung der beiden Kinder ist
+  damit öffentlich. Der alte Schutz (Schwärzungen mit
+  `span.redacted`) gilt für die Seiten 5–7 als historischer Stand
+  weiter und wird dort nicht rückwirkend entfernt. Neue Seiten
+  brauchen keine Schwärzungen mehr; die Anlagen-Warnung („Wer die
+  Geschichte lieber im fertigen Film entdecken will …") von Seite 8
+  bei spoilerhaltigen Anlagen mitkopieren.
 
 ## Marke
 

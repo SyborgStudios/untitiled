@@ -23,7 +23,9 @@
     /* Seite 6 — 15.07.2026, der Autor (Arbeitstagebuch; Anlage: Dossier Anna) */
     { file: "session-06.html", de: "Anna", en: "Anna" },
     /* Seite 7 — 15.07.2026, Autor & Co-Autor (zwei Stimmen; Anlagen: alle Dossiers) */
-    { file: "session-07.html", de: "Zwei Stimmen", en: "Two voices" }
+    { file: "session-07.html", de: "Zwei Stimmen", en: "Two voices" },
+    /* Seite 8 — 17.07.2026, der Autor (beide Treatments, Text + Audio, ungeschwärzt) */
+    { file: "session-08.html", de: "Die Treatments", en: "The treatments" }
   ];
 
   var file = location.pathname.split("/").pop() || "index.html";
