@@ -17,7 +17,16 @@ später in einer aufgegebenen Stadt die Wahrheit — und findet die
 Liebe zum Sohn des Mörders. Ob sie ihm vergibt, sagt der Film
 nicht.*
 
-Stand: 15.07.2026
+Stand: 15.07.2026; Nachtrag 20.07.2026 — die vom Autor
+angenommenen Flags n–u (`szenen-v1.md`) sind in den Text
+eingearbeitet (Seq 1, 2, 3, 4, 5, 7); damit ist auch die Taufe
+des Mals vollzogen (Details: Anhang A und Entscheidungslog —
+das Wort selbst steht hier bewusst nicht, damit Text- und
+Audiofassung am Anfang nichts verraten; Anweisung des Autors,
+20.07.). Konsistenz-Fix (20.07., bei der Arbeit an der ersten
+Drehbuchfassung): In Seq 8 stand noch „die Nacht viermal
+gesehen" — seit der Streichung des Nacht-Splitters (Log 20.07.)
+erscheint die Nacht dreimal; korrigiert.
 
 ---
 
@@ -28,15 +37,20 @@ einem Tisch, und wir sind vier Jahre alt.
 
 Die Welt besteht aus Unterkanten: Stuhlbeine, der Saum eines
 Vorhangs, eine Petroleumlampe auf dem Boden, die einen gelben
-Kreis wirft. Zwei Stimmen flüstern — eine Frau, ein Mann; wir
-verstehen nichts, aber der Klang ist das Zuhause selbst. Dann
-klopft es.
+Kreis wirft. Im Kreis, klein und selbstverständlich zwischen
+den Dingen des Verstecks: ein Glasfläschchen mit schönem
+Verschluss — niemand zeigt es uns, es steht nur da. Zwei
+Stimmen flüstern — eine Frau, ein Mann; wir verstehen nichts,
+aber der Klang ist das Zuhause selbst. Nur einmal, für einen
+Atemzug, wird das Flüstern der Frau zu Sprache: *… hoch über
+allem …* Dann klopft es.
 
-Das Kind unter dem Tisch hört etwas, das es noch nie gehört hat:
-die Stimme des Vaters, **laut**. Ein einziges Wort — ein Name,
-vielleicht ein Kosename, wir kennen ihn nicht. Es klingt nicht
-wie Angst. Es klingt fast wie Freude, die es besser wissen
-müsste.
+Ein Riegel. Die Tür geht auf. Und das Kind unter dem Tisch
+hört etwas, das es noch nie gehört hat: die Stimme des Vaters,
+**laut**. Ein einziges Wort — ein Name, wir verstehen ihn
+nicht. Es klingt nicht wie Angst. Es klingt wie Erkennen —
+fast wie Freude, die es besser wissen müsste: Der Vater hat
+gesehen, wer da steht, und der erste Moment ist ein guter.
 
 Männerbeine in der Tür. Arbeitsstiefel, nasse Hosensäume. Worte,
 zu tief, um sie zu fassen — eine Stimme bricht, setzt neu an,
@@ -85,7 +99,9 @@ Fahnen. Anna schreibt das Diktat sauber mit. Auf die Rückseite
 des Blattes zeichnet sie später ein Mal, das sie am Vormittag am
 Handgelenk des sterbenden Hausmeisters gesehen hat, als sein
 Ärmel verrutschte — zeichnet es, vergleicht es mit nichts, das
-wir sehen, und streicht es durch.
+wir sehen, und streicht es durch. Dabei, tonlos, kaum Atem:
+*nicht das Pferdchen* — ein Kinderwort, benutzt wie ein
+Fachbegriff; erklärt wird es nicht.
 
 Das ist **das Heft**: Seiten über Seiten durchgestrichener
 Zeichen auf den Rückseiten der Lüge. Ganz vorn eine erste Seite,
@@ -145,10 +161,17 @@ man ein nützliches Werkzeug in der Nähe duldet, und wenn er den
 Kopf auf ihr Bein legt, hört sie für einen Moment auf zu
 rechnen und erschrickt darüber.
 
+Ein Quartier sucht sie sich oben: ein Speicher über einer toten
+Gasse, zwei Wege hinaus. Das Heft bekommt ein Versteck, der
+Rest der Ration ein zweites — immer die Hälfte, immer woanders.
+Wer hoch schläft, hört die Stadt von oben; sie gewöhnt es sich
+gar nicht erst ab.
+
 Die Erwachsenen der Stadt: verhüllt, langärmelig, die
 **Gezeichneten**. Anna schaut keinem ins Gesicht; sie schaut auf
 Handgelenke, Unterarme, den Streifen Haut zwischen Handschuh und
-Ärmel. Wir begreifen jetzt, was das Heft ist: ein Archiv des
+Ärmel. Und wieder, tonlos, das Urteil: *nicht das Pferdchen.*
+Wir begreifen jetzt, was das Heft ist: ein Archiv des
 Nicht-Findens in einer Stadt, in der jeder das Falsche trägt und
 niemand das Richtige.
 
@@ -187,17 +210,31 @@ Jakobs Lachen kommt zu spät und dann ganz — der ganze Körper —
 und er geniert sich sofort, und ab da ist es um beide geschehen,
 nur weiß es keiner.
 
+Wie sie zu ihm nach Hause kommt: über ein halbes Ding. Anna hat
+ihm ihren Kocher gebracht — endlich ein echter Defekt —, und
+mitten in der Arbeit sieht Jakob den Stand des Lichts und packt
+zusammen, wortlos, eilig; der Junge, der nie von sich erzählt,
+hat eine Uhr im Körper. Das halb zerlegte Ding nimmt er mit.
+Keine Einladung, kein Blick zurück — Anna folgt ihrem Eigentum,
+durch ein Viertel, das sie nicht kennt, bis an eine Tür. Dort
+bleibt sie stehen: Hineingebeten hat sie niemand, weggeschickt
+auch nicht.
+
 Sein Zuhause: eine Werkstattwohnung, in der eine Frau liegt.
 **Ruth.** Jakob wäscht ihr die Arme — Male, viele, alte und
 neue — mit der Beiläufigkeit eines Jungen, der nie etwas anderes
 gekannt hat. Anna, in der Tür, sieht zum ersten Mal jemanden
-Male **berühren**. Ruth hat einen guten Tag: Sie macht einen
-Witz über ihr eigenes Sterben, so derb, dass Anna gegen ihren
-Willen lacht und Jakob den Raum verlässt und draußen dreimal
-tief atmet. In der Ecke der Wohnung: Werkzeug, säuberlich, und
-ein Feldbett, auf dem ein Mann liegen müsste, der nicht da ist.
-Nachts, halb im Schlaf, hört Anna, wie nebenan jemand an
-Schuhen arbeitet. Am Morgen ist das Feldbett wieder leer.
+Male **berühren**. Es ist Ruth, die sie über die Schwelle holt —
+mit einem Satz, den man nicht ablehnen kann, weil er zu unfein
+ist, um höflich gemeint zu sein. Ruth hat einen guten Tag: Sie
+macht einen Witz über ihr eigenes Sterben, so derb, dass Anna
+gegen ihren Willen lacht und Jakob den Raum verlässt und draußen
+dreimal tief atmet. In der Ecke der Wohnung: Werkzeug,
+säuberlich, und ein Feldbett, auf dem ein Mann liegen müsste,
+der nicht da ist. Der Kocher wird an diesem Tag nicht fertig; es
+wird spät, und niemand schickt sie weg. Nachts, halb im Schlaf,
+hört Anna, wie nebenan jemand an Schuhen arbeitet. Am Morgen ist
+das Feldbett wieder leer.
 
 Anna verbirgt, was sie sucht. Jakob verbirgt, wessen Sohn er
 ist — nicht die Tatsache, aber den Mann: Wenn der Vater
@@ -222,8 +259,9 @@ Annas Suche wird systematisch, und die Exposition kommt als
 Beute: Sie sucht die Orte, an denen Erwachsene die Ärmel
 hochkrempeln — Waschhäuser, die Schlange vor der Ausgabe, die
 Flure der Sterbezimmer, in denen Freiwillige Wasser bringen.
-Sie bringt Wasser. Sie sieht Unterarme. Sie zeichnet und
-streicht durch, zeichnet und streicht durch.
+Sie bringt Wasser. Wer Wasser bringt, isst mit — die Sterbenden
+teilen, was sie nicht mehr brauchen. Sie sieht Unterarme. Sie
+zeichnet und streicht durch, zeichnet und streicht durch.
 
 Und nebenbei, aus Mündern, die nichts mehr zu verlieren haben,
 bröckelt die zivile Wahrheit: Eine Alte, die Annas Wasser
@@ -242,12 +280,15 @@ ein Blühen, das im Mondlicht grau aussieht und betäubend
 riecht. Die Kinder schneiden Dolden, pressen sie in Ballen; an
 der Absperrung wechseln die Ballen wortlos die Seite, und von
 der anderen Seite kommen Konserven. Für wen die Ballen sind,
-fragt niemand. Auf einer der Kisten klebt, absurd sauber, das
-Etikett mit dem schönen Schriftzug vom Plakat.
+fragt niemand. Anna schneidet mit; ihr Anteil ist klein, und
+die Hälfte davon versteckt sie, wie immer. Auf einer der Kisten
+klebt, absurd sauber, das Etikett mit dem schönen Schriftzug
+vom Plakat.
 
 In dieser Nacht findet Anna im Schlamm einen **Flakon** — das
-Glas vom Plakat, matt geworden, ein Rest Flüssigkeit. Sie
-öffnet ihn. Und ihr Körper tut etwas, das sie nicht versteht:
+Glas vom Plakat, matt geworden, ein Rest Flüssigkeit; und, ohne
+dass Anna es wissen kann: das Glas aus dem gelben Lichtkreis
+der ersten Nacht. Sie öffnet ihn. Und ihr Körper tut etwas, das sie nicht versteht:
 Die Knie geben nach, die Augen laufen über, ohne dass etwas
 traurig wäre. Jakob findet sie so, sitzend im Feld, den Flakon
 in beiden Händen wie ein Küken. Er fragt nicht. Er sagt nur,
@@ -284,16 +325,24 @@ Lehrerin, die hat gelacht in seinen Reden, mitten rein* — und
 manche sagen, die Frau sei schwanger gewesen, als beide
 verschwanden. Anna stellt das Glas ab und fragt, eine Spur zu
 schnell, ob die Alte je einen Mann mit einem Mal am Unterarm
-gesehen hat, hier — sie tippt auf die Innenseite. Die Alte
-lacht ihr Takt-Lachen: *Kind. Hier sind alle gezeichnet.* —
-Anna geht. Die Tür der Herkunft hat geklopft, und sie hat sie
-nicht aufgemacht. Sie sucht einen Mörder, keine Familie.
+gesehen hat, hier — sie tippt auf die Innenseite. Und dann tut
+sie etwas, das sie noch nie getan hat: Sie holt das Heft
+heraus, schlägt die erste Seite auf und hält sie der Alten
+hin — von sich weggedreht; sie selbst sieht nicht hin, und wir
+sehen nur die Rückseite des Blattes und das Gesicht der Alten
+darüber. Die Alte schaut lange. Dann lacht sie ihr
+Takt-Lachen: *Kind. Hier sind alle gezeichnet.* Anna klappt
+das Heft zu. Sie geht. Die Tür der Herkunft hat geklopft, und
+sie hat sie nicht aufgemacht. Sie sucht einen Mörder, keine
+Familie.
 
 ## 6. Der Aussichtsort
 
 Anna findet den Ort, wie sie alles findet: von oben. Beim
-Klettern auf den Wasserturm sieht sie den Hügel hinter dem
-alten Depot, den Weg, der sich hinaufdreht, das Geländer. Etwas
+Klettern auf den Wasserturm sieht sie, quer über die Dächer,
+den Hügel hinter dem alten Depot, den Weg, der sich
+hinaufdreht, das Geländer — nicht unter sich: gegenüber, am
+anderen Ende der Stadt. Etwas
 daran lässt sie nicht los, und sie weiß nicht, was — wir wissen
 es: Es sieht aus wie eine fehlende Stufe.
 
@@ -398,8 +447,13 @@ Zimmer ist fast leer, die Möbel falsch, die Stimmen vertauscht
 der Hand des Kindes unter dem Tisch liegt, selbstverständlich,
 als wäre es immer da gewesen: das Pferdchen. War es da? War es
 je da? Die Erinnerung nimmt das neue Ding auf wie Wasser einen
-Stein. Nur der Arm und das Mal sind, was sie immer waren:
-überscharf. Und wir glauben ihnen kein Bild mehr.
+Stein. Und das laute Wort des Vaters an der Tür, zehn Jahre
+lang nur Klang, ist zum ersten Mal fast Sprache: zwei Silben,
+die „Lorenz" sein könnten — oder alles andere. Ob die
+Erinnerung das Wort endlich freigibt oder es gerade erst baut,
+ist nicht zu entscheiden; wir haben eben gesehen, was sie mit
+einem Pferdchen kann. Nur der Arm und das Mal sind, was sie
+immer waren: überscharf. Und wir glauben ihnen kein Bild mehr.
 
 Und dann rastet es ein — nicht als Beweis, als Überlagerung:
 drei unscharfe Bilder, die zusammen ein scharfes ergeben, das
@@ -410,18 +464,25 @@ eine Frau und vielleicht ein Kind. Und ein sterbender Mann mit
 langen Ärmeln erzählt einem fremden Mädchen im richtigen Alter
 seit Wochen sein Leben, als wäre sie ein Beichtstuhl mit
 Zöpfen. Anna sitzt auf dem Dach des Heims, das Pferdchen in
-der Faust, und sagt es niemandem, nicht einmal uns. Aber von
-dieser Nacht an schaut sie Lenz nicht mehr auf die Hände,
-sondern auf die Ärmel. Immer Ärmel. Arbeiterärmel, zugeknöpft
+der Faust, das Heft auf den Knien; ihre Hand liegt auf der
+ersten Seite, und sie schlägt sie nicht auf — für die Alte hat
+sie sie aufgeschlagen, für sich selbst nie. Sie sagt es
+niemandem, nicht einmal uns. Aber von dieser Nacht an schaut
+sie Lenz nicht mehr auf die Hände, sondern auf die Ärmel. Immer Ärmel. Arbeiterärmel, zugeknöpft
 seit vierzig Jahren, beiläufig wie eine zweite Haut.
 
 Dann findet Jakob den Namen seines Vaters auf der Liste. Es
 gibt eine Mauer an der alten Destillerie, da stehen Namen mit
 Kreide, und wer dort steht, wird gewaschen und läuft. Lenz hat
 sich eingetragen, ordentlich, mit seinem vollen Namen — dem
-Namen, der sonst nirgends steht. Jakob kommt zu Anna, und zum
-ersten Mal, seit wir ihn kennen, will er etwas: „Du bist
-schnell. Dir fällt was ein. Hilf mir, ihn da runterzukriegen."
+Namen, der sonst nirgends steht. Jakob kommt zu Anna. „Er hat
+sich eingetragen", sagt er. „Ordentlich. Mit vollem Namen."
+Und Anna, die Ermittlerin, fragt automatisch: „Wie heißt er?"
+— „Lorenz." In Anna klingt etwas an, zwei Silben, tief unter
+zehn Jahren — oder sie baut es in diesem Moment; es ist nicht
+zu entscheiden. Dann, zum ersten Mal, seit wir ihn kennen,
+will Jakob etwas: „Du bist schnell. Dir fällt was ein. Hilf
+mir, ihn da runterzukriegen."
 Und Anna — Anna, die ihm nie eine Bitte abgeschlagen hat, weil
 er nie eine hatte — sagt nichts. Eine Sekunde zu lang. Jakob
 sieht sie an und sieht irgendwas, das er nicht benennen kann,
@@ -435,12 +496,18 @@ Wahrheit. Zwei Kinder, trainiert im Nichtfragen, prügeln sich
 mit allem außer der einen Frage. Am Ende steht ein Schweigen,
 das wie ein Ende aussieht.
 
+In der Nacht darauf kommt Anna nicht, um zu klopfen. Durchs
+Fenster: Jakob, der beim schlafenden Vater sitzt. Sie stellt
+den Fahrradtacho auf die Türschwelle — das einzige „reparierte"
+Ding, das nie funktioniert hat — und geht. Ob er ihn findet, ob
+er versteht, sehen wir nicht.
+
 ## 8. Der Lauf
 
 Der Morgen des Laufs. Die Sterbenden richten es selbst — es
-gibt keinen Priester, keine Behörde, nur die, die vorher
-gelaufen sind, gibt es nicht mehr, und die, die als Nächste
-laufen, waschen die, die heute laufen. Innenhof der
+gibt keinen Priester, keine Behörde, und die, die vorher
+gelaufen sind, gibt es nicht mehr. Freiwillige waschen die, die
+heute laufen; niemand teilt sie ein, sie kommen von selbst. Innenhof der
 Destillerie: Kessel mit warmem Wasser, Dampf in der Kälte. Die
 Läufer legen ab, was sie getragen haben — Jacken, Hemden,
 Dinge; es gibt einen Tisch für die Dinge, und niemand bewacht
@@ -464,7 +531,7 @@ sich. Und dann tut ihr Blick, was ihr Blick immer tut, gegen
 ihren Willen: Er fällt auf die Arme. Und da — wir sehen es mit
 ihr, im Vorbeigehen des Dampfes, zwei Sekunden, drei — ist auf
 dem inneren Unterarm, zwischen vielen, ein Mal, das aussieht
-wie — vielleicht. **Vielleicht.** Wir, die die Nacht viermal
+wie — vielleicht. **Vielleicht.** Wir, die die Nacht dreimal
 gesehen haben und jedes Mal anders, sind die Falschen, um es
 zu beschwören. Anna schließt die Augen. Die Detektivin, die
 zehn Jahre lang nichts als sehen wollte, will zum ersten Mal
@@ -477,11 +544,9 @@ und gibt nichts heraus.
 
 Dann geht Anna zum Tisch mit den abgelegten Dingen und legt,
 zwischen die Jacken und Hemden der Läufer, das hölzerne
-Pferdchen. Sie tut es einfach. Ob Lenz es sieht — er steht
-zwanzig Schritte entfernt, und der Dampf geht dazwischen —
-bleibt sein Geheimnis und unseres; wenn er es sieht, dann
-sieht ein Mann ein Kinderspielzeug an, und sein Gesicht tut
-etwas, das zwischen allen Bedeutungen liegt.
+Pferdchen. Sie tut es einfach. Die Kamera bleibt bei ihr und
+bei dem Tisch, bis sie sich abwendet — kein Blick hinüber zu
+Lenz, keiner von ihr, keiner von uns. Die Geste gehört ihr.
 
 Die Trommeln. Der Zug. Die Stadt an den Rändern. Jakob läuft
 das erste Stück am Rand mit, wie die Söhne es tun dürfen, bis
@@ -498,15 +563,23 @@ dass wir ihn lachen sehen. Dann ist da nur noch das Feld.
 
 Danach ist die Stadt sehr still. Anna und Jakob gehen
 nebeneinander, ohne sich zu berühren, den Hügel hinauf, den er
-hasst und geht. Oben, im Morgengrauen, erzählt Anna ihm die
-Geschichte — laut, zum ersten Mal in ihrem Leben für einen
-anderen Menschen: den Ort, hoch über allem, das Versprechen.
-An der Stelle des fehlenden Wortes hält sie an. Die Lücke
-steht zwischen ihnen wie etwas Drittes. Jakob, der Junge, der
-nie fragt, fragt auch jetzt nicht — er nickt nur, als wäre die
-Lücke ein Teil der Geschichte, und vielleicht ist sie das
-jetzt. Dann erzählt Anna weiter, bis die Geschichte zu Ende
-ist.
+hasst und geht. Oben, im Morgengrauen, sagt Anna zum ersten
+Mal in ihrem Leben etwas über vorher: Sie hat eine Geschichte,
+von ihrer Mutter. „Glaub ich", sagt sie, und mehr Zweifel
+erlaubt sie sich nicht — dass sie sich die Geschichte über die
+Jahre zusammengereimt hat, weiß sie selbst nicht. „Erzähl",
+sagt Jakob. Und Anna sagt sie auf — laut, zum ersten Mal für
+einen anderen Menschen: den Ort, hoch über allem, das
+Versprechen. An der Stelle des fehlenden Wortes hält sie an.
+Die Lücke steht zwischen ihnen wie etwas Drittes. Jakob, der
+Junge, der nie fragt, fragt auch jetzt nicht. „Weiter", sagt
+er nur, leise, und Anna erzählt weiter, bis die Geschichte zu
+Ende ist — das „wir drei" und das „dir" lässt sie stehen, wie
+sie es gelernt hat. „Das mit dem Versprechen", sagt sie dann.
+„Ich glaub, das war hier. Sie hat nie gesagt, wo." Und nach
+einer Weile sagt Jakob den Satz seiner Mutter von den Drops
+und der Kondensmilch, und Anna lacht leise. So tauschen sie,
+was ihnen geblieben ist.
 
 Unten, am Weg zur Absperrung, hängt schief ein amtliches
 Schild von früher, die Schrift fast fort: *… SCHLAG DES
@@ -526,8 +599,9 @@ Ausweg wiegt schwerer.
 ## Anhang A — Was dieses Treatment neu vorschlägt (Flags)
 
 a. **Die Form des Todeslaufs** (offene Frage 1): Die Sterbenden
-   tragen das Ritual selbst — keine Kirche, keine Behörde; die
-   Nächsten waschen die Heutigen. Kreideliste an der Mauer der
+   tragen das Ritual selbst — keine Kirche, keine Behörde;
+   Freiwillige waschen die Heutigen (Modifikation des Autors,
+   20.07. — keine feste Einteilung). Kreideliste an der Mauer der
    alten **Destillerie** (Lenz' Ort). Der Lauf führt durch die
    Hauptstraße hinaus **in die blühenden Felder**: Die
    Sterbenden rennen in die Pflanze, die alles war, bis das
@@ -553,8 +627,11 @@ f. **Lenz' letzte Nacht:** Er flickt Jakobs Schuhe — der letzte
    der Verabschiedung (das Hände-Motiv, eingelöst ohne das
    geparkte Frühstück).
 g. **Das Pferdchen-Finale:** Anna legt das Pferdchen zu den
-   abgelegten Dingen der Läufer. Ob Lenz es sieht, bleibt
-   offen; eindeutige Geste, offene Bedeutung (Prinzip 7).
+   abgelegten Dingen der Läufer. (Entschieden 20.07. in
+   Variante A — die Geste ohne Zeugen: kein Schnitt auf Lenz,
+   der Film erzählt nicht, ob er es sieht. Eindeutige Geste,
+   offene Bedeutung, Prinzip 7 — und die Geste gehört ganz
+   Anna.)
 h. **Lenz sagt nie den Namen des Freundes** — nur „mein
    Freund". (Erklärt beiläufig, warum die Beichten Anna nicht
    sofort zur Identität führen; der Zuschauer verbindet
@@ -574,6 +651,21 @@ l. **Annas Humor als Zündfunke der Revolte:** Ihre Imitation
 m. **Der Hund-Schlussblick:** Er sitzt auf der Mauer der Gang
    und sieht ihnen nach. Kein Nachlaufen, keine Rettung — ein
    Blick.
+
+*Nachtrag 20.07.2026: Aus der Szenen-Outline (`szenen-v1.md`)
+kamen die Flags n–u hinzu — Quartier, Erwerbslogik, Tacho vor
+der Tür, Nicht-Öffnung der ersten Seite, Einladung als
+Verrichtung, Flakon im Versteck, tonloses Suchwort, drei Worte
+der Mutter. Der Autor hat sie am 20.07. angenommen; sie sind in
+den Text dieser Fassung eingearbeitet. Mit Flag t ist die Taufe
+des Mals vollzogen.*
+
+*Zweiter Nachtrag 20.07.2026: Die Flags a–f und h–m sind per
+Einzelabfrage vom Autor angenommen (a mit Modifikation:
+Freiwillige waschen — in Seq 8 eingearbeitet). Flag g wurde
+anschließend in Variante A entschieden — die Geste ohne Zeugen
+(szenen-v1.md, II.13) — und ist eingearbeitet. Damit sind alle
+Flags a–u entschieden.*
 
 ## Anhang B — Prüfung
 
@@ -603,12 +695,38 @@ ist):**
 1. **Seq 5 trägt viel** — zivile Enthüllung, Schmuggel, Duft,
    erster Lauf, Stufe 2. Wenn etwas im Timing klemmt, dann
    hier; eventuell muss der Duft-Fund in Seq 6 rutschen.
+   *(Nachtrag 20.07.: in der Szenenarbeit entzerrt — Entwarnung;
+   der Duft-Fund bleibt in Seq 5. Befund: szenen-v1.md, II.1.)*
 2. **Die Krise Anna–Jakob** (Seq 7) hat erst eine Szene. Der
    Bruch könnte zu schnell heilen — zwischen Streit und
    Waschung braucht es womöglich einen stillen Beat mehr.
+   *(Nachtrag 20.07.: gelöst — der stille Beat „Tacho vor der
+   Tür" (Flag p, angenommen) steht jetzt im Text.)*
+   *(Nachtrag 21.07.: aus dem Tacho ist in der Drehbucharbeit
+   das Fernglas geworden — siehe Änderungsvermerk am Ende.)*
 3. **Die Gang bleibt Kulisse.** Der Anführer hat ein Gesicht,
    aber kein Gewicht; wenn die Gangs mehr sein sollen als
    Zoll und Schmuggel, fehlt ihnen eine eigene Szene.
+   *(Weiter offen; Empfehlung und Alternative: szenen-v1.md,
+   II.3.)*
 4. **Annas Erwerbslogik in Seq 5–7** (wovon lebt sie nach dem
    Hund-Zoll?) ist angedeutet (Wasserdienste, Gang-Ernte),
    aber nicht gebaut.
+   *(Nachtrag 20.07.: gelöst — Quartier und Erwerbslogik
+   (Flags n/o, angenommen) stehen jetzt im Text.)*
+
+---
+
+## Änderungsvermerk (21.07.2026)
+
+Mit der Abarbeitung der Beat-Kommentare (Protokoll:
+`drehbuch-v1.md`, Anhang E) hat der Autor das
+Reparatur-Objekt getauscht: **Aus Annas Kocher ist ihr
+Fernglas geworden** — eingeführt im Speicher (blind, „ein
+drittes Versteck"), von Jakob geheilt, benutzt beim ersten
+Lauf und am Wasserturm, am Ende von Sequenz 7 auf der
+Türschwelle: Anna gibt ihr eigenes bestes Ding, der Tacho
+bleibt bei ihr. Betroffen hier: die Kocher-Stellen in Seq 4
+(„über ein halbes Ding") und der Schwellen-Beat (Flag p).
+Der Treatment-Text bleibt als Stand seiner Zeit stehen;
+maßgeblich ist `Untitled.fountain`.

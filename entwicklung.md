@@ -5,9 +5,15 @@ werden (kein Spoiler-Schutz). **Gesetzt** ist, was der Autor
 entschieden hat; alles mit **[Vorschlag]** ist Angebot des Co-Autors
 und wartet auf Entscheidung.
 
-Stand: 15.07.2026 (Türsteher-Entscheidungen vom 14.07.; erste
-Outline-Abarbeitung des Autors vom 15.07.: Heim/Revolte gesetzt,
-Outline-Fragen entschieden, Celtx-Gewichtung reduziert)
+Stand: 21.07.2026 (Der Autor schreibt die erste Fassung nach
+seinem Dafürhalten um — Arbeitskopie `Untitled.fountain` in
+Beat; danach werden Treatment und Outline angepasst, dann wird
+Strang 1 eingewoben. Neu aufgeworfen: die Formfrage
+Animationsfilm (offene Frage 7). Seite 10 ist online (erste
+Fassung + Hörspiele DE/EN). 20.07.: Station 7 geliefert —
+`drehbuch-v1.md`; Tonproben abgearbeitet, Ton bestätigt,
+Prinzip 13; alle Flags a–u entschieden. 18.07.: Station 6
+vorgezogen, `szenen-v1.md`)
 
 ---
 
@@ -245,11 +251,36 @@ sind der Normalfall; an jeder Station entscheidet der Autor.
    Beide Fassungen warten auf die Abarbeitung.*
 5. **Tonproben:** 3–5 Schlüsselszenen als Drehbuchtext
    (Kinderszene, Mitstreiter-Szene …) — Stimmprobe, zugleich Test
-   gegen das Gefällige.
+   gegen das Gefällige. *Zurückgestellt 18.07.2026 — Station 6
+   vorgezogen. Vorgemerkt für die Tonproben: die Ton-Mikrofrage
+   aus `szenen-v1.md`, II.8 (ist das laute Wort des Vaters in
+   Szene 2 verständlich?).* ***Nachgeholt 20.07.2026:** Fünf
+   Tonproben liegen vor — `tonproben-v1.md` (Die Nacht, Der
+   Tacho, Der Souffleur, Das Vielleicht, Die Geschichte). Die
+   Ton-Mikrofrage ist dort als Empfehlung eingebaut (das Wort
+   bleibt unverständlich); der Wortlaut der Muttergeschichte
+   steht als Arbeitsfassung in Probe 5 (Richtung angenommen
+   20.07., figuren.md). Warten auf die Abarbeitung.*
 6. **Szenen-Outline:** jede Szene mit benennbarer Last, geprüft
-   gegen die Arbeitsprinzipien (referenzen.md V).
+   gegen die Arbeitsprinzipien (referenzen.md V). ***Vorgezogen
+   18.07.2026** (Entscheidung des Autors): Szenen-Outline zu
+   Fassung 1 liegt vor — `szenen-v1.md` (70 Szenen, Anker in die
+   Treatment-Sequenzen, Flag-Abhängigkeiten a–m, neue Flags n–u,
+   Rückwirkungen ans Treatment). Ziel des Autors: sehen, wie
+   Treatment und Szenen-Outline ineinander spielen; ggf. parallele
+   Arbeit an beiden. Die Wahl zwischen Fassung 1 und 2 ist damit
+   nicht getroffen. Wartet auf die Abarbeitung.*
 7. **Erste Fassung:** zügig, absichtlich unfertig; Löcher werden
-   markiert, nicht plausibel gefüllt.
+   markiert, nicht plausibel gefüllt. ***Geliefert 20.07.2026:**
+   `drehbuch-v1.md` — alle 71 Szenen der Szenen-Outline als
+   Drehbuchtext, die fünf Tonproben wörtlich übernommen;
+   Erzählweise Fassung 1 „Ein Blick" als Arbeitsgrundlage (die
+   formale Wahl zwischen den Erzählweisen bleibt beim Autor).
+   Fünf markierte Löcher (Lied, Duft-Marke, Lenz' Nachname,
+   Türzeichen, Beerdigungsform), Anmerkungen F1–F9, Befund im
+   Anhang. Abarbeitung erfolgt am 21.07.: die Beat-Kommentare
+   sind eingearbeitet, die fünf Löcher geschlossen; Protokoll
+   in den Anhängen A/E dort.*
 
 ---
 
@@ -302,19 +333,30 @@ Befund zu den Konsequenzen:
 
 ## Offene Entscheidungsfragen (für die Outline-Session)
 
-1. **Wer trägt den Todeslauf?** Bei wem meldet man sich — Rest
-   einer Kirche, eine Bruderschaft der Sterbenden, etwas Eigenes?
-   Und: Route und Ziel des Laufs? (Das Ritual selbst ist gesetzt.)
-2. **Die Taufe des Mals:** Arbeitstitel „das Pferdchen" (Co-Autor)
-   läuft bis zur Outline mit — endgültiger Name durch den Autor,
-   Prüfung am Material.
-3. **Die Bedeckungsfrage:** bewusst offen gelassen (14.07.). Wie
-   bleibt der innere Unterarm zehn Jahre unsichtbar (Celtx 19), und
-   wie entblößt ihn das Ende? Entscheidet sich mit Frage 1.
-   *Eingegrenzt 15.07.: kein Kleidungs-Code (Gesetzt 12) — die
-   Bedeckung muss beiläufig sein, nicht konventionell.*
+1. **Wer trägt den Todeslauf?** — ENTSCHIEDEN (20.07., Flag a
+   mit Modifikation): die Sterbenden selbst — keine Kirche,
+   keine Behörde. Anmeldung per Kreideliste an der Mauer der
+   alten Destillerie; **Freiwillige** waschen die, die laufen
+   (keine feste Einteilung). Route: durch die Hauptstraße hinaus
+   in die blühenden Felder, bis die Stauden die Läufer nehmen.
+2. **Die Taufe des Mals** — ENTSCHIEDEN (20.07.): Das Suchwort
+   heißt **„das Pferdchen"** (Annahme von Flag t, szenen-v1.md).
+   Anna murmelt es tonlos beim Durchstreichen — ein Kinderwort,
+   benutzt wie ein Fachbegriff, nie erklärt; die Zeichnung der
+   ersten Seite bleibt für immer unsichtbar (Vergleichs-Verbot,
+   Prinzip 6/7).
+3. **Die Bedeckungsfrage** — ENTSCHIEDEN (20.07., Flag b):
+   Waschung und Ablegen der Dinge entblößen die Unterarme; im
+   Alltag bleibt die Bedeckung Beiläufigkeit (Arbeiterärmel,
+   zugeknöpft seit vierzig Jahren), kein Code. *(Vorgeschichte:
+   bewusst offen gelassen 14.07.; eingegrenzt 15.07.: kein
+   Kleidungs-Code.)*
 4. **Wer betreibt das Kinderheim**, und wie kam M dorthin?
-5. **Die Pflanze und der Duft:** Name, Wesen, Preis — noch offen
+5. **Die Pflanze und der Duft:** Name ENTSCHIEDEN (21.07.):
+   Die Marke heißt **TAU**, das Logo ist der griechische
+   Buchstabe **τ** — und die Marke ist der einzige Name der
+   Pflanze; die Firma hat getauft, die Stadt brauchte nie
+   einen eigenen. Wesen und Preis weiter offen
    (interner Arbeitstitel bis zur Taufe: „Silphium", nach dem antiken
    Vorbild; referenzen.md, Eintrag 19).
 6. **Der Magnat in der Gegenwart** — ENTSCHIEDEN (15.07.): Er
@@ -322,6 +364,19 @@ Befund zu den Konsequenzen:
    eigene Abriegelung sperrt ihn von der Quelle aus. Der
    Ernte-Schmuggel der Gangs als klein dosiertes Randbild
    (figuren.md, Dossier 7).
+7. **Die Formfrage: Animationsfilm oder Realfilm?** — NEU
+   (21.07., aufgeworfen vom Autor nach der ersten Fassung: der
+   reduzierte Dialog lässt den Film „eher als Animationsfilm"
+   fühlen; zuvor immer klar Realfilm). Befund des Co-Autors
+   (Seite 10): Das Material hat eine natürliche Verwandtschaft
+   mit dem Gezeichneten (die zeichnende Ermittlerin, das Mal
+   als Zeichnung, die dreifach neu möblierte Erinnerungsnacht;
+   Referenzen: Waltz with Bashir, Die letzten Glühwürmchen,
+   Flow — referenzen.md, Eintrag 23); Kosten: die Beglaubigung
+   des Vielleicht (Dampf, Haut, Entfernung als fotografischer
+   Zufall). Prüffrage: In welcher Form hält das Vielleicht
+   besser? Entscheidung beim Autor; kein Zeitdruck — die
+   Fassungsarbeit ist formneutral.
 
 ---
 
@@ -377,8 +432,9 @@ verbrannten Briefe; der Name des Politikers als Plot-Objekt.
 (`ideen.md`); Fensterspiel leicht statt ernst — **gesetzt: die
 innige, liebevolle Beziehung Anna–Vater**; „Anna kennt den
 Namen ihres Vaters nicht" angenommen; das letzte Wort an der
-Tür ist der Spitzname: **„Lenz"**. **Getauft: Der Mitstreiter
-heißt Lorenz, genannt „Lenz"; der Politiker heißt Jahn** (das
+Tür ist der Spitzname: **„Lenz"** *(revidiert 20.07.: vermutlich
+ein überraschtes „Lorenz", voller Name — siehe Log)*.
+**Getauft: Der Mitstreiter heißt Lorenz, genannt „Lenz"; der Politiker heißt Jahn** (das
 Jahn-Werk; Vorname bis zum Treatment offen). Angenommen: g
 (Destillerie/Nase), h (der Satz), i (Unglücksnacht-Mechanik),
 o (Höllenkreis). Verworfen: k (verbrannte Briefe; die
@@ -466,6 +522,241 @@ sich zu doppeln.
 ---
 
 ## Entscheidungslog
+
+**27.07.2026** — Beat-Feinschliff des Autors + Streit-Ergänzung:
+- Auf Ansage des Autors: Annas Gegenrede im Streit (66) —
+  „Er hat nicht mehr lange — von der Wand oder nicht. Wenn
+  das sein letzter Wunsch ist, dann lass ihn ziehen." ✓
+- Beat-Runde des Autors (gilt als Abarbeitung): die Alte I
+  entschärft („15 Jahre Terror", „Mich hat der damals
+  nicht überzeugt. Aber Absicht?"); „Wie das Heim fiel"
+  und „Anton" gestrafft — **neu gesetzt: Antons Tod
+  „damals nachts mit den anderen" ist Jakobs Wissen und
+  fällt hörbar für Anna**; „Das vierte Gesicht" endet
+  jetzt in der eindeutigen Geste: **Anna streicht der Frau
+  über den Bauch** (Bedeutung bleibt unbewiesen); im
+  Streit: „Versteckt hattest du deinen Vater. Ich sehe
+  alles." EN-Fassung und Seite-11-Anlage komplett
+  nachgezogen. ✓
+- Zweite Beat-Runde des Autors (13:54): „Das Lachen" endet
+  auf Ruths „Ist lange her."; die Alte nennt den Jahn beim
+  Namen; **41 neu erzählt** — Titel jetzt „Die Alte, II:
+  Frau", der Jahn als Redner ohne Esprit („Seine Witze
+  landeten stets im nirgendwo" — das stille Echo auf den
+  Souffleur), die Frau als die Einzige, „die sie verstanden
+  hat oder sich getraut hat", Schluss „Ach, eigentlich
+  doch n guter Mann gewesen"; im Streit „Und wenn das sein
+  letzter Wunsch ist". EN nachgezogen. ✓
+- **Neue Hörfassung DE beauftragt und gebaut** (Stand
+  27.07.): 183 Segmente, ~63k Zeichen, ~74 Min. Die
+  Anlieferungs-Fassung (20.07.) bleibt als Momentaufnahme
+  auf Seite 10 und im Backup
+  `audio/hoerspiel/anlieferung-20260720/`. ✓
+- **Veröffentlicht: Seite 12 („Wie wir arbeiten")** — weiße
+  Seite, nur der Autor; erstmals sind die Anlagen keine
+  Werkstattdokumente, sondern **Gesprächsprotokolle**:
+  A (drei Ideen → drei Szenen) und B (ein Satz wird in den
+  Streit eingewoben), im Wortlaut samt Arbeitsschritten.
+  Absicht des Autors: zeigen, wie die Zusammenarbeit
+  tatsächlich abläuft. Ohne Audiofassung. ✓
+
+**24.07.2026** — Werkstatt-Runde (Umbau des Autors + vier
+Kommentare, drei abgearbeitet):
+- Umstellungen des Autors in der Fountain-Fassung: Sequenz 2
+  neu geordnet (die Sechzehn vor der halben Ration; der
+  Nagel nach dem Heft; die Imitation als Nachspiel der
+  Rechnung; die Revolte am Morgen); Anna kommt in 64 an der
+  Ecke an; **Anna greift in 44 Jakobs Hand** (erste aktive
+  Berührung — Jakobs Hand neben ihrer in 67 wird zum Echo);
+  Textüberarbeitungen in 10, 18, 35, 60–63, 67. ✓
+- **26a (geflickte Sohle):** Der Zeitpunkt bleibt
+  unerzählt — für Anna und für uns; das Fenster liegt im
+  Material (die erste Nacht ohne den Hund). Neu: Annas
+  Blick zur leeren Stelle an der Tür. ✓
+- **49 („Sie kommt wieder"): gestrichen** — die eine
+  filmbare Information trägt der zweite Becher am Kopf
+  von 50. ✓
+- **Neu 47a „Wie das Heim fiel":** Anna erzählt Jakob nach
+  der Beerdigung vom Heim (der Zucker, der Zettel) —
+  schließt das Logikloch der Streit-Referenzen (57a) und
+  ist die am 21.07. zurückgestellte einzustreuende
+  Szene. ✓
+- **52 („Sätze nebeneinander"): offen** — der Autor macht
+  selbst einen Vorschlag; der Werkstatt-Vorschlag
+  „Vierzehn" (das Zählen bleibt in der Zahl stecken) wurde
+  vorgelegt und nicht angenommen.
+- **Veröffentlicht: Seite 11 („Der erste Durchgang")** — der
+  Text des Autors (Fernglas, Ort-Problem, Ein-Strang-Kurs,
+  die Entwicklung zur subjektiven Erzählung), die Antwort
+  des Co-Autors mit der Werkstatt-Chronik beider Runden,
+  das Drehbuch DE/EN (Stand 24.07.) als aufklappbare
+  Anlage, ohne Audio. Dafür `drehbuch-v1-en.fountain`
+  komplett auf den Stand der Arbeitsfassung nachgeführt. ✓
+- **Drei neue Szenen (Ansage des Autors, spät am 24.07.):**
+  30a „Das Lachen" (Ruth scheint in Anna die tote Freundin
+  zu erkennen — und stirbt, ohne es auszusprechen), 50a
+  „Anton" (an Ruths Grab: Jakob erzählt den Bruder, den er
+  nie kannte, und das Antworten auf den toten Namen; Anna
+  die Bruchstücke ihrer Eltern; zuerst als Lenz-Szene in
+  der Wohnung gebaut, auf Ansage des Autors zu Anna &
+  Jakob ins Freie verlegt — Außen-Beat zwischen den
+  Wohnungs-Szenen), 56a
+  „Das vierte Gesicht" (das Klassenraum-Schaubild: vier mit
+  Fahnen, drei ausgekratzt, unberührt nur Ruth mit Kind auf
+  dem Arm; die Haltung der Ausgekratzten daneben als
+  Vielleicht). Setup dazu in 9 (Diktat). **Neue Setzung:
+  Von der Schwangerschaft wusste nur Ruth** — das Gerücht
+  der Alten (41) und die OFF-Zeile (52) sind gestrichen;
+  die Verbindung der Familien trägt jetzt die Lach-Kette
+  (die Alte → Ruth → das Schaubild), in Bildern statt in
+  Gerüchten. DE- und EN-Fassung nachgezogen. ✓
+
+**21.07.2026** — Ansagen des Autors (nach der ersten Fassung):
+- Der Autor schreibt die erste Fassung nach seinem Dafürhalten
+  um (Arbeitskopie: `Untitled.fountain` in Beat); danach werden
+  Treatment und Outline an die umgeschriebene Fassung
+  angepasst. ✓
+- Danach: Strang 1 (Politthriller) in die Outline verweben,
+  Doppelungen streichen; der Dialoganteil wird dabei wachsen.
+  Materialbasis: `treatment-v2.md` („Zwei Stränge"). ✓
+- Neu aufgeworfen: die Formfrage Animationsfilm (→ offene
+  Frage 7) — keine Entscheidung, ein Impuls; der Co-Autor hat
+  auf Seite 10 Befund und Prüffrage dazu geliefert.
+- Veröffentlicht: Seite 10 (der Text des Autors, die Antwort
+  des Co-Autors, das Drehbuch DE/EN als Anlagen, die
+  Hörspielfassungen DE/EN — Stimmen-Casting in CLAUDE.md).
+
+**20.07.2026 (Feinschliff der Tonproben)** — Entscheidungen des
+Autors:
+- **Das Wort an der Tür, revidiert:** Es fällt beim **Öffnen**
+  der Tür — der Vater erkennt den Freund, der erste Moment ist
+  echte Freude; das Wort ist vermutlich ein überraschtes
+  **„Lorenz"** (voller Name; ersetzt die Setzung vom 15.07.,
+  wonach es der Spitzname „Lenz" war). In Seq 1 bleibt es
+  unverständlich; **in der dritten Wiederkehr der Nacht
+  (Seq 7) wird es fast Sprache** — zwei Silben, die „Lorenz"
+  sein könnten; ob die Erinnerung das Wort freigibt oder baut,
+  bleibt unentscheidbar (dieselbe Grammatik wie das
+  Vielleicht). Eingerastet wird es in der Bitte-Szene (57a):
+  Annas „Wie heißt er?" — Jakobs „Lorenz." — das Echo auf
+  Lenz' verweigertes „Mein Freund". ✓
+- **Muttergeschichte, zweite Präzisierung:** Anna hat sich die
+  Geschichte **unwissentlich** zusammengereimt — sie
+  diagnostiziert ihr Flickwerk nicht; die Stücke-Analyse im
+  Dialog ist gestrichen, es bleiben „Glaub ich" und „Sie hat
+  nie gesagt, wo". Dossier, Treatment Seq 8, Szene 67 und
+  Probe 5 nachgezogen. ✓
+
+**20.07.2026 (Tonproben-Abarbeitung)** — Entscheidungen des
+Autors:
+- **Der Ton der Fassung 1 ist bestätigt** („Ansonsten finde ich
+  den Ton gut") — mit Auflage: **mehr Interaktion in den
+  Dialogszenen**, weniger Monolog; Bedeutungsschwere durch
+  Wechselspiel und Alltagston erden. → Neues **Arbeitsprinzip
+  13** (referenzen.md V); Proben 3 und 5 in zweiter Fassung
+  (Annas „Bevor was?" / „Wie hieß er?" — Lenz' „Mein Freund"
+  macht Flag h zum gespielten Beat). ✓
+- **Muttergeschichte präzisiert:** Anna besitzt sie **nur in
+  Stücken** — die Vierjährige hat aus den Bruchstücken einen
+  Text gebaut, der durch zehn Jahre Aufsagen wörtlich wurde;
+  sie weiß um das Flickwerk und darf es Jakob sagen („Die hab
+  ich von meiner Mutter. Glaub ich."). Dossier Anna, Treatment
+  Seq 8, Szene 67 und Probe 5 nachgezogen. Pointe für Seq 7:
+  Die Geschichte ist die Mischung, von der sie weiß — das
+  Pferdchen die, von der sie nichts wusste. ✓
+
+**20.07.2026 (Muttergeschichte & Tonproben)** — Entscheidungen
+des Autors:
+- **Muttergeschichte: Richtung des Wortlauts angenommen**
+  („gefällt in etwa, mindestens die Richtung") — die
+  Arbeitsfassung steht im Dossier Anna (figuren.md) und in
+  Tonprobe 5; Feinschliff an Tonproben und Fassung. ✓
+- **Station 5 (Tonproben) beauftragt** — geliefert:
+  `tonproben-v1.md` (fünf Proben); wartet auf die Abarbeitung.
+
+**20.07.2026 (Hörgang)** — Setzungen des Autors nach dem
+Anhören der neuen Audiofassung:
+- Kopf des Treatments: Das Suchwort wird am Dokumentanfang
+  nicht mehr genannt — Spoiler-Schutz für Text- und
+  Audiofassung. Das gemurmelte Suchwort in Seq 2/3 (Flag t)
+  bleibt davon unberührt. ✓
+- Seq 5, die Alte II: **Anna zeigt der Alten die erste Seite
+  des Hefts** (Setzung des Autors) — eingearbeitet mit
+  POV-Schutz des Co-Autors: Sie hält das Heft von sich
+  weggedreht und sieht selbst nicht hin; der Zuschauer sieht
+  nur die Rückseite des Blattes und das Gesicht der Alten.
+  Vergleichs-Verbot und Dossier-Setzung („nie angesehen")
+  bleiben intakt; Flag-q-Beat in Seq 7 entsprechend
+  präzisiert („für die Alte aufgeschlagen, für sich selbst
+  nie"). ✓
+- Seq 6, Wasserturm: Klärung eingearbeitet — Anna sieht den
+  Hügel quer über die Dächer, gegenüber, nicht unter sich. ✓
+
+**20.07.2026 (spät)** — Entscheidung des Autors:
+- Flag g: **angenommen in Variante A** („die Geste ohne Zeugen",
+  szenen-v1.md II.13) — Anna legt das Pferdchen zu den
+  abgelegten Dingen; die Kamera bleibt bei ihr und dem Tisch,
+  kein Schnitt auf Lenz; ob er etwas sieht, wird nicht erzählt.
+  Variante B (das Nasen-Lachen) verworfen. Treatment und
+  Szene 63 sind umgestellt. **Damit sind alle Flags a–u
+  entschieden.** ✓
+
+**20.07.2026 (abends)** — Entscheidungen des Autors (dritte
+Abarbeitung — die Treatment-Flags, per Einzelabfrage):
+- Flags b, c, d, e, f, h, i, j, k, l, m: **angenommen**. ✓
+- Flag a: **angenommen mit Modifikation** — Freiwillige waschen
+  die Läufer (nicht zwingend die, die als Nächste laufen; keine
+  feste Einteilung). Damit ist **Weltfrage 1** entschieden:
+  Träger sind die Sterbenden selbst, Anmeldung per Kreideliste
+  an der Destillerie, Route durch die Hauptstraße in die
+  blühenden Felder. ✓
+- Mit Flag b ist **Weltfrage 3** entschieden (Waschung und
+  Ablegen entblößen; Alltag beiläufig, kein Code). Mit Flag c
+  ist **Outline-Frage vii** entschieden (Endbild: beides
+  nacheinander). ✓
+- Flag g (Pferdchen-Finale): **nicht entschieden** — der Autor
+  sieht ein Verständlichkeits-Problem (warum sollte Lenz das
+  Pferdchen kennen, und was macht es mit ihm?); der Co-Autor
+  legt Varianten vor (szenen-v1.md, II.13).
+- Gang-Frage: Randordnung bestätigt — keine eigene Gang-Szene. ✓
+- Nacht-Splitter in Seq 8: gestrichen — die Nacht erscheint
+  dreimal; outline.md angepasst. ✓
+- Kreideliste: Treatment-Fassung bestätigt — Jakob findet den
+  Namen allein (bewusste POV-Dehnung); szenen-v1.md zurückgebaut
+  (Szenen 57/57a). ✓
+
+**20.07.2026** — Entscheidungen des Autors (zweite Abarbeitung
+der Szenen-Outline):
+- **Flags n–u angenommen** (Quartier, Erwerbslogik, Tacho vor
+  der Tür, Nicht-Öffnung der ersten Seite, Einladung als
+  Verrichtung, Flakon im Versteck, tonloses Suchwort, drei
+  Worte der Mutter). Das Treatment Fassung 1 ist entsprechend
+  nachgezogen (Seq 1, 2, 3, 4, 5, 7). ✓
+- Damit vollzogen: **die Taufe des Mals** (offene Frage 2) —
+  Annas Suchwort ist „das Pferdchen"; das Kinderwort wird
+  Filmtext (tonlos gemurmelt beim Durchstreichen, nie erklärt).
+  Der Vorbehalt beim Aufnahme-Ding des Erziehers (hölzernes
+  Pferdchen, 15.07.) ist damit aufgelöst. ✓
+- Die Treatment-Flags a–m bleiben unentschieden.
+
+**18.07.2026** — Entscheidung des Autors (Fahrplan):
+- Station 6 (Szenen-Outline) wird vor Station 5 (Tonproben)
+  gezogen; Grundlage allein Fassung 1 (`treatment-v1.md`).
+  Absicht: das Ineinanderspielen von Treatment und Szenen-Outline
+  sichtbar machen, ggf. parallele Arbeit an beiden. Keine
+  Beschränkung der Szenenzahl — Rundheit vor Ökonomie. Die Wahl
+  zwischen den Erzählweisen (Fassung 1/2) bleibt offen. ✓
+  *(Der Vorschlag des Co-Autors liegt vor: `szenen-v1.md` —
+  Flags n–q und Rückwirkungen warten auf Abarbeitung.
+  Nachtrag 20.07.: Erste Abarbeitung des Autors — vier
+  Fragen/Probleme benannt (Einladung, Duft-Erklärung, Suchbild,
+  Herkunft der Muttergeschichte); Antworten des Co-Autors als
+  Einschub 28a und Flags r–u eingearbeitet, Begründungen in
+  szenen-v1.md, II.9–12. Flags n–u am 20.07. angenommen; die
+  Treatment-Flags a–m sind am 20.07. per Einzelabfrage ebenfalls
+  entschieden (a modifiziert: Freiwillige waschen; g in
+  Variante A: die Geste ohne Zeugen) — siehe Log-Einträge
+  20.07. Damit sind alle Flags a–u entschieden.)*
 
 **15.07.2026** — Entscheidungen des Autors (erste
 Outline-Abarbeitung):

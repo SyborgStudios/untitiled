@@ -25,7 +25,15 @@
     /* Seite 7 — 15.07.2026, Autor & Co-Autor (zwei Stimmen; Anlagen: alle Dossiers) */
     { file: "session-07.html", de: "Zwei Stimmen", en: "Two voices" },
     /* Seite 8 — 17.07.2026, der Autor (beide Treatments, Text + Audio, ungeschwärzt) */
-    { file: "session-08.html", de: "Die Treatments", en: "The treatments" }
+    { file: "session-08.html", de: "Die Treatments", en: "The treatments" },
+    /* Seite 9 — 20.07.2026, Autor & Co-Autor (das Schleifen; Anlagen: Treatments + Szenen-Outline) */
+    { file: "session-09.html", de: "Die Szenen-Outline", en: "The scene outline" },
+    /* Seite 10 — 21.07.2026, Autor & Co-Autor (die erste Fassung; Anlagen: Drehbuch DE/EN + Hörspiele) */
+    { file: "session-10.html", de: "Die erste Fassung", en: "The first draft" },
+    /* Seite 11 — 24.07.2026, Autor & Co-Autor (der erste Durchgang; Anlage: Drehbuch DE/EN, Stand 24.07.) */
+    { file: "session-11.html", de: "Der erste Durchgang", en: "The first pass" },
+    /* Seite 12 — 27.07.2026, der Autor (wie wir arbeiten; Anlagen: zwei Gesprächsprotokolle) */
+    { file: "session-12.html", de: "Wie wir arbeiten", en: "How we work" }
   ];
 
   var file = location.pathname.split("/").pop() || "index.html";

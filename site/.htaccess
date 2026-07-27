@@ -1,0 +1,20 @@
+# untitled.movie — Cache-Regeln (Apache 2.4)
+#
+# Der Server sendet sonst keine Cache-Control-Header. Browser raten die
+# Cache-Dauer dann aus dem Dateialter (Heuristik: ~10 % der Zeit seit
+# Last-Modified) und zeigen nach einem FTP-Upload noch stundenlang die
+# alte Fassung, ohne beim Server nachzufragen.
+#
+# HTML/CSS/JS: immer beim Server rückfragen. Dank ETag antwortet Apache
+# mit "304 Not Modified", übertragen wird also nur die winzige Rückfrage —
+# neue Seiten sind damit sofort nach dem Upload für alle sichtbar.
+# Audio/Fonts/Icons: groß bzw. unveränderlich, dürfen lange im Cache
+# bleiben (die Hörspiel-MP3s haben 25–30 MB).
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|css|js)$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+  <FilesMatch "\.(mp3|woff2|png|svg|ico)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+</IfModule>

@@ -12,11 +12,14 @@ Jahren den Mord an seinen Eltern sah, sucht zehn Jahre später in einer
 aufgegebenen Stadt die Wahrheit — und findet die Liebe zum Sohn des
 Mörders. Ob sie ihm vergibt, sagt der Film nicht.
 
-Stand: 15.07.2026 (Erstfassung 12.07.2026. 13.07.: Nachtrag zur
+Stand: 21.07.2026 (Erstfassung 12.07.2026. 13.07.: Nachtrag zur
 neuen Weltlogik, Abschnitt IV b. 14.07.: Türsteher-Entscheidungen,
 Eintrag 22, Grob-Outline. 15.07.: erste Outline-Abarbeitung des
-Autors — Heim/Revolte gesetzt, Zeit-Kanon bestätigt, Celtx
-schwächer gewichtet; Ideenstand in `entwicklung.md`)
+Autors. 20.07.: Prinzip 13 aus der Tonproben-Abarbeitung; erste
+Drehbuchfassung geliefert — VI.16 aktualisiert, VI.17 neu.
+21.07.: Eintrag 23 — Animation als Form für unzuverlässige
+Erinnerung (offene Frage 7) samt All-Is-Lost-Fußnote zur
+Seitenzahl; Ideenstand in `entwicklung.md`)
 
 ---
 
@@ -463,6 +466,39 @@ Ton-Warnung: kein Mittelalter-Kolorit importieren; das Ritual muss
 aus **dieser** Stadt wachsen (Industrieruine, Drops, eine Kohorte
 Kinder als Zuschauer).
 
+### 23. Animation als Form für unzuverlässige Erinnerung (Nachtrag 21.07.2026)
+*Beantwortet: Trägt der Stoff als Animationsfilm? (Offene Frage 7, aufgeworfen vom Autor)*
+
+Drei Verwandte, je eine Lektion:
+
+- **Waltz with Bashir** (Folman, 2008): Ein Dokumentarfilm über
+  verdrängte Kriegserinnerung wählt Animation, gerade **weil**
+  Erinnerung nicht dokumentierbar ist — jedes fotografierte Bild
+  wäre eine Behauptung. Die Schlusswendung (echte Archivbilder)
+  zeigt den Preis des Wechsels. → Direkt an Prinzip 6/7: Ein
+  Film, der das Vielleicht verweigern will, kann im Gezeichneten
+  jede Linie kontrollieren — Ambiguität wird baubar statt
+  erhofft.
+- **Die letzten Glühwürmchen** (Takahata, 1988): Kinder in einer
+  sterbenden Stadt, dokumentarischer Ernst, kein Trost —
+  Animation kann Alexijewitsch-Ton. Die härteste Widerlegung des
+  Vorurteils, gezeichnet hieße gemildert.
+- **Flow** (Zilbalodis, 2024): abendfüllend ohne ein einziges
+  Wort, weltweit verstanden — der Beweis, dass Blick-Erzählung
+  (unsere Fassung 1) keine Dialoge braucht, um zu tragen.
+
+**Für unseren Stoff:** Die Verwandtschaft ist strukturell (die
+zeichnende Ermittlerin, das Mal als Zeichnung, die dreimal neu
+möblierte Nacht — in Animation wörtlich einlösbar) — und die
+Gegenrechnung ist benannt: Die Beglaubigung des Vielleicht lebt
+im Realfilm vom fotografischen Zufall (Dampf, Haut, Entfernung);
+im Gezeichneten ist jede Linie Entscheidung. Prüffrage an die
+Form: In welcher hält das Vielleicht besser? (Seite 10;
+Entscheidung beim Autor.) Handwerks-Fußnote zur Seitenzahl-Frage
+des Autors: J. C. Chandors *All Is Lost* (2013) — ~30 Seiten
+Drehbuch, 106 Minuten Film; die Seite-pro-Minute-Regel ist auf
+Dialog geeicht, dialogarme Bücher laufen länger, als sie messen.
+
 ---
 
 ## V. Destillat: Arbeitsprinzipien
@@ -510,6 +546,25 @@ Begründung.
     Alexijewitsch, Eintrag 15). Prüffrage an jede Szenenfolge:
     Wann wurde zuletzt gelacht? (Setzung des Autors, 15.07.2026;
     Humor-Profile der Figuren: figuren.md, Nachtrag.)
+13. **Dialog ist Wechselspiel.** Auch Beichten, Nummern und
+    Erzählungen brauchen Gegenwehr: Zwischenfragen, Einwürfe,
+    Alltagston. Monolog nur, wenn das Gegenüber ihn bricht —
+    Bedeutungsschwere wird durch Interaktion geerdet, nicht
+    durch Kürze. Und: Eine Auslassung wiegt mehr, wenn jemand
+    nach ihr gefragt hat („Wie hieß er?" — „Mein Freund").
+    (Setzung des Autors, 20.07.2026, aus der
+    Tonproben-Abarbeitung; eingelöst in tonproben-v1.md,
+    Proben 3 und 5, zweite Fassung.)
+14. **Papier zählt nicht — nur was die Kamera sieht, ist
+    erzählt.** Sätze wie „Sie erkennt ihn nicht" oder
+    „Niemand weiß, wie neu" sind Regieanweisungs-Wissen:
+    unfilmbar. Jede solche Behauptung braucht ein Bild, ein
+    Requisit, eine Handlung (der zweite Becher, der vor dem
+    Klopfen auf dem Tisch steht) — oder die Stelle fliegt.
+    Prüffrage an jede Szene: Was sieht der Zuschauer, der
+    das Drehbuch nie gelesen hat? (Aus der Werkstatt-Runde
+    vom 24.07.2026 — die Frage des Autors „Warum braucht
+    es diese Szene überhaupt" an Szene 49.)
 
 ---
 
@@ -618,6 +673,111 @@ die Punkte, Stand heute. Entscheidungen trifft der Autor.
     Bestätigungsmoment, der Verdacht wird erdrückend, gestempelt
     nie (outline.md, B1/B4) — mit der Celtx-Abwertung vom 15.07.
     bestätigt.
+
+16. **Szenendichte der Fassung 1 (neu, 18.07.2026):** Die
+    Szenen-Outline (`szenen-v1.md`) kommt auf 71 Szenen für
+    ~99 Minuten — ein Schnitt von ~85 Sekunden, viele Miniaturen,
+    dichtester Block: Seq 2 (zwölf Szenen in ~12 Minuten). Gefahr:
+    Atemlosigkeit im ersten Akt. Bei Tonproben und Fassung prüfen,
+    was sich zu Montage-Einheiten bündelt. Zweite offene
+    Bewusst-Entscheidung: Die Gang bleibt Randordnung ohne eigene
+    Szene (szenen-v1.md, II.3) — Setzung durch Unterlassen, die
+    der Autor bestätigen oder kippen sollte. *(Bestätigt 20.07.)*
+    *(Nachtrag 20.07., erste Fassung: keine Montage-Bündelung
+    nötig — die Miniaturen tragen über Kürze; Timing-Prüfung
+    bleibt offen, bis eine Fassung „geschnitten" gelesen wird.
+    Zwei Drehbuchszenen binden Outline-Spannen: 1–4 und 60–63.)*
+
+17. **Erste Drehbuchfassung — die dünnsten Stellen (neu,
+    20.07.2026):** `drehbuch-v1.md` liegt vor (Station 7;
+    Abarbeitung erfolgt am 21.07. — siehe 18.). Nach Prinzipien geprüft (Anhang C
+    dort); die vier ehrlichen Sorgen (Anhang D): der
+    Streit-Wortlaut (Szene 58 — die Zeile „Du hast gerechnet wie
+    am Zoll" steht an der Grenze), Ruths Wortlaute (29/45 —
+    derb, ohne Nummer zu werden), die knapp erzählte Revolte
+    (16 — Recherche Heimkampagne 1969 weiter offen, Prinzip 5),
+    die Dichte der Seq 2. Fünf markierte Löcher (Lied,
+    Duft-Marke, Lenz' Nachname, Türzeichen, Beerdigungsform) —
+    Station-7-Regel: markiert, nicht gefüllt. Zwei davon sind
+    Prinzip-5-Rechercheposten (Türzeichen, Beerdigungsform).
+
+18. **Abarbeitung der Beat-Kommentare (21.07.2026, zweite
+    Sitzung des Tages):** Der Autor hat die Fountain-Fassung in
+    Beat kommentiert (14 Notizen); 12 sind abgearbeitet, die
+    Fountain-Datei führt seither den Text (Protokoll:
+    `drehbuch-v1.md`, Anhang E). Die tragenden Entscheidungen:
+    das **Fernglas** ersetzt den Kocher — die Fassung „Ein
+    Blick" hat jetzt ihr Requisit, und die Schwelle wird vom
+    Zurückgeben zum Geben; der **Jahn-Witz** in der
+    Souffleur-Probe (Lenz bringt den Witz des Freundes zum
+    ersten Mal heil über die Straße); **Ruths guter Tag** als
+    Triptychon; der **ruhige Tod** über das geöffnete Fenster;
+    die Grenz-Exposition als Dialog **„Weg wie weg"** (es gibt
+    niemanden, der einen kennt, der es weiß — nur welche, die
+    einen kannten, der weg ist). Offen: die Zeitfrage an der
+    geflickten Sohle (26a), die einzustreuende Szene bei „Sie
+    kommt wieder" (49) — beides am 24.07. erledigt
+    (Eintrag 20). Szene 5 (das Hinausgetragenwerden): vom Autor
+    bewusst gestrichen, bestätigt 21.07. In derselben Sitzung
+    die fünf Löcher (Anhang A) geschlossen: das Erntelied als
+    Blues mit Arbeitsstrophe im Text, die Marke TAU (Logo: τ;
+    zugleich der einzige Name der Pflanze — Weltfrage 5), Lenz
+    heißt Lorenz Kessler, das Türzeichen-System (das Haus hängt
+    selbst), die Beerdigung ohne Särge — und die Felder
+    schlucken die Toten. Am Abend außerdem Szene 14 auf Idee
+    des Autors zur Fassung „Die Sechzehn" umgebaut: Der Beweis
+    gegen den Dieb-Erzieher ist jetzt ein Packzettel von
+    drüben, den er einsteckt und Anna ihm stiehlt — sein
+    „Wer?" bricht ab, weil die Frage verraten würde, wo der
+    Zettel lag; zuletzt über die Sequenz verteilt (8a, 9a, 14,
+    15a — die Revolte rückt auf mittags).
+
+19. **Logline für die Website (21.07.2026, dritte Sitzung des
+    Tages):** Seite 1 trägt jetzt eine Logline unter dem Titel.
+    Der erste Wurf war eine Stoff-Logline (destilliert aus dem
+    Prüfstein der Fassung 1); **Anweisung des Autors:** Die
+    Logline der Startseite spricht über das *Projekt*, nicht
+    über das Script — der Stoff darf als Referenz hinein.
+    Gesetzt ist jetzt: *Ein Autor, ein Co-Autor aus Silizium,
+    eine zwanzig Jahre alte Storyline: ein Mädchen, der Mörder
+    seiner Eltern, eine aufgegebene Stadt. Daraus entsteht hier
+    ein Film — öffentlich, Seite für Seite.* (EN spiegelt; die
+    Meta-Description ist auf denselben Wortlaut angeglichen.)
+    Die Stoff-Logline liegt im Werkstattvorrat, falls der Film
+    selbst einmal eine braucht: *Mit vier sah sie den Mord an
+    ihren Eltern. Mit vierzehn geht sie in die aufgegebene
+    Stadt, um den Mörder zu finden — und findet seinen Sohn.*
+    (Sagt nur, was Seite 1 seit dem 11.07. im Klartext sagt;
+    Erkennen und Vergebung — Prinzip 7, Punkt 15 — bleiben
+    draußen: „finden" ist nicht „erkennen".)
+
+20. **Zweite Kommentar-Runde (24.07.2026):** Der Autor hat
+    umgestellt (Sequenz 2: die Imitation als Nachspiel der
+    Rechnung; Annas Griff nach Jakobs Hand in 44) und vier
+    Kommentare hinterlassen. Erledigt: die
+    **Sohlen-Zeitfrage** (bleibt unerzählt; neu Annas Blick
+    zur leeren Hundestelle — der Preis des Zolls öffnet die
+    Lücke, durch die das erste Gute zu ihr durchkommt);
+    **49 gestrichen** — die Szene bestand aus Papierwissen
+    („Sie erkennt ihn nicht"), die eine filmbare
+    Information trägt jetzt der zweite Becher am Kopf
+    von 50; **47a „Wie das Heim fiel"** neu — schließt das
+    älteste unentdeckte Loch der Fassung (Jakobs
+    Streit-Wissen vom Zucker und den Listen stand seit dem
+    Anlieferungsstand ungedeckt im Text; durch alle
+    Prüfungen gerutscht, vom Autor gefunden). Offen: die
+    Neufassung von 52 — der Autor liefert selbst. Lehre
+    daraus → Prinzip 14. Veröffentlicht als Seite 11
+    („Der erste Durchgang", 24.07.): beide Stimmen, die
+    Chronik dieser Runden, die aktuelle Fassung DE/EN als
+    Anlage — die englische Service-Übersetzung dafür
+    komplett auf den Arbeitsstand nachgeführt. Spät am
+    24.07. drei neue Szenen auf Ansage des Autors (das
+    Lachen, Anton, das vierte Gesicht): Das
+    Schwanger-Gerücht der Alten ist gestrichen, die
+    Verbindung der Familien läuft jetzt über Bilder — die
+    Lach-Kette und das Klassenraum-Schaubild. Prinzip 14,
+    vom Autor angewandt am Tag seiner Formulierung.
 
 ---
 

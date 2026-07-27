@@ -137,6 +137,12 @@ h1 {
   text-transform: uppercase;
 }
 
+.title-page .logline {
+  margin: 1.6rem auto 0;
+  max-width: 28em;
+  font-size: 0.92rem;
+}
+
 .title-page::after {
   content: "* * *";
   display: block;

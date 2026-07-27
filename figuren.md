@@ -60,13 +60,43 @@ ein unbewusstes:
   drumherum eine Nacht, die bei jedem Träumen anders möbliert ist.
 - **Die Muttergeschichte** — die Mutter hat sie im Versteck immer
   wieder erzählt, als Ersatz für die Welt draußen: der Ort mit dem
-  weiten Blick über die Stadt, das Licht, ein Versprechen. Anna
-  kennt sie wörtlich. [Detail: **Ein Wort fehlt.** Irgendwann in
+  weiten Blick über die Stadt, das Licht, ein Versprechen.
+  **Anna besitzt sie nur in Stücken** (präzisiert vom Autor,
+  20.07., in zwei Schritten): Die Vierjährige hat sich aus den
+  Bruchstücken einen Text zusammengereimt — **unwissentlich**;
+  durch zehn Jahre nächtliches Aufsagen ist er wörtlich
+  geworden. Sie diagnostiziert das Flickwerk nie; ihr Zweifel
+  bleibt klein und konkret (Seq 8, zu Jakob: „Von meiner
+  Mutter. Glaub ich." — „Sie hat nie gesagt, wo."), und die
+  Nahtstellen zeigen sich nur als Stocken. Damit sind beide
+  Erbstücke unbemerkte Mischungen — der Unterschied ist der
+  Grad: Bei der Geschichte erlaubt sie sich ein „glaub ich";
+  beim Mal war sie sich zehn Jahre sicher. Seq 7 trifft die
+  Sicherheit, nicht den Zweifel.
+  [Detail: **Ein Wort fehlt.** Irgendwann in
   den Heimjahren hat sie gemerkt, dass ihr ein Wort der Geschichte
   abhandengekommen ist — das Wort für das Licht über der Stadt.
   Seitdem erzählt sie sich die Geschichte öfter, wie man einen
   Riss bewacht. Das bricht die Konstanz aus Outline B3 nicht — es
   vertieft sie: Das eine Konstante ist selbst schon beschädigt.]
+  [**Arbeitsfassung des Wortlauts** (Richtung angenommen vom
+  Autor, 20.07.2026; Feinschliff an Tonproben und Fassung):
+  *„Hoch über allem ist ein Ort. Man geht den Weg, der sich
+  dreht, immer am Geländer, und zählt die Schritte. Und oben
+  liegt einem die ganze Stadt zu Füßen, wie ein aufgeschlagenes
+  Buch. Und am Abend kommt das* [die Lücke — das Wort für das
+  Licht; es steht auch im Drehbuch nie] *und legt sich über
+  alles, und alles, was kaputt ist, sieht von dort oben aus wie
+  heil. An diesem Ort haben wir dir dein Leben versprochen. Und
+  wer dort oben war, der weiß: Hinter der Stadt hört die Welt
+  nicht auf. Wenn du groß bist, gehen wir hinauf, wir drei. Und
+  du zählst die Schritte."* — Das „Zähl die Schritte" begründet
+  Annas Wörterzählen und macht die „fehlende Stufe" wörtlich;
+  „Hinter der Stadt hört die Welt nicht auf" enthält die
+  Richtung des Schlussbilds; „wir drei" bleibt beim Weitergeben
+  wörtlich stehen (Seq 8). Die Arbeitsfassung ist Annas
+  gebauter Text — ein „Original" der Mutter existiert im Film
+  nicht.]
 - **Der Geruch (angenommen 15.07.).** Die Mutter besaß im
   Versteck einen Rest des Duftes — ein Fingerhut Luxus aus einem
   früheren Leben. Anna weiß das nicht. Aber wenn sie in Seq 5 das

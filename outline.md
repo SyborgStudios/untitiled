@@ -94,6 +94,8 @@ Unzuverlässigkeit der Erinnerung am eigenen Gedächtnis**, statt
 sie erklärt zu bekommen (Kaufman: subjektive Wahrnehmung als
 objektive Filmrealität). Damit trägt die Form das Thema: Kann die
 Erinnerung einer Vierjährigen tragen, was sie tragen soll?
+*(Nachtrag 20.07.2026: dreimal statt viermal — die Splitter in
+Seq 8 sind gestrichen; siehe III.)*
 
 ### B4. Die Reihenfolge der Enthüllungen: zivil vor persönlich
 
@@ -262,10 +264,14 @@ Kinder fliehen … Die Hoffnung auf einen Ausweg wiegt schwerer."
 
 ## III. Motive und Dosierung
 
-- **Die Nacht:** vier Passagen (Seq 1, 4, 7, Splitter in 8).
-  Degradationsplan: Version 2 verschiebt Details, Version 3
-  vertauscht Stimmen/Räume, die Splitter in 8 sind fast abstrakt —
-  nur Mal und Muttergeschichte bleiben durchgehend stabil.
+- **Die Nacht:** drei Passagen (Seq 1, 4, 7). Degradationsplan:
+  Version 2 verschiebt Details, Version 3 vertauscht
+  Stimmen/Räume — nur Mal und Muttergeschichte bleiben
+  durchgehend stabil. *(Nachtrag 20.07.2026: Die früher hier
+  geplanten Splitter in Seq 8 sind gestrichen — entschieden am
+  Szenenmaterial; das Vielleicht des Finales steht ohne
+  Erinnerungs-Insert, damit der Film den Vergleich nicht
+  anbietet.)*
 - **Das Mal:** Sichtungsökonomie. Voll gesehen nur in Seq 1 und
   Seq 8. Dazwischen ausschließlich **Fast-Male** (der Sterbende im
   Heim, Gezeichnete der Stadt, die Läufer in Seq 5). Nie Zoom, nie
@@ -344,9 +350,11 @@ v. **Js Mutter stirbt in der Filmmitte** — ENTSCHIEDEN (15.07.):
 vi. **Der Preis des Hundes** — ENTSCHIEDEN (15.07.): der
    Gang-Preis (die Duldung bei der Gang kostet den Hund; M zahlt
    und lernt die Preislogik der Stadt).
-vii. **Das Endbild** — OFFEN: Rückkehr zum Aussichtsort / der Weg
-   Richtung Rand / beides nacheinander? (Kann bis zur
-   Szenen-Outline warten.)
+vii. **Das Endbild** — ENTSCHIEDEN (20.07., Flag c): beides
+   nacheinander — erst der Aussichtsort (die Geschichte, laut,
+   mit stehen gelassener Lücke), dann der Abstieg Richtung
+   Absperrung; das verwitterte Schild als kalte Klammer; der
+   Hund als letzter Blick.
 viii. **Zeit-Kanon** — ENTSCHIEDEN (15.07.): zehn Jahre gilt;
    die Celtx-Timeline ist generell schwächer zu gewichten.
 
