@@ -1327,3 +1327,64 @@ obigen Beschreibungen (Details: Anhang E in
 - **41/„Die Alte I"** entschärft („15 Jahre Terror"; „Mich
   hat der damals nicht überzeugt. Aber Absicht?").
 - **47a** sprachlich gestrafft.
+
+## Nachtrag — Vier Stadt-Szenen (27.07.2026, zweite Runde)
+
+Auf Ansage des Autors („noch ein paar Ideen zu weiteren
+Szenen in der Stadt") hat der Co-Autor sechs Vorschläge
+vorgelegt; vier davon sind auf Wunsch des Autors direkt in
+die Fountain-Fassung eingezogen (DE und EN), an vorläufigen
+Positionen — der Autor verschiebt bei Bedarf. Neue Setzungen
+sind als `[[Notes]]` an den Szenen geflaggt. Die übrigen zwei
+(„Der Hund, aus der Ferne" — der gelbe Hund im Arbeitsmodus
+für die Gang, Mittelglied zum Schlussbild; „Das X,
+eingelöst" — die Mutprobe der Kleinen, der Alte, der
+hindurchgeht) sind weder gesetzt noch verworfen.
+
+- **19a · AUSSEN./INNEN. ALTE DESTILLERIE — TAG · „Die
+  Trommelkammer"** (zwischen 19 und 20) — Anna sucht Draht
+  und findet den einzigen gepflegten Raum der Stadt: die
+  Trommeln, bespannt, gefettet, staubfrei; die Tür mit den
+  geölten Angeln. Auf dem Rückweg die Hofmauer mit
+  Kreidenamen — sie geht vorbei, ohne zu lesen.
+  *Last:* Die Destillerie eingeführt, bevor Kreideliste (55)
+  und Waschung (60) sie brauchen — der Ort sammelt Bedeutung
+  über drei Sequenzen; der Klang der Trommeln wird in 39
+  wiedererkannt; nach dem Plakat das zweite Stück Schrift,
+  das Anna noch nicht liest. Neue Setzung: Die Destillerie
+  ist das alte TAU-Haus (τ überm Tor). Der Draht zahlt
+  beiläufig auf die Schlinge der Taubenjagd (20) ein.
+- **26b · AUSSEN. BRUNNEN OHNE EIMER — TAG · „Der
+  Brunnen"** (zwischen 26 und 26a; ersetzt den Marker „Hier
+  noch eine Szene zur Stadt") — die Reihe der Gezeichneten
+  öffnet sich wortlos: Die Kinder gehen vor. Anna sucht den
+  Preis und findet keinen. An der Winde: frische
+  Drahtarbeit, ordentlich wie Nähte.
+  *Last:* Die zweite Ökonomie der Stadt — Zoll bei den
+  Kindern, Vortritt bei den Sterbenden; macht Jakobs „Die
+  ganze Stadt nimmt" (57a) zur Halbwahrheit, die es sein
+  soll; erste Gabe der Stadt in die Lücke, die der Zoll
+  riss (schließt an die 26a-Entscheidung an). Die Winde als
+  Jakobs Handschrift in der Stadt — Angebot auf den offenen
+  Marker, warum Anna ihm Sachen bringt (das Schloss, 27);
+  Kette: Falle (26) → Winde (26b) → Sohle (26a).
+- **35a · AUSSEN./INNEN. DAS HAUS MIT DEM KINDERSCHUH —
+  TAG · „Der zweite Schuh"** (zwischen 35 und 36) — Anna
+  prüft, ob das Haus lange leer ist, steigt ein, nimmt, was
+  brennt und was flickt — und im Kinderzimmer (Messstriche,
+  die aufhören; der zweite Schuh innen an der Tür): nichts.
+  Im Gehen hängt sie den Schuh am Pfosten gerade.
+  *Last:* Die Türzeichen-Regel (18) eingelöst; die fehlenden
+  Jahrgänge als begehbarer Raum — Vorlage für „Anton" (50a);
+  Annas Pietät ohne Zeugen: Im Streit (57a) wissen wir etwas
+  über sie, das Jakob nicht weiß.
+- **40a · AUSSEN. INNENHOF DER DESTILLERIE — MORGEN · „Der
+  Tisch am Morgen danach"** (zwischen 40 und 41) — der
+  Tisch mit den Dingen der Läufer, unbewacht; die Stadt
+  erbt: Keiner nimmt zwei Dinge, einer stellt die
+  schlechteren Stiefel dafür hin. Anna sieht den ganzen
+  Morgen zu und nimmt nichts.
+  *Last:* Setzung „Was auf dem Tisch liegt, geht an die
+  Stadt über" — macht Annas Pferdchen-Ablage (60–63) ohne
+  ein Wort lesbar; klärt beiläufig, woher Anna den Ort der
+  Waschung (60) kennt.

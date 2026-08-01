@@ -2702,4 +2702,38 @@ und die EN-Fassung überall nachgezogen:
   der Frau über den Bauch." Die Geste ist eindeutig, die
   Bedeutung bleibt unbewiesen.
 
+### Nachtrag — vier Stadt-Szenen (27.07.2026, zweite Runde)
+
+Auf Ansage des Autors („noch ein paar Ideen zu weiteren
+Szenen in der Stadt") vier neue Szenen des Co-Autors, direkt
+in die Fountain-Fassung eingezogen (DE und EN), Positionen
+vorläufig; neue Setzungen als `[[Notes]]` an den Szenen
+geflaggt (Einzelheiten: `szenen-v1.md`, Nachtrag vom
+27.07.):
+
+- **19a „Die Trommelkammer"** (nach dem Plakat) — die
+  Destillerie als gepflegter Ritualort eingeführt; Setup
+  für Lauf, Kreideliste und Waschung.
+- **26b „Der Brunnen"** (ersetzt den Marker „Hier noch
+  eine Szene zur Stadt") — die Gezeichneten lassen die
+  Kinder vor; die geflickte Winde als Jakobs Handschrift
+  (Angebot auf den offenen Schloss-Marker).
+- **35a „Der zweite Schuh"** (nach der Alten I) — das Haus
+  mit dem Kinderschuh von innen; die fehlenden Jahrgänge
+  als Raum.
+- **40a „Der Tisch am Morgen danach"** (nach „Nur
+  ehrlicher") — das Erbrecht der Läufer; macht die
+  Pferdchen-Ablage (60–63) lesbar.
+
+Beim Abgleich in der EN-Fassung nachgezogen (Stand der
+Beat-Runde des Autors vom 27.07.): die Schuh-Betrachtung
+in 22 („betrachtet den rechten Schuh im Mondlicht"), die
+Sohlen-Korrektur in 26a („right" statt „left") und die
+Szene 30a „Das Lachen" (Neufassung des Dialogs und
+Umstellung hinter die Sichtlinie, wie im Deutschen).
+
+Ungesetzt bleiben zwei Vorschläge derselben Runde („Der
+Hund, aus der Ferne", „Das X, eingelöst") — Wortlaut im
+Nachtrag der Szenen-Outline.
+
 *21.07.2026 — der Co-Autor*
