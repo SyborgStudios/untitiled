@@ -1388,3 +1388,269 @@ hindurchgeht) sind weder gesetzt noch verworfen.
   Stadt über" — macht Annas Pferdchen-Ablage (60–63) ohne
   ein Wort lesbar; klärt beiläufig, woher Anna den Ort der
   Waschung (60) kennt.
+
+## Nachtrag — Der Hund und das Kino (01.08.2026)
+
+Zwei Szenen auf Ansage des Autors, ausgearbeitet vom
+Co-Autor und direkt in die Fountain-Fassung eingezogen
+(DE und EN):
+
+- **30b · AUSSEN./INNEN. ALTES KINO — SPÄTER NACHMITTAG ·
+  „Das Kino"** (zwischen 30a und 32) — im Gehen bleibt
+  Jakob an der Anschlagtafel hängen (Steckbuchstaben mit
+  Lücken; „Es läuft, seit zehn Jahren, dieselbe Woche")
+  und zeigt Anna den Saal: Schraublöcher in Reihen statt
+  Sitzen, der Leinwandrest, der heile Projektor ohne
+  Filme. „Ruth sagt, hier haben sie Licht an die Wand
+  geworfen. … Alle haben in dieselbe Richtung geschaut." —
+  „Warst du mal drin?" — „Ich war vier."
+  *Last:* Die Kulturlosigkeit als begehbarer Ort;
+  Tacho-Logik am größten Objekt (Gerät heil, Zweck tot);
+  die Lücken-Schrift reimt auf JAH ERK; vor Sequenz 5
+  platziert — in dieselbe Richtung schaut die Stadt nur
+  noch beim Lauf. Entscheidung des Autors: nüchternes
+  Ende (Türrechteck auf der Leinwand); das
+  Schattenspiel-Ende wurde vorgelegt und verworfen.
+- **44b · AUSSEN. STRASSENZUG / X-STRASSE — TAG ·
+  „Bleib"** (zwischen 44a und 45) — Anna folgt dem Hund
+  über ein Kreide-X (die erste Regel, die wir sie brechen
+  sehen); der Balkon reißt aus der Wand, während ihre
+  halb gehobene Hand aus Versehen „bleib" sagt. Sie
+  gräbt, schichtet die flachen Steine zurück (wir kennen
+  sie von der Grabstelle), legt die ganze Taube darauf —
+  und geht. Dann, ohne sie: Der Hund gräbt sich aus,
+  nimmt seinen Anteil und läuft ihr nicht nach.
+  *Last:* Setzung X = die leergegessenen Straßen
+  (einsturzgefährdet, weil die Stadt ihre Häuser von
+  innen verheizt und verbaut hat; im Film wortlos — der
+  Einsturz erklärt das Zeichen). Annas Schuld am Hund als
+  Subtext des Streits: 57a bleibt wortgleich, „Der Hund
+  war ein Zoll" wird zur hörbaren Lüge, ihre Abwehr gegen
+  Jakobs Bitte bekommt eine zweite Lesart. Die
+  Schluss-Einstellung ohne Anna ist ein Bildprivileg (wie
+  Anhang B zu 65): Wir wissen, was sie nicht weiß —
+  Entscheidung des Autors: Das Schlussbild (69) bleibt
+  unverändert und ist damit das eingelöste
+  Hoffnungszeichen; „Er läuft nicht hinterher" hat in 44b
+  seine erste Hälfte. Der Vorschlag „Der Hund, aus der
+  Ferne" (27.07.) ist damit aufgegangen und entfällt;
+  „Das X, eingelöst" bleibt ungesetzt und wäre jetzt ein
+  Vorbau (der Alte, der durchgeht, hat nichts mehr zu
+  verlieren).
+
+## Nachtrag — Kommentar-Runde Waschhaus & Wege (01.08.2026)
+
+Fünf neue Beat-Kommentare des Autors; vier abgearbeitet,
+einer zurückgestellt:
+
+- **23 („Das Archiv des Nicht-Findens") umgebaut** — auf
+  drei Kommentare des Autors hin: neuer Außen-Einstieg
+  (das Waschhaus atmet — das einzige Haus der Stadt, das
+  es tut; Anna beobachtet erst und kommt als Trägerin
+  hinein: „Niemand fragt. Wer trägt, gehört dazu."), innen
+  der detektivische Entschluss (erst schauen, dann Lappen
+  und Schüssel organisieren, mitwaschen), und die
+  System-Exposition aus 34 ist sinngemäß hierher
+  gewandert: Das Waschhaus ist jetzt die Geburtsstunde
+  der Methode; der Schluss („Abends: zeichnen,
+  durchstreichen") übergibt direkt an 23a. Nebeneffekt:
+  Lappen und Schüssel sind Jakobs Requisiten bei Ruth
+  (29) — dieselbe Geste, einmal als Ermittlung, einmal
+  als Liebe.
+- **34 („Wasser tragen") gestrafft** — Rückkehr statt
+  Einführung („Redundant mit Szene 23", Autor): Alltag,
+  ein anderes Haus, dieselbe Arbeit; geblieben sind die
+  Sterbezimmer und die Ess-Ökonomie („Wer Wasser bringt,
+  isst mit").
+- **28a („Das halbe Ding") geteilt; neu 28b · AUSSEN.
+  GASSEN — SPÄTER NACHMITTAG · „Bis zur Tür"** — die
+  Verfolgung als eigene Szene (Kommentar des Autors),
+  leicht ausgebaut: Die Türzeichen hängen im Viertel
+  dichter (bereitet still vor, was hinter Jakobs Tür
+  liegt); Jakobs Gang verändert sich Gasse um Gasse —
+  am Revier der Geduldete, auf den letzten Metern ein
+  Junge, der nach Hause geht. „Anna sieht es. Sie kann
+  es noch nicht lesen." Die Kopfszene 28a heißt jetzt
+  AUSSEN. GANG-REVIER, WERKSTATT-ECKE.
+- **Zurückgestellt:** „Hier brauchen wir noch eine Szene"
+  (Ende Sequenz 6, nach dem Souffleur) — drei Optionen
+  vorgelegt (A „Die leere Seite": das Heft, Lenz als der
+  erste Erwachsene, den Anna nicht durchstreichen kann,
+  weil seine Ärmel zu sind; B „Jakob vor der Tür": Jakob
+  hört Annas Lachen durch die Tür und geht noch einmal um
+  den Block; C die drei an einem Tisch). Entscheidung des
+  Autors: erstmal keine neue Szene. Der Marker bleibt in
+  der Datei. *(Am Abend desselben Tages vom Autor selbst
+  eingelöst — siehe nächster Nachtrag.)*
+
+## Nachtrag — Beat-Runde des Autors (01.08.2026, abends)
+
+Der Autor hat die Fountain-Fassung umgestellt (gilt als
+Abarbeitung); die EN-Fassung ist nachgezogen:
+
+- **30b („Das Kino") ans Ende von Sequenz 6 gezogen** —
+  nach dem Souffleur, vor den Bürgermeister: an die
+  Stelle des eigenen Markers „Hier brauchen wir noch
+  eine Szene", der damit vom Autor selbst eingelöst ist
+  (die drei vorgelegten Optionen sind hinfällig). Dazu
+  Neufassung des Autors im Text: „Ruth sagt" gestrichen,
+  neu „Hier standen Stühle in Reihe." und „Komm mit, es
+  wird noch besser."; der Schluss ersetzt „Warst du mal
+  drin?" / „Ich war vier." durch „Ich habe keine Ahnung
+  wovon du sprichst." / „Muss toll gewesen sein,
+  damals." — Jakobs Satz ist jetzt der Schlusssatz der
+  Sequenz; die Erzählerzeilen „Film brennt gut", „Der
+  Raum passt in keine ihrer Spalten" und „Sie haben die
+  Gebäude geerbt …" sind gestrichen. Nummer bleibt Name:
+  30b steht jetzt zwischen 48 und 50.
+  *Neue Last der Position:* Nach Beerdigung und
+  Souffleur führt Jakob Anna durch den Saal der toten
+  Kultur — die Trauer-Sequenz endet nicht auf einem Tod,
+  sondern auf einem Raum, der einen überlebt hat.
+- **25 („Der Preis") in 24 („Der Zoll") aufgegangen** —
+  Kopfzeile und Synopsis gestrichen, der Inhalt läuft
+  ohne Schnitt in der Zoll-Szene weiter; Zahlung und
+  Abgang gehören jetzt zur selben Einstellung wie die
+  Verhandlung.
+- **26b („Der Brunnen") gestrafft** — gestrichen: die
+  Erklär-Passage („eine Regel wie die Kreide-Xe …"), das
+  „Spalte für später" und der Gläubiger-Schlusssatz. Die
+  Szene endet auf der sich schließenden Reihe.
+
+## Nachtrag — Die Objekt-Kette (01.08.2026, nachts)
+
+Der Marker „Erst das Schloss, dann der Tacho, warum Anna
+Sachen zu Jakob bringt, wird noch nicht klar" ist
+abgearbeitet (Konzept der Werkstatt, Freigabe des Autors;
+DE und EN nachgezogen). Die Kette liest sich jetzt so:
+**Die geflickte Sohle ist eine unbezahlte Reparatur** —
+Anna erträgt offene Rechnungen nicht; das Schloss ist der
+Vorwand, der Preis ist der Grund. Konkret:
+
+- **27 („Der Reparierer")** — drei neue Beats: der
+  Einstieg begründet den Besuch über die Sohle
+  („offene Rechnungen erträgt sie schlechter als
+  Hunger"); nach dem fraglosen Annehmen: „Anna wartet
+  auf die Frage. Auf irgendeine. Es kommt keine."; und
+  der Zoll-Beat vor dem Abgang: Sie legt eine halbe
+  Taube aufs Brett, Jakob schiebt sie mit einem Finger
+  zurück — „die einzige Werkbank der Stadt, an der es
+  keinen Zoll gibt". Die Rechnung geht nicht zu, sie
+  wächst.
+- **28 („Der Tacho") — Setzung:** Der Tacho ist das
+  nächste Ding, das **Anna** gebracht hat — „Diesmal
+  kein Vorwand — eine Prüfung": das absurdeste Objekt
+  der Stadt, ein Tacho ohne Fahrrad. Er fragt wieder
+  nicht, repariert das Sinnlose perfekt („Null. Stimmt
+  genau.") — wer das Sinnlose ernst nimmt, will nichts.
+  Die Anführer-Imitation danach ist ihr Urteil:
+  bestanden.
+- **28a („Das halbe Ding")** unverändert — „endlich ein
+  echter Defekt" ist jetzt die dritte Stufe: Vorwand →
+  Prüfung → Wahrheit; das Fernglas als ihr bestes Ding
+  ist ihre Art zu bezahlen.
+
+## Nachtrag — Ruths Spruch (01.08.2026, nachts)
+
+Der Marker „Der Spruch ist zu wissend. Es kann ruhig
+lustiger sein" (30a, „Das Lachen") ist abgearbeitet.
+Vorgabe des Autors: ein Witz auf Annas Kosten oder auf
+beider; aus drei Kandidaten gewählt hat er die Fassung
+auf beider Kosten:
+
+> RUTH: „Ihr seid mir zwei. Der eine räumt auf, die
+> andere bewacht meine Tür. *(Pause)* Und unterhaltet
+> euch nicht so wild — ich brauch meinen Schlaf."
+
+## Nachtrag — Der Morgen unten & die Kirche (02.08.2026)
+
+Neuer Beat-Kommentar des Autors (an der Nische, mit zwei
+Szenen-Ideen: Aufwachen im Ekel; die Kirche mit dem
+Fahrrad auf dem Altar und dem Tacho); abgearbeitet, DE
+und EN nachgezogen:
+
+- **Neu 21a · AUSSEN. NISCHE — MORGEN · „Der Morgen
+  unten"** — der Geruch weckt sie; menschliche Notdurft
+  einen Schritt von ihren Füßen. Der Ekel ist das eine;
+  das andere: Sie hat nichts gehört — sie, die im Heim
+  jeden Schlüssel zwei Türen weit hörte. „Unten schläft
+  man wie ein Ding am Weg."
+  *Last:* „Hoch schlafen" (22) doppelt begründet; „Wer
+  hoch schläft, hört die Stadt von oben" wird von der
+  Sentenz zur gelernten Lektion. (22 liegt jetzt auf
+  ABEND — Umstellung des Autors; ein Tagesbogen
+  Morgen → Kirche → Speicher.)
+- **Neu 21b · INNEN. KIRCHE — TAG · „Das Fahrrad auf dem
+  Altar"** — Anna sucht, wo die Erwachsenen der Stadt
+  zusammenkommen, und findet die Kirche leer: das
+  Gestühl verheizt (die hellen Rechtecke im Staub — das
+  „Natürlich", das das Kino später wiederholt), auf dem
+  Altar das ausgeweidete Fahrrad, am Lenker der TACHO
+  samt Welle. Sie will den Draht, kriegt das Gehäuse
+  nicht auf, steckt ihn ein. „Menschen: keine."
+  *Last:* Der Tacho hat eine Herkunft — die Objekt-Kette
+  schließt nach hinten; das Waschhaus (23) wird zum
+  Treffer nach dem Fehlversuch (die Kirche als das Haus,
+  das aufgehört hat zu atmen); das Fahrrad auf dem Altar
+  bleibt unerklärt (Prinzip 3).
+- **28 („Der Tacho") — Setzung geändert:** Die benannte
+  Prüfung („Diesmal kein Vorwand — eine Prüfung") weicht
+  der Herkunft: „der Tacho aus der Kirche — das Ding,
+  aus dem Anna den Draht nicht herausbekam. Einer, der
+  Schlösser ohne Schlüssel öffnet, kriegt auch das auf.
+  Das war der ganze Plan." Die Prüfung passiert jetzt
+  unbenannt im Verhalten (er fragt wieder nicht; er
+  öffnet nicht, er repariert — sie wollte Material, er
+  gibt ihr Sinn), und das Schloss gewinnt rückwirkend:
+  Sie hat an ihm getestet, ob er Dinge öffnen kann, ohne
+  sie kaputt zu machen. Dass sie den Draht nie bekommt
+  und das nutzloseste Ding der Stadt behält, ist die
+  stille Pointe der Kette (→ Prinzip 15).
+
+## Nachtrag — Kisten vom Himmel & Beat-Runde (03.08.2026)
+
+Auf Wunsch des Autors eine Drops-Szene in der Stadt; dazu
+seine Beat-Runde nachgezogen (DE-Änderungen des Autors,
+EN-Abgleich der Werkstatt):
+
+- **Neu 35b · AUSSEN. GASSEN / BRACHE — TAG · „Kisten vom
+  Himmel"** (zwischen 35a und 36; Platzierung der
+  Werkstatt) — das Gegenstück zur Heim-Szene (7): dort
+  Sirene und System, hier der Himmel als Signal, die
+  ganze Stadt rennt; der Hubschrauber dreht ab, bevor die
+  erste Kiste aufschlägt („Drüben wirft, wie man füttert,
+  wo man nicht anfassen will"); die Gang erhebt Zölle am
+  Platz, Anna steht, wo alles Rollende ankommt. Eine
+  Kiste springt hinter ein Kreide-X; die Kinder stehen an
+  der Linie wie an einer Wand, ein alter Gezeichneter
+  geht hinein, holt sie, nimmt eine Dose. Eine.
+  *Last:* Ruths „Kisten vom Himmel" bekommt sein Bild;
+  Tagesbogen mit JAH ERK und der Ernte — Almosen von
+  oben, die Ruine, der Handel durchs Loch: an einem Tag
+  die ganze Ökonomie, das Draußen mit zwei Gesichtern.
+  Die X-Passage löst den Vorschlag „Das X, eingelöst"
+  (27.07.) ein und ist der Vorbau für „Bleib" (44b); die
+  Ein-Ding-Ethik kehrt am Läufer-Tisch (40a) wieder.
+- **Beat-Runde des Autors, nachgezogen:** Sequenz 1/2
+  gestrafft (Fläschchen-Zeile, Ton-Anmerkung, „vielleicht
+  ein Wimmern", Drops-Erzählerzeile, „Die Sechzehn"
+  konkreter: die letzten zwei der zehn Kisten); „Der
+  Nagel" spielt jetzt am Fenster der **Heim-Verwaltung**
+  (statt Vorratsraum); im Waschhaus (23) neu: **Anna
+  versteckt den Hund** in einer Seitengasse (Handzeichen,
+  Brot) — die bleib-Geste ist damit vor dem Zoll als
+  Vertrauensgeste etabliert, ehe sie dort zur
+  Verkaufsgeste wird; Werkstatt-Sätze gestrichen
+  (Entschluss-Erklärung, System-Absatz); **neu 23b ·
+  WASCHHAUS — ABEND**: der Hund hebt den Kopf, Anna
+  kommt heraus, er geht neben ihr — Miniszene des
+  Autors. Alles in der EN-Fassung nachgezogen.
+
+Die Pointe verspottet das gemeinsame Schweigen der
+beiden; die Auftakt-Zeile der Szene (Jakob sucht das
+Werkzeug, das er selbst aufgeräumt hat) arbeitet weiter,
+und Ruth sieht die zwei als Paar, bevor sie eins sind —
+das lädt ihr „Anna, lass dich ansehen" direkt danach.
+EN nachgezogen. **Verbliebener Autor-Marker im
+Drehbuchtext: nur noch die Neufassung von 52 („Sätze
+nebeneinander").**

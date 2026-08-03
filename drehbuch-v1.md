@@ -2736,4 +2736,124 @@ Ungesetzt bleiben zwei Vorschläge derselben Runde („Der
 Hund, aus der Ferne", „Das X, eingelöst") — Wortlaut im
 Nachtrag der Szenen-Outline.
 
+### Nachtrag — der Hund und das Kino (01.08.2026)
+
+Zwei Szenen auf Ansage des Autors, vom Co-Autor
+ausgearbeitet und in die Fountain-Fassung eingezogen (DE
+und EN); Einzelheiten und Lasten: `szenen-v1.md`, Nachtrag
+vom 01.08.:
+
+- **30b „Das Kino"** (nach dem Lachen) — die Anschlagtafel
+  als Auslöser im Gehen; Schraublöcher statt Sitzreihen,
+  der heile Projektor ohne Filme, „Ich war vier";
+  nüchternes Ende (Schattenspiel verworfen).
+- **44b „Bleib"** (nach „Weg wie weg") — Anna folgt dem
+  Hund in eine X-Straße (Setzung: die leergegessenen,
+  einsturzgefährdeten Straßen); der Balkon stürzt, Anna
+  glaubt den Hund tot — wir sehen, was sie nicht sieht:
+  Er gräbt sich aus und läuft ihr nicht nach. Entscheidung
+  des Autors: Das Schlussbild bleibt und ist damit das
+  eingelöste Hoffnungszeichen; der Streit (57a) bleibt
+  wortgleich und trägt die Schuld als Subtext. „Der Hund,
+  aus der Ferne" (27.07.) ist darin aufgegangen.
+
+Beim Einbau in der EN-Fassung nachgezogen: Das Ende von
+44a („Weg wie weg") ist auf den Stand der Beat-Runde des
+Autors gekürzt — die Szene endet jetzt auch in EN auf
+„Gone as in never seen again."
+
+### Nachtrag — Kommentar-Runde Waschhaus & Wege (01.08.2026)
+
+Fünf neue Beat-Kommentare des Autors; vier am 01.08.
+abgearbeitet, einer zurückgestellt (Einzelheiten:
+`szenen-v1.md`, gleichnamiger Nachtrag; DE und EN
+nachgezogen):
+
+- **23** — neuer Außen-Einstieg (das Haus, das atmet;
+  Anna kommt als Trägerin hinein) und innen der
+  detektivische Entschluss: schauen → Lappen und Schüssel
+  → mitwaschen. Die System-Exposition aus 34 ist hierher
+  gewandert — das Waschhaus ist die Geburtsstunde der
+  Methode.
+- **34** — auf Alltag gestrafft (Rückkehr statt
+  Einführung); Sterbezimmer und Ess-Ökonomie bleiben.
+- **28a geteilt → neu 28b „Bis zur Tür"** — die
+  Verfolgung als eigene Szene, mit Jakobs Gang-Wandel
+  und den dichter hängenden Türzeichen als neuen Beats.
+- **Zurückgestellt:** die zusätzliche Szene am Ende von
+  Sequenz 6 — drei Optionen vorgelegt („Die leere Seite",
+  „Jakob vor der Tür", die drei an einem Tisch);
+  Entscheidung des Autors: erstmal keine neue Szene, der
+  Marker bleibt in der Datei.
+
+### Nachtrag — Beat-Runde des Autors (01.08.2026, abends)
+
+Umstellungen des Autors (gelten als Abarbeitung; EN
+nachgezogen, Einzelheiten: `szenen-v1.md`, gleichnamiger
+Nachtrag):
+
+- **30b („Das Kino") ans Ende von Sequenz 6** (nach dem
+  Souffleur) — der Marker „Hier brauchen wir noch eine
+  Szene" ist damit vom Autor selbst eingelöst; dazu
+  Dialog-Neufassung („Ich habe keine Ahnung wovon du
+  sprichst." / „Muss toll gewesen sein, damals." als
+  Schlusssatz der Sequenz).
+- **25 („Der Preis") in 24 („Der Zoll") aufgegangen** —
+  der Inhalt läuft ohne eigene Kopfzeile in der
+  Zoll-Szene weiter.
+- **26b („Der Brunnen") gestrafft** — Erklär-Passage,
+  „Spalte für später" und Gläubiger-Satz gestrichen.
+
+### Nachtrag — Die Objekt-Kette (01.08.2026, nachts)
+
+Der Marker an 27 („Erst das Schloss, dann der Tacho …")
+ist abgearbeitet (Freigabe des Autors; DE und EN
+nachgezogen, Einzelheiten: `szenen-v1.md`): Die geflickte
+Sohle als unbezahlte Reparatur begründet Annas ersten
+Besuch (Vorwand Schloss, Zoll-Beat mit der
+zurückgeschobenen halben Taube), der Tacho ist als Annas
+Prüfung gesetzt („Diesmal kein Vorwand — eine Prüfung"),
+das Fernglas bleibt unverändert die dritte Stufe. Dazu
+Ruths Spruch in 30a entschieden (Wahl des Autors aus
+drei Kandidaten, Fassung auf beider Kosten): „Ihr seid
+mir zwei. Der eine räumt auf, die andere bewacht meine
+Tür. (Pause) Und unterhaltet euch nicht so wild — ich
+brauch meinen Schlaf." — DE und EN eingesetzt, Marker
+entfernt. Offen aus den Autor-Markern ist damit nur
+noch die Neufassung von 52 („Sätze nebeneinander").
+
+### Nachtrag — Der Morgen unten & die Kirche (02.08.2026)
+
+Beat-Kommentar des Autors abgearbeitet (zwei Szenen-Ideen;
+DE und EN nachgezogen, Einzelheiten: `szenen-v1.md`):
+
+- **Neu 21a „Der Morgen unten"** — Aufwachen im Ekel;
+  und das Schlimmere: Sie hat nichts gehört. Begründet
+  „Hoch schlafen" (22, vom Autor auf ABEND gelegt).
+- **Neu 21b „Das Fahrrad auf dem Altar"** — die leere
+  Kirche, das ausgeweidete Fahrrad, der Tacho samt
+  Welle: Sie will den Draht und kriegt das Gehäuse
+  nicht auf. Der Tacho hat damit eine Herkunft.
+- **28 angepasst** — die benannte Prüfung weicht der
+  Herkunft („Das war der ganze Plan."); die Prüfung
+  passiert unbenannt im Verhalten.
+
+### Nachtrag — Kisten vom Himmel & Beat-Runde (03.08.2026)
+
+Auf Wunsch des Autors eine Drops-Szene in der Stadt
+(Einzelheiten: `szenen-v1.md`, gleichnamiger Nachtrag):
+
+- **Neu 35b „Kisten vom Himmel"** (zwischen dem zweiten
+  Schuh und JAH ERK) — die Drops der freien Stadt als
+  Gegenstück zur Heim-Szene; Tagesbogen mit JAH ERK und
+  der Ernte (Almosen von oben, der Handel durchs Loch);
+  die X-Passage mit dem alten Gezeichneten als Vorbau
+  für „Bleib".
+
+Dazu die Beat-Runde des Autors in der EN-Fassung
+nachgezogen: Straffungen in Sequenz 1/2, „Die Sechzehn"
+konkreter, „Der Nagel" an der Heim-Verwaltung, der
+versteckte Hund vor dem Waschhaus samt neuer
+Abend-Miniszene (23b).
+
 *21.07.2026 — der Co-Autor*

@@ -565,6 +565,17 @@ Begründung.
     das Drehbuch nie gelesen hat? (Aus der Werkstatt-Runde
     vom 24.07.2026 — die Frage des Autors „Warum braucht
     es diese Szene überhaupt" an Szene 49.)
+15. **Nähe läuft über Dinge.** Niemand in dieser Welt
+    spricht über Gefühle; Zuwendung ist Reparatur, Gabe,
+    geteilte Beute — und Beziehung beginnt als Rechnung,
+    die nicht aufgeht. Die geflickte Sohle ist eine
+    unbezahlte Arbeit, die Anna zu Jakob treibt; die
+    Objekt-Kette Schloss → Tacho → Fernglas ist Vorwand →
+    Prüfung → Wahrheit; die ganze Taube auf den Steinen
+    ist eine letzte Rate. Was sich nicht verrechnen
+    lässt, ist das, was dieser Film Liebe nennt — ohne
+    das Wort zu benutzen. (Aus den Werkstatt-Runden
+    27.07.–01.08.2026: Brunnen, „Bleib", Objekt-Kette.)
 
 ---
 
@@ -778,6 +789,32 @@ die Punkte, Stand heute. Entscheidungen trifft der Autor.
     Verbindung der Familien läuft jetzt über Bilder — die
     Lach-Kette und das Klassenraum-Schaubild. Prinzip 14,
     vom Autor angewandt am Tag seiner Formulierung.
+
+21. **Stadt-Runden (27.07.–01.08.2026):** Sechs neue
+    Szenen auf Ansage und Wunsch des Autors — vier
+    Stadt-Szenen (Trommelkammer, Brunnen, Der zweite
+    Schuh, Der Tisch am Morgen danach: die Destillerie
+    sammelt Bedeutung über drei Sequenzen, die zweite
+    Ökonomie der Stadt, die fehlenden Jahrgänge als
+    begehbarer Raum, das Erbrecht der Läufer), dazu
+    „Bleib" (Anna glaubt den Hund tot, wir wissen es
+    besser — das Schlussbild wird zum eingelösten
+    Hoffnungszeichen; Setzung: X-Straßen = die
+    leergegessenen Straßen) und „Das Kino"
+    (Kulturlosigkeit als Ort; vom Autor ans Ende von
+    Sequenz 6 gezogen, wo es die Trauer-Sequenz schließt
+    — sein eigener „Hier brauchen wir noch eine
+    Szene"-Marker, selbst eingelöst). Kommentar-Runden
+    abgearbeitet: das Waschhaus als Geburtsstunde von
+    Annas Methode, die Verfolgung als eigene Szene
+    („Bis zur Tür"), „Der Preis" im „Zoll" aufgegangen,
+    die Objekt-Kette begründet (→ Prinzip 15), Ruths
+    Spruch neu (Wahl des Autors: auf beider Kosten).
+    Verbliebener Autor-Marker im Drehbuchtext: nur noch
+    die Neufassung von 52. Werkstatt-Befund nebenbei:
+    Die EN-Fassung driftet nach jeder Beat-Runde des
+    Autors — der DE↔EN-Abgleich gehört seither fest zu
+    jeder Abarbeitung.
 
 ---
 
