@@ -2856,4 +2856,24 @@ konkreter, „Der Nagel" an der Heim-Verwaltung, der
 versteckte Hund vor dem Waschhaus samt neuer
 Abend-Miniszene (23b).
 
+### Nachtrag — Räumungs-Runde des Autors (03.08.2026, abends)
+
+Der Autor hat die Fassung aufgeräumt (Einzelheiten:
+`szenen-v1.md`): alle Werkstatt-Notes aus dem Text
+entfernt (bis auf die vermutlich übersehene an 26b),
+35b auf die Konserven-Jagd gestrafft (die X-Passage
+entfällt wieder), der Tacho-Kopf weiter gekürzt, und
+der Marker an 52 ist entfernt — **damit steht kein
+offener Autor-Marker mehr im Drehbuchtext.** EN
+gespiegelt (Notes-Räumung und alle Straffungen).
+
+### Nachtrag — Die gerechte Ausgabe (04.08.2026)
+
+**35b („Kisten vom Himmel") neu gefasst** auf Ansage des
+Autors: Die Gang verteilt die Drops gerecht, der
+Anführer dirigiert mit dem Kinn und ermahnt einen
+Kleinen, der eine Konserve einsteckt („Zurück."). Die
+Zoll-Logik gilt am Markt, nicht am Himmelsgut. DE und
+EN (Einzelheiten: `szenen-v1.md`).
+
 *21.07.2026 — der Co-Autor*

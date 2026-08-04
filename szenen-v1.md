@@ -1646,6 +1646,57 @@ EN-Abgleich der Werkstatt):
   kommt heraus, er geht neben ihr — Miniszene des
   Autors. Alles in der EN-Fassung nachgezogen.
 
+## Nachtrag — Räumungs-Runde des Autors (03.08.2026, abends)
+
+Der Autor hat die Fountain-Fassung aufgeräumt (gilt als
+Abarbeitung; EN gespiegelt):
+
+- **Werkstatt-Notes entfernt** — alle `[[NEU …]]`-Notes
+  und Anmerkungen sind aus dem Drehbuchtext heraus (die
+  Inhalte bleiben in dieser Outline dokumentiert);
+  stehen geblieben sind Kopf- und Fußnote sowie —
+  vermutlich übersehen — die Note zu 26b am Brunnen.
+- **35b („Kisten vom Himmel") gestrafft** — die Szene
+  endet jetzt bei den rollenden Konserven; gestrichen:
+  die Publikums-Beats, Annas Position am flachen Ende
+  und die komplette X-Gassen-Passage mit dem Alten.
+  Damit ist „Das X, eingelöst" wieder unverbaut, und
+  „Bleib" (44b) steht ohne Vorbau — das X trägt dort
+  weiterhin allein (die Regel aus 18 genügt).
+- **28 („Der Tacho")** — Kopf weiter gekürzt: nur noch
+  „der Tacho aus der Kirche — das Ding, aus dem Anna
+  den Draht nicht herausbekam."
+- **52 („Sätze nebeneinander")** — der Marker
+  („Gefällt mir irgendwie noch nicht") ist entfernt;
+  Textstand des Autors: „Und die Sätze kommen
+  wiederholend." **Damit steht kein offener
+  Autor-Marker mehr im Drehbuchtext.**
+- Kleinere Straffungen (u. a. „Ich habe Tee": das
+  „— versteht sich —" ist raus).
+
+## Nachtrag — Die gerechte Ausgabe (04.08.2026)
+
+**35b („Kisten vom Himmel") neu gefasst** auf Ansage des
+Autors („Die Stadt ist geprägt vom respektvollen
+Umgang"): Die Gang verteilt die Drops **gerecht** — aus
+dem Durcheinander wird eine Ausgabe, aus dem Rennen eine
+Reihe; der **Anführer als Dirigent** („dirigiert mit dem
+Kinn"). Neuer Beat: Ein Kleiner lässt eine wegrollende
+Konserve in der Jacke verschwinden; der Anführer, ohne
+die Stimme zu heben: „Zurück." — „Es ist keine Strafe.
+Es ist eine Erinnerung." Für die Gezeichneten ist
+beiseitegestellt; Anna bekommt ihren Anteil von
+denselben Jungen, die ihr am Zoll den Hund abgenommen
+haben.
+*Setzung:* Die Zoll-Logik gilt am Markt (beim Eigenen
+der Gang), nicht am Himmelsgut — „Was der Himmel wirft,
+gehört erst allen." Die Ausgabe reiht sich in die
+Respekt-Ökonomie der Stadt ein (Vortritt am Brunnen,
+Erbrecht am Läufer-Tisch, niemand nimmt zwei); der
+Anführer wächst als Ordnungsfigur (zahlt auf „Schneiden,
+nicht reißen" und die Mützen bei der Beerdigung ein).
+DE und EN.
+
 Die Pointe verspottet das gemeinsame Schweigen der
 beiden; die Auftakt-Zeile der Szene (Jakob sucht das
 Werkzeug, das er selbst aufgeräumt hat) arbeitet weiter,
