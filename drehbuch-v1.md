@@ -2876,4 +2876,128 @@ Kleinen, der eine Konserve einsteckt („Zurück."). Die
 Zoll-Logik gilt am Markt, nicht am Himmelsgut. DE und
 EN (Einzelheiten: `szenen-v1.md`).
 
+### Nachtrag — Neue Sequenz-Einteilung (04.08.2026)
+
+Einteilung geprüft, Längenangaben neu berechnet (geeicht
+an der ~91-minütigen Lesefassung; Einzelheiten und
+Tabelle: `szenen-v1.md`). Umzüge des Autors gespiegelt:
+35a/35b in Sequenz 4 (zwischen Reparierer und Tacho),
+Kino nach „Weg wie weg", „Bleib" beschließt Sequenz 6.
+Neue Längen: 3 · 11 · 15 · 15 · 10 · 16 · 12 · 9
+(Summe ~91). Titel unverändert bis auf eine Entscheidung des
+Autors (04.08.): **Sequenz 6 heißt jetzt „Die guten
+Tage"** (EN: „The Good Days").
+
+### Nachtrag — DE↔EN-Vollabgleich (04.08.2026)
+
+Beide Fassungen Szene für Szene verglichen (Bitte des
+Autors); ~90 Abweichungen in der EN-Fassung behoben —
+Beat-Runden nachgezogen, freie Anlieferungs-Zutaten
+entfernt, Notes gespiegelt. Ergebnis: 93/93 Blöcke
+deckungsgleich. Zwei offene Anmerkungen an den Autor
+(Imitations-Alter vs. Kohorten-Setzung;
+Szenenverweis im Beerdigungs-Text) — Einzelheiten:
+`szenen-v1.md`, gleichnamiger Nachtrag.
+
+### Nachtrag — Das Waschhaus ausgemalt (05.08.2026)
+
+**23 („Das Archiv des Nicht-Findens") ausgebaut** auf
+Ansage des Autors (Einzelheiten: `szenen-v1.md`,
+gleichnamiger Nachtrag): der Feuerraum mit dem einzigen
+Tagfeuer der Stadt („Heißes Wasser gibt es in dieser
+Stadt genau hier. Nirgendwo sonst."), zwei Männer mit
+dem Bottich; verhüllt sind manche, nicht alle; die
+FREIWILLIGEN waschen die Schwachen — ihr erster
+Auftritt, mit der Sequenz-8-Formel („niemand teilt sie
+ein, sie kommen von selbst"); Anna wäscht Menschen
+statt Wäsche, dazu die erste Nahaufnahme eines Mals
+(„Es geht nicht ab"). Neue Setzung: das heiße Wasser
+gehört zuerst den Schwachen. Dazu, gleiche Sitzung:
+das SCHUH-REGAL neben der Tür („Niemand bewacht es" —
+Echo auf den Tisch der Läufer), Anna barfuß hinein,
+die Hand einen Moment am rechten Schuh — die stille
+Möglichkeit, wie Jakob später die Sohle flickt; die
+Entdeckung („Wir auch nicht.") bleibt unangetastet.
+Der Szenenkopf ist geteilt (Ansage des Autors): AUSSEN.
+WASCHHAUS — TAG und INNEN. WASCHHAUS — TAG, das
+`INNEN:`-Präfix im Actiontext entfällt.
+DE und EN nachgezogen.
+
+### Nachtrag — Jakobs Platz (07.08.2026)
+
+Frage des Autors („Wo steht Jakobs Bett in der
+Wohnung?") — Befund: Es gab keins. Ruth hat das Bett am
+Fenster, das Feldbett gehört dem Abwesenden, Anna liegt
+auf der Decke bei der Tür. Gesetzt in „Das Feldbett"
+(Ansage des Autors: Decke und Kissen): Neben dem glatt
+gespannten Feldbett, am Boden, eine gefaltete Decke mit
+Kissen obenauf — Jakobs Platz, eine Handbreit neben dem
+leeren Bett des Vaters. DE und EN eingesetzt. (Der
+EN-Abgleich der Autor-Runde 05.–07.08. ist am 07.08.
+erfolgt — siehe unten.)
+
+### Nachtrag — Der Blechbecher & die Routine (07.08.2026)
+
+Beide Vorschläge vom Autor freigegeben und eingesetzt
+(Einzelheiten: `szenen-v1.md`, gleichnamiger Nachtrag):
+Im „Zoll" hebt am Rand des Platzes einer über einer
+Falle den Kopf, als Anna den Hund zahlt — Jakobs erstes
+Hinsehen, noch ohne Namen. Auf dem Weg hinaus tauscht
+Anna ihr halbes Brot gegen einen BLECHBECHER (Spiegel
+des Heim-Tauschs; der Becher tritt in die Objekt-Kette:
+am Brunnen in ihrer Hand, in den Sterbezimmern ihr
+Werkzeug). Nach dem Brunnen eine neue Mini-Szene
+AUSSEN. WASCHHAUS — TAG: die Schuhe ins Regal „mit dem
+Griff einer Gewohnheit" — die Routine ist sichtbar, und
+die Sohlen-Mechanik dieses Tages schließt sich, ohne
+dass der Film sie ausspricht. DE und EN eingesetzt.
+
+### Nachtrag — EN-Abgleich der Autor-Runde (07.08.2026)
+
+Die Feinschnitte des Autors vom 05.–07.08. in die
+EN-Fassung übertragen (isoliert per Git-Diff gegen den
+Stand vom 04.08.; Einzelheiten: `szenen-v1.md`,
+gleichnamiger Nachtrag): 17 Kürzungen und Umformulie-
+rungen gespiegelt — u. a. entfallene Erzähler-Nachsätze
+(„Hunderte.", „Wir wissen, wessen Hand.", „Natürlich
+sind sie verheizt.", der Werkbank-Satz nach „Kein
+Preis.", „Der einzige Befehl …"), der Anführer ohne
+Autoritäts-Nachsatz (die Formel lebt in der Szenen-
+Outline weiter), der Anführer holt seine Falle jetzt
+selbst, Dialog-Änderungen im Zucker-Gespräch („Und wenn
+sie Dich erwischt hätten?" / „Nicht mich.") und Jakobs
+„Wie gewartet. Bis jemand es liest?", dazu Detail-
+Änderungen (Hund folgt in die Kirche, eingeworfene
+Fenster, Flugblatt rutscht heraus, Diele ohne Werkzeug-
+Satz). Ergebnis: **95/95 Blöcke deckungsgleich, alle
+Absatzzahlen identisch** (geprüft per Skript). Beide
+PDFs neu gesetzt (Stand 7. August).
+
+### Nachtrag — EN-Abgleich der Jakob-Runde (08.08.2026)
+
+Die Autor-Runde vom 08.08. („Jakob bekommt Augen") in
+die EN-Fassung übertragen (Einzelheiten: `szenen-v1.md`,
+gleichnamiger Nachtrag): der Blickwechsel an der Falle
+statt des Wegsehens, der Zoll aus Jakobs Blick, Annas
+Becher-Geste am Brunnen, das Fass am Stand, der
+respektvolle Anführer-Nick, Vogelnest und Messstriche im
+Kinderschuh-Haus, der neue Tacho-Abgang (Kopfschütteln,
+Tacho in der Luft, „Jakob wirkt gelöst"), der Dialog im
+Halben Ding („Wo willst du hin?" / „Muss los."), dazu
+die Schnitte (u. a. „Kein Preis.", Werkzeug-Vergleich
+beim Hund, Kirchen-Frage). Ergebnis: **95/95 Blöcke,
+alle Absatzzahlen DE = EN**; PDFs neu gesetzt (Stand
+8. August). Die DE-Lesefassung (07.08.) ist wieder eine
+Runde hinter dem Text.
+
+### Nachtrag — „Die Alten sagen" (08.08.2026)
+
+Befund des Autors: Jakobs „Mein Vater sagt …" nach dem
+ersten Lauf verrät den versteckten Vater (Kollision mit
+Annas „Versteckt hattest du deinen Vater."). Neu: **„Die
+Alten sagen, es ist wie Feiertag. Nur ehrlicher."** —
+die Actionzeile mit dem geerbten Witz bleibt. Ein
+Lenz-Echo beim Zug wurde erwogen und verworfen.
+DE und EN (Einzelheiten: `szenen-v1.md`).
+
 *21.07.2026 — der Co-Autor*

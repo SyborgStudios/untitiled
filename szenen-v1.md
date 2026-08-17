@@ -1697,6 +1697,99 @@ Anführer wächst als Ordnungsfigur (zahlt auf „Schneiden,
 nicht reißen" und die Mützen bei der Beerdigung ein).
 DE und EN.
 
+## Nachtrag — Neue Sequenz-Einteilung (04.08.2026)
+
+Auf Ansage des Autors („wir haben jetzt alles") die
+Einteilung geprüft und die Längenangaben neu berechnet —
+geeicht an der Lesefassung (~70k Sprechtext-Zeichen ≈
+91 Minuten). Vorher zwei Umzüge des Autors in Beat
+nachvollzogen und in der EN-Fassung gespiegelt:
+
+- **35a („Der zweite Schuh") und 35b („Kisten vom
+  Himmel") in Sequenz 4 gewandert** — zwischen den
+  Reparierer (27) und den Tacho (28): Sie füllen jetzt
+  die Tage zwischen Auftrag und Rückgabe; Sequenz 5
+  wird schlanker und reiner Ermittlung/Ernte/Lauf.
+- **Kino und „Bleib" getauscht** — das Kino (30b) steht
+  nun nach „Weg wie weg" (noch zu Ruths Lebzeiten),
+  **„Bleib" (44b) beschließt Sequenz 6**: Die
+  Verlust-Sequenz endet auf dem Bild des überlebenden
+  Hundes — dem Hoffnungszeichen, das nur wir sehen —
+  direkt vor „Das Kind der Lüge".
+
+**Die neue Einteilung** (Titel unverändert; Lesezeit,
+auf ~90 Minuten geeicht; Sequenz 1 und 8 mit leichtem
+Spielzeit-Aufschlag, weil Atmosphäre dort länger trägt
+als Text):
+
+| Sequenz | Titel | Szenen | Länge |
+|---|---|---|---|
+| 1 | Die Nacht (Pretitle) | 1 | ~3 min |
+| 2 | Das Heim | 15 | ~11 min |
+| 3 | Die Stadt | 14 | ~15 min |
+| 4 | Der Junge | 12 | ~15 min |
+| 5 | Die Lüge der Stadt | 9 | ~10 min |
+| 6 | Der Aussichtsort | 13 | ~16 min |
+| 7 | Das Kind der Lüge | 12 | ~12 min |
+| 8 | Der Lauf | 7 | ~9 min |
+
+Summe ~91 Minuten. Befund: Die Mitte trägt zwei große
+Blöcke (Stadt 15, Junge 15), Sequenz 5 ist bewusst der
+schlanke Ermittlungs-Zug dazwischen, Sequenz 6 der
+schwerste Block (die Verluste), danach beschleunigt der
+Film (12 → 9) auf den Lauf zu. Die alten ~-Angaben in
+den Kopfzeilen dieser Outline (Abschnitt I) sind damit
+historisch. DE- und EN-Kopfzeilen tragen die neuen
+Minuten.
+
+**Entschieden (04.08.2026):** Sequenz 6 heißt jetzt
+**„Die guten Tage"** (EN: „The Good Days") —
+Entscheidung des Autors auf Vorschlag der Werkstatt;
+„Der Aussichtsort" deckte nur noch den Auftakt. Der
+Titel meint beides zugleich: die wärmsten Szenen des
+Films und die Tage, die enden, während wir zusehen.
+
+## Nachtrag — DE↔EN-Vollabgleich (04.08.2026)
+
+Auf Bitte des Autors beide Fassungen Szene für Szene
+verglichen; ~90 Abweichungen in der EN-Fassung behoben.
+Ergebnis: 93/93 Szenenblöcke deckungsgleich, keine
+auffälligen Längenverhältnisse mehr, Notes gespiegelt
+(nur Kopf- und Fußnote bleiben). Drei Kategorien:
+
+1. **Beat-Runden des Autors nachgezogen** — u. a.: die
+   Neufassung der Rechnung (Erzieherin kommt mit dem
+   Zettel, „Immer hundertfünfzig"); die neue
+   Kirchen-Außenszene und der Hund in Kirche und Morgen
+   unten („mit ner Ratte im Maul"); der Ernte-Tausch
+   bringt jetzt **Schokolade, Schnaps und Zigaretten**
+   (Annas Anteil: eine Schokolade — und Lenz' Flasche
+   ist Schnaps: der Kreis schließt sich); „Zehn Jahre"
+   Kondensmilch; die gestraffte „Bleib"-Fassung (das
+   Ausgraben des Hundes ist gestrichen — **die
+   Auflösung liegt jetzt allein im Schlussbild**); die
+   erweiterte Tee-Szene (Bleistift wohnt im Archiv,
+   „Hallo Anna", „Ich koche immer für 2"); „Lorenz
+   Kessler" als volle Nennung im Streit; Straffungen in
+   gut zwanzig weiteren Szenen.
+2. **EN-Zutaten entfernt, die nie im Deutschen standen**
+   (Anlieferungs-Übersetzung war stellenweise freier):
+   „The curse sits", „He takes note", „That is the
+   terrible thing", die erfundene Jakob-Zeile „I'll do
+   it" bei „Anton. Das Fenster.", diverse
+   Parentheticals und Erzähler-Nachsätze.
+3. **Werkstatt-Marker beim Abgleich notiert** (offen an
+   den Autor): Die Kleinen der Imitation sind jetzt
+   **3, 7, 10, 12 und 12** — das steht in Spannung zur
+   Kohorten-Setzung (Schlafsaal: „alle etwa gleich
+   alt … die Jahrgänge davor und danach vergessen";
+   Weltlogik: immun nur die im Mutterleib Geschützten,
+   danach „kaum Nachwuchs"). Und in der Beerdigung
+   steht ein Szenenverweis im Actiontext („der Karren
+   aus Szene 29 „Der Reparierer""), EN wörtlich
+   gespiegelt — Vorschlag: „der Karren aus der
+   Werkstatt-Ecke".
+
 Die Pointe verspottet das gemeinsame Schweigen der
 beiden; die Auftakt-Zeile der Szene (Jakob sucht das
 Werkzeug, das er selbst aufgeräumt hat) arbeitet weiter,
@@ -1705,3 +1798,231 @@ das lädt ihr „Anna, lass dich ansehen" direkt danach.
 EN nachgezogen. **Verbliebener Autor-Marker im
 Drehbuchtext: nur noch die Neufassung von 52 („Sätze
 nebeneinander").**
+
+## Nachtrag — Das Waschhaus ausgemalt (05.08.2026)
+
+**23 („Das Archiv des Nicht-Findens") ausgebaut** auf
+Ansage des Autors (die Schwachen werden von Freiwilligen
+gewaschen; verhüllt sind manche, nicht alle; heißes
+Wasser gibt es nur hier und wird mit Feuer gemacht; zwei
+kommen mit einem Bottich herein):
+
+- **Das Feuer:** hinter einer niedrigen Tür der
+  FEUERRAUM — geschwärzter Kessel, das einzige Feuer der
+  Stadt, das am Tag brennen darf; es frisst Hausholz
+  (Anschluss an die verheizte Kirche). „Heißes Wasser
+  gibt es in dieser Stadt genau hier. Nirgendwo sonst."
+  Zwei Männer tragen den Bottich an Stangen herein und
+  gießen nach, jedem ein Maß.
+- **Verhüllt, aber nicht alle:** die Gezeichneten
+  waschen, „was ein Ärmel freigibt"; andere haben
+  abgelegt — bloße Arme, bloße Rücken, Haut im Dampf.
+  Bedeckt bleiben ist möglich und unauffällig; „Niemand
+  sieht hin" hält die Eskalation zu Sequenz 8 intakt
+  (dort ist der Hof der einzige Ort, an dem es nichts
+  bedeutet) und baut still vor, dass einer wie Lenz die
+  Ärmel zulassen kann.
+- **Die Freiwilligen zum ersten Mal:** Sie waschen die
+  Schwachen (eine Alte, ein Mann, dünn wie sein Stock) —
+  „niemand teilt sie ein, sie kommen von selbst" fällt
+  hier zum ersten Mal und in der Waschung (Sequenz 8)
+  wieder: das Waschhaus als erste Stufe des Systems
+  (Alltag → Sterbezimmer 34 → Waschung). Neue kleine
+  Setzung, mit dem Einbau freigegeben: **„Das heiße
+  Wasser gehört zuerst den Schwachen; auch das erklärt
+  niemand."**
+- **Annas Methode konkreter:** Sie kniet zwischen den
+  Freiwilligen und wäscht Menschen statt Wäsche (eine
+  Hand, einen Arm, einen Rücken); dazu die erste
+  Nahaufnahme eines Mals im Film („Es geht nicht ab") —
+  bewusst ohne jede Beschreibung, das Vergleichs-Verbot
+  (Prinzip 6/7) bleibt gewahrt. Der Schluss („Nur auf
+  Unterarme. Der Reihe nach, Zuber um Zuber.") steht
+  unverändert.
+- **Das Schuh-Regal (Nachtrag, gleiche Sitzung):** Neben
+  der Tür ein grob gezimmertes REGAL voller Schuhe, Paar
+  neben Paar — „Niemand bewacht es" (Echo auf den Tisch
+  der Läufer, Sequenz 8). Anna stellt ihre dazu, die Hand
+  einen Moment am rechten mit der losen Sohle, und geht
+  barfuß hinein. Funktion (Ansage des Autors): das Regal
+  als stille Möglichkeit, wie Jakob später die Sohle
+  flicken kann, ohne dass sie es merkt — die Entdeckung
+  („Sie weiß nicht, wann es passiert ist. Wir auch
+  nicht.") bleibt unangetastet; da Annas Waschhaus-Arbeit
+  als Routine erzählt ist, trägt die Mechanik jeden
+  späteren Tag.
+
+Dazu der Szenenkopf geteilt (Ansage des Autors, gleiche
+Sitzung): aus `.AUSSEN./INNEN. WASCHHAUS — TAG` werden
+**AUSSEN. WASCHHAUS — TAG** (das atmende Haus, der Hund,
+das Schuh-Regal, barfuß hinein) und **INNEN. WASCHHAUS —
+TAG** (der Raum aus Dampf, Feuerraum, Bottich, die
+Freiwilligen, Annas Waschen); das `INNEN:`-Präfix im
+Actiontext entfällt, die Synopse bleibt am AUSSEN-Kopf.
+
+DE und EN nachgezogen; die EN-Echos laufen über die
+Sequenz-8-Formeln („nobody assigns them, they come of
+their own accord"; „kettle", „people washing people",
+„Nobody guards it").
+
+## Nachtrag — Jakobs Platz (07.08.2026)
+
+Frage des Autors: „Wo steht Jakobs Bett in der Wohnung?"
+Befund: Es gab keins — Ruth hat das Bett am Fenster, das
+Feldbett gehört dem Abwesenden (glatt gespannt; später
+liegt Lenz darauf), Anna schläft auf der Decke bei der
+Tür. Jakob hatte keinen Platz im Text. Gesetzt auf
+Ansage des Autors (Decke und Kissen in der Ecke), in
+„Das Feldbett" in den Katalogisier-Absatz eingewoben:
+**neben dem Feldbett, am Boden, eine gefaltete Decke
+mit Kissen obenauf — Jakobs Platz, eine Handbreit neben
+dem leeren Bett.** Der Sohn schläft auf dem Boden neben
+dem gemachten Bett des Vaters; Annas „Katalogisiert es.
+Fragt nicht." deckt jetzt das ganze Arrangement. Die
+Nachtgeräusche hinter der dünnen Wand (Ahle, Zwirn)
+bleiben, was sie sind: Arbeit, nicht Schlaf. DE und EN.
+
+## Nachtrag — Der Blechbecher & die Routine (07.08.2026)
+
+Zwei Ideen des Autors, als Vorschläge ausgearbeitet und
+nach Freigabe eingesetzt:
+
+- **Der Blechbecher vom Markt** (der Autor hatte in der
+  Brunnen-Szene die Kanne bereits zum Becher gemacht;
+  jetzt hat er eine Herkunft): Im „Zoll", nachdem Anna
+  den Hund gezahlt hat und zwischen den Ständen kleiner
+  wird, hält sie an einem Stand — Geschirr, geerntet aus
+  toten Häusern — und tauscht ihr halbes Brot gegen
+  einen BLECHBECHER mit verbeultem Rand. Der Händler ist
+  vierzehn, wie alle. Spiegel des Heim-Tauschs („Das
+  Brot wechselt den Besitzer"); der Becher tritt in die
+  Objekt-Kette (Schloss, Tacho, Fernglas) und ist am
+  Brunnen und später in den Sterbezimmern ihr Werkzeug.
+  Grammatik am Brunnen glattgezogen („ihren Blechbecher";
+  EN: „tin can" → „tin cup").
+- **Jakobs erstes Hinsehen** (Ansage des Autors: „da
+  schon ein Auge auf sie geworfen"): Beim Hund-Moment
+  ein einziger Beat — „Am Rand des Platzes hat einer,
+  der über eine Falle gebeugt saß, den Kopf gehoben.
+  Die Feder zwischen seinen Fingern steht still." Ohne
+  Namen, ohne Caps — die Vorstellung bleibt in „Die
+  geflickte Sohle" („Er sieht nicht Anna an … Er sieht
+  ihre Schuhe an." bekommt damit eine zweite Lesart:
+  Er sieht absichtlich nicht hin).
+- **Die Routine-Szene** (Wunsch des Autors: „Nach dem
+  Brunnen würde ich sie nochmal ins Waschhaus gehen
+  sehen wollen"): neue Mini-Szene AUSSEN. WASCHHAUS —
+  TAG zwischen Brunnen und Speicher-Abend, drei Zeilen,
+  ohne Innenteil — die Schuhe ins Regal „ohne
+  hinzusehen, mit dem Griff einer Gewohnheit". Damit
+  stehen die Schuhe an diesem Tag unbewacht im Regal,
+  Jakob hat sie am Rand des Reviers gerade angesehen,
+  und am Abend ist die Sohle geflickt — die Kette ist
+  komplett; „Wir auch nicht." bleibt wörtlich wahr.
+
+DE und EN eingesetzt (die EN-Einbauten an den Ankern der
+Abgleich-Fassung vom 04.08.; der Gesamt-Abgleich der
+Autor-Runde 05.–07.08. steht weiter aus).
+
+## Nachtrag — EN-Abgleich der Autor-Runde (07.08.2026)
+
+Auf Bitte des Autors die Feinschnitte seiner Runde vom
+05.–07.08. in die EN-Fassung übertragen. Methode: Der
+letzte Commit (04.08., 11:18) liegt vor dem Vollabgleich —
+der Git-Diff der DE-Datei dagegen isoliert exakt die
+Änderungen seither; meine bereits gespiegelten Einbauten
+(Waschhaus, Regal, Zoll, Becher, Routine, Jakobs Platz)
+wurden übersprungen, der Rest übertragen:
+
+- **Entfallene Nachsätze gespiegelt:** „Hunderte." (das
+  Heft), „die sie mit dem Werkzeug einer Geübten anhebt"
+  (die Diele), „mit der Autorität eines Mannes, der nie
+  einer werden wird" (der Anführer — die Formel lebt in
+  der Szenen-Outline weiter), „Der einzige Befehl, den
+  sie ihm je gegeben hat.", „statt umgekehrt" (die
+  Jacke), der Werkbank-Satz nach „Kein Preis.", „ihrem
+  Eigentum, sagt ihre Haltung", „und macht die
+  Umständlichkeit zu einer Selbstverständlichkeit",
+  „Natürlich sind sie verheizt." (das Kino), „Wir
+  wissen, wessen Hand." (die Beerdigung).
+- **Dialog-Änderungen:** Zucker-Gespräch „Und wenn sie
+  Dich erwischt hätten?" / „Nicht mich."; Jakobs „Wie
+  gewartet. Bis jemand es liest?" (statt „Du hast
+  gewartet, bis es ein anderer vorliest.").
+- **Detail-Änderungen:** Der Hund folgt Anna in die
+  Kirche; „eingeworfene, blinde Fenster"; das Flugblatt
+  rutscht aus dem Heft; „Der Anführer holt seine Falle
+  ab" (statt „ein anderer"); in „Der Morgen unten"
+  wandert „Der Hund ist weg." in die erste Zeile; der
+  manuelle Zeilenumbruch in der Erzieher-Rede
+  nachgezogen.
+
+Ergebnis (per Skript geprüft): **95/95 Blöcke, alle
+Absatzzahlen DE = EN.** Beide PDFs neu gesetzt (Stand
+7. August). Die Sequenz-Titel und -Längen waren in EN
+bereits aktuell (Vollabgleich 04.08.).
+
+## Nachtrag — EN-Abgleich der Jakob-Runde (08.08.2026)
+
+Neue Autor-Runde vom 08.08. in die EN-Fassung übertragen
+(Methode wie am Vortag: Diff-Vergleich gegen den letzten
+Commit, dazu Block-Paritätsprüfung — die auch stille
+Löschungen früherer Einbauten findet). Schwerpunkt der
+Runde: **Jakob bekommt Augen.** Die Änderungen:
+
+- **Der Zoll:** Der Falle-Beat heißt jetzt „ein Junge",
+  der Abgang läuft ausdrücklich „Aus dem Blick des
+  Jungen:", danach neu „Der Junge schaut ihr nach."
+- **Die geflickte Sohle, umgebaut:** Anna geht am Stand
+  des Jungen vorbei und sieht ihn an; die Blicke treffen
+  sich, er wendet sich ertappt ab („Er sieht nicht Anna
+  an" ist damit Geschichte); erst beim Vorbeigehen
+  schaut er auf ihre Schuhe.
+- **Der Brunnen:** Anna füllt den Becher und reicht den
+  Schöpfeimer an den ersten in der Reihe weiter — der
+  Becher arbeitet, die Geste öffnet die Reihe.
+- **Der Reparierer:** Anna setzt sich auf ein Fass an
+  seinem Stand (das „zweite Fass" im Halben Ding hat
+  damit sein erstes); der Anführer mustert und testet
+  seine Falle und nickt Jakob respektvoll zu; „Kein
+  Preis." und „Sie geht. Er sieht ihren Schuhen nach."
+  sind gestrichen — die Szene endet am zurückgeschobenen
+  Bündel.
+- **Der zweite Schuh:** Statt des rauchlosen Schornsteins
+  ein Vogelnest darauf; „Sie wechselt die Seite. Und geht
+  hinein."; das Kinderzimmer in zwei Absätze geteilt —
+  Anna geht den Messstrichen mit den Fingern nach.
+- **Der Tacho:** Neuer Auftakt „Anna kommt. Jakob
+  wartet."; die Imitation zollt dem Anführer jetzt
+  Respekt (statt des Taxierens); neuer Abgang: Anna
+  blickt zurück, schüttelt lächelnd den Kopf, hebt den
+  Tacho — „Jakob wirkt gelöst."
+- **Das halbe Ding:** Neuer Dialog („Wo willst du hin?" /
+  „Muss los."); „Der Junge hat eine Uhr im Körper."
+  (ohne „der nie von sich erzählt"); Anna folgt ihm nach
+  kurzem Überlegen.
+- **Kleinere Schnitte:** Die Kirchen-Frage („Wo kommen
+  die Erwachsenen zusammen?") entfällt; der Anführer
+  sieht den Hund an — ohne den Werkzeug-Vergleich;
+  „Anna kommt ‚Heim' und setzt sich" am Speicher-Abend.
+
+Ergebnis (per Skript geprüft): **95/95 Blöcke, alle
+Absatzzahlen DE = EN.** Beide PDFs neu gesetzt (Stand
+8. August). Die DE-Lesefassung (gebaut 07.08.) ist damit
+wieder eine Runde hinter dem Text.
+
+## Nachtrag — „Die Alten sagen" (08.08.2026)
+
+Befund des Autors zu „Nur ehrlicher" (Rückweg über die
+Dächer, nach dem ersten Lauf): Jakobs Zeile „Mein Vater
+sagt, es ist wie Feiertag. Nur ehrlicher." verrät den
+Vater, den Jakob zu diesem Zeitpunkt noch versteckt —
+und kollidiert wörtlich mit Annas Streit-Satz „…und
+hast keinen Ton gesagt. Versteckt hattest du deinen
+Vater." Entscheidung des Autors: Die Zuschreibung geht
+an die Stadt — **„Die Alten sagen, es ist wie Feiertag.
+Nur ehrlicher."** Die Actionzeile („wie einen Witz, den
+man geerbt hat und nicht ganz versteht") bleibt. Die
+geprüfte Alternative — der Satz kehrt beim Zug aus
+Lenz' Mund zurück (Plant-and-Payoff) — ist verworfen:
+kein Lenz-Echo. DE und EN eingesetzt.

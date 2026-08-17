@@ -33,7 +33,13 @@
     /* Seite 11 — 24.07.2026, Autor & Co-Autor (der erste Durchgang; Anlage: Drehbuch DE/EN, Stand 24.07.) */
     { file: "session-11.html", de: "Der erste Durchgang", en: "The first pass" },
     /* Seite 12 — 27.07.2026, der Autor (wie wir arbeiten; Anlagen: zwei Gesprächsprotokolle) */
-    { file: "session-12.html", de: "Wie wir arbeiten", en: "How we work" }
+    { file: "session-12.html", de: "Wie wir arbeiten", en: "How we work" },
+    /* Seite 13 — 04.08.2026, der Co-Autor (blaue Seite; Anlagen: Drehbuch-PDFs + Lesefassungen DE/EN) */
+    { file: "session-13.html", de: "Lesen & Hören", en: "Read & listen" },
+    /* Seite 14 — 11.08.2026, der Autor (die Bilanz; Anlagen: Werkstatt-Protokoll + Drehbuch-PDFs) */
+    { file: "session-14.html", de: "Was Claude kann", en: "What Claude can do" },
+    /* Seite 15 — 14.08.2026, der Autor (Strang 1; Anlage: Szenen-Outline „Die Felder"; neue Lesefassung im Player) */
+    { file: "session-15.html", de: "Der erste Strang", en: "The first strand" }
   ];
 
   var file = location.pathname.split("/").pop() || "index.html";

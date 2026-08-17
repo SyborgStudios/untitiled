@@ -300,7 +300,13 @@ in seinem erklärten Amt: als Advokat der schuldigsten Figur.
 **Getauft (15.07.2026):** Der Mitstreiter heißt **Lorenz,
 genannt „Lenz"**; der Politiker heißt **Jahn** (Vorname wartet
 bis zum Treatment). In älteren Dokumentteilen stehen noch die
-Arbeitstitel.
+Arbeitstitel. **Nachtrag 13.08.2026:** Der Vorname ist
+getauft — **Paul** Jahn (entschieden am Treatment des Strangs 1,
+`strang-1/treatment-v1.md`, Flag S6; im Film der ersten Fassung
+fällt der Vorname weiterhin nirgends). **Nachtrag 14.08.2026:**
+Der Mitstreiter hat im Drehbuch einen Nachnamen — die
+Kreideliste der Läufer: **LORENZ KESSLER** (Fixpunkt;
+`strang-1/fixpunkte.md`, Punkt 5).
 
 ### I. Die Freundschaft — das Scharnier
 

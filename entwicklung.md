@@ -5,15 +5,17 @@ werden (kein Spoiler-Schutz). **Gesetzt** ist, was der Autor
 entschieden hat; alles mit **[Vorschlag]** ist Angebot des Co-Autors
 und wartet auf Entscheidung.
 
-Stand: 21.07.2026 (Der Autor schreibt die erste Fassung nach
-seinem Dafürhalten um — Arbeitskopie `Untitled.fountain` in
-Beat; danach werden Treatment und Outline angepasst, dann wird
-Strang 1 eingewoben. Neu aufgeworfen: die Formfrage
-Animationsfilm (offene Frage 7). Seite 10 ist online (erste
-Fassung + Hörspiele DE/EN). 20.07.: Station 7 geliefert —
-`drehbuch-v1.md`; Tonproben abgearbeitet, Ton bestätigt,
-Prinzip 13; alle Flags a–u entschieden. 18.07.: Station 6
-vorgezogen, `szenen-v1.md`)
+Stand: 05.08.2026 (Neue Ansage des Autors: **Strang 1 wird als
+eigene Geschichte separat entwickelt** — eigene Werkstatt in
+`strang-1/`, ausdrücklich **nicht** für die aktuelle
+Drehbuchfassung; erst der fertig entwickelte Strang wird in
+einem neuen Buch mit der ersten Fassung verwoben. Ersetzt die
+Ansage vom 21.07., Strang 1 in die Outline einzuweben. Weiter
+gilt: Der Drehbuchtext lebt in `Untitled.fountain`; die
+Formfrage Animationsfilm (offene Frage 7) bleibt offen.
+20.07.: Station 7 geliefert — `drehbuch-v1.md`; Tonproben
+abgearbeitet, Ton bestätigt, Prinzip 13; alle Flags a–u
+entschieden. 18.07.: Station 6 vorgezogen, `szenen-v1.md`)
 
 ---
 
@@ -32,7 +34,17 @@ vorgezogen, `szenen-v1.md`)
    hochgezogen; der Politiker war Skeptiker und musste sich beugen
    (Celtx 11), sein Name steht auf dem Werk. Der Magnat hat den Unfall
    nicht gebaut — er hat ihn **benutzt**. (Im Film bleibt all das
-   diesig; Prinzip 3/4.)
+   diesig; Prinzip 3/4.) **Präzisiert (14.08.2026, aus der
+   Strang-1-Werkstatt):** Die physikalische Ursache ist der
+   **Kesseldruck der reinen Tau-Ernte** — sie wirkt weit stärker
+   als alle Studien (die stets Tagesmischungen maßen) und
+   erzeugt entsprechend höheren Druck. Jahn hatte den Kessel für
+   einen gewissen Überdruck gesichert; das Werk war schon im
+   Bau. Sein zweites Gutachten unterschlägt nichts — es erklärt
+   den Labor-Unfall und enthält auch die Druck-Schlussfolgerung,
+   schließt aber mit „der Kessel wird halten"; seine Zweifel
+   behielt er für sich. Ob diese Mechanik im Text je
+   ausgesprochen wird, ist offen (Entscheidung später).
 3. **Das Sterben:** Nach dem Unfall sterben die Menschen der Stadt
    binnen Monaten bis weniger Jahre. **Immun sind nur Kinder, die
    vor dem Unfall gezeugt wurden — sie waren im Leib ihrer Mütter
@@ -63,6 +75,9 @@ vorgezogen, `szenen-v1.md`)
    irgendwann raus** — das Gerücht bleibt Gerücht, niemand bestätigt
    es je.
 7. **Versorgung:** Notdürftige **Drops** über der Stadt.
+   **Präzisiert (16.08.2026):** Die Drops setzten erst **Jahre
+   nach dem Unglück** ein — wann genau, bleibt diesig; Ruths
+   „zehn Jahre" im Drehbuch ist gefühlte Zeit.
 8. **Das Kinderheim liegt innerhalb der Zone.** M bricht aus dem Heim
    auf und geht in die wilde Stadt — sie verlässt eine Ordnung im
    Inneren, nicht das Draußen.
@@ -172,6 +187,10 @@ weil sie eine Wahrheit verbiegt statt eine zu erfinden.
 ---
 
 ## Strang 1, Skizze (aktualisiert nach den Entscheidungen)
+
+*(Seit 05.08.2026 wird Strang 1 in eigener Werkstatt
+weiterentwickelt: `strang-1/entwicklung.md`. Die Skizze hier
+bleibt als Stand der Setzung stehen.)*
 
 1. Der Forscher entdeckt die Energienutzung der Pflanze; Aufstieg zum
    Politiker der Vergemeinschaftung („die Felder gehören der Stadt").
@@ -522,6 +541,40 @@ sich zu doppeln.
 ---
 
 ## Entscheidungslog
+
+**16.08.2026** — Entscheidungen des Autors (nach dem
+Fixpunkte-Durchgang der Strang-1-Werkstatt; Befund und
+Konflikte K1–K5: `strang-1/fixpunkte.md`):
+- **Kino-Zeile korrigiert:** „Es läuft, seit fünfzehn Jahren,
+  dieselbe Woche" (vorher „zehn"; `Untitled.fountain` und
+  EN-Fassung nachgezogen; die am 14.08. gebauten Lesefassungen
+  und PDFs tragen an dieser Stelle noch das alte Wort — kommt
+  mit dem nächsten Build).
+- **Die Drops setzten erst Jahre nach dem Unglück ein**
+  (Weltlogik Punkt 7 präzisiert); genaues Datum bleibt diesig.
+- **Der Hund im Schlussbild bleibt:** Der Zuschauer soll ihn
+  für tot halten — am Ende steht er für die Hoffnung. Setzung,
+  kein Fehler.
+- **Das Pferdchen ist real,** war in der Mordnacht aber nicht
+  beim Kind — die dritte Wiederkehr baut es in die Erinnerung;
+  bei der Geschichten-Szene der Mutter ist es dabei
+  (Strang-Werkstatt nachgezogen).
+- **Das Klassenraum-Plakat** bekommt im Strang seinen Ursprung:
+  das Foto beim Richtfest (neue Strang-Szene 15a).
+
+**05.08.2026** — Ansage des Autors (neue Werkstatt):
+- **Strang 1 wird als eigene Geschichte entwickelt** — separat,
+  in eigener Werkstatt (`strang-1/`): dort `entwicklung.md`
+  (Abmachung, Skizze, offene Türsteher-Fragen) und
+  `fixpunkte.md` (was die erste Fassung als Kanon vorgibt;
+  systematischer Durchgang durch `Untitled.fountain` steht
+  aus). Ausdrücklich gesetzt: **Nichts davon geht in die
+  aktuelle Drehbuchfassung.** Erst der fertig entwickelte
+  Strang wird in einem **neuen** Buch mit der ersten Fassung
+  verwoben. Ersetzt die Ansage vom 21.07. („Strang 1 in die
+  Outline verweben, Materialbasis `treatment-v2.md`") —
+  Fassung 2 bleibt Steinbruch, aber gegen die Fixpunkte zu
+  prüfen.
 
 **27.07.2026** — Beat-Feinschliff des Autors + Streit-Ergänzung:
 - Auf Ansage des Autors: Annas Gegenrede im Streit (66) —

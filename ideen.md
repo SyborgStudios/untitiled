@@ -28,3 +28,38 @@ Anmerkung: Das Hände-Motiv selbst (er kann Js Hände nicht
 berühren; J deutet es als Ablehnung) bleibt im Dossier gesetzt
 — geparkt ist nur seine Verankerung an diesem Morgen und das
 Frühstücks-Detail.
+
+---
+
+## 2. Der Feld-Payoff des Duft-Tropfens (geparkt 14.08.2026)
+
+Herkunft: Strang-1-Werkstatt, Ansage des Autors
+(`strang-1/entwicklung.md`; das Setup ist im Strang gesetzt —
+Szenen 9a „Das Geschenk" und 26a „Der Tropfen": der Flakon
+heimlich bei Helene, der eine Tropfen für das Kind auf dem
+Arm). Status: Der Payoff gehört der **Gegenwart** — damit
+ausdrücklich nicht in die Strang-1-Werkstatt und vorerst auch
+nicht in die aktuelle Drehbuchfassung (Abmachung); Kandidat für
+die Verwebung. Ob er schon früher hineingehört, entscheidet der
+Autor.
+
+Der Wortlaut:
+
+> Anna, Jahre später, in den wilden Feldern: Der Geruch kommt
+> hoch — die Wärme von damals, an die sie keine Erinnerung
+> hat — und haut sie um; ihr steigen Tränen in die Augen, deren
+> Grund sie nicht kennt.
+
+Anmerkung: Der Fixpunkte-Durchgang (`strang-1/fixpunkte.md`)
+prüft, ob die erste Fassung in den Feldern schon eine
+Geruchs-Stelle hat und wie der Duft-Rest (Dossier: Annas dritte
+Erbschaft) dort auftaucht.
+
+**Vermerk (14.08.2026, Fixpunkte-Durchgang): eingelöst.** Die
+Szene existiert bereits in der ersten Fassung — Sequenz 5, „Der
+Flakon": der Fund am Feldrand, die Knie, die nachgeben, die
+Tränen, von denen ihr Gesicht nichts weiß; dazu die
+Regieanweisung „Wer das Versteck aus der ersten Nacht trägt,
+darf sich erinnern. Anna kann es nicht." Der Eintrag bleibt als
+Herkunfts-Notiz stehen; die Vorgeschichte dazu liefern die
+Strang-Szenen 9a „Das Geschenk" und 26a „Der Tropfen".

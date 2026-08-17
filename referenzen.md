@@ -649,6 +649,35 @@ die Punkte, Stand heute. Entscheidungen trifft der Autor.
     nicht." Die Nicht-Erkennung war schon 2012 als Beat angelegt. Sie
     ist Gold (Prinzip 9: das Urbild ist die unerkannte Heimkehr) und
     sollte in die Stoffbeschreibung übernommen werden.
+11. **Strang 1 als eigene Geschichte (05.08.):** Der Autor zieht den
+    liegen gelassenen Politthriller als separate Entwicklung auf
+    (`strang-1/`) — nicht für die aktuelle Fassung, sondern für ein
+    späteres Verweben in ein neues Buch. Die Handwerksfrage dazu ist
+    die **Prequel-Disziplin:** Die erste Fassung hat die Endpunkte
+    bereits veröffentlicht (die Nacht, die offizielle Version, die
+    Artefakte) — der Strang muss auf ihnen landen, seine Spannung
+    kann nicht aus dem Ob kommen, nur aus dem Wie. Im Bestand trägt
+    dafür die kalte Klammer des Parallax-Prinzips (Eintrag 5);
+    Referenz-Kandidat für die Bibliothek: *Better Call Saul*
+    (Prequel-Spannung bei bekanntem Ausgang). Offen: wessen
+    Geschichte der Strang ist und wo er endet — die Fragen liegen in
+    `strang-1/entwicklung.md`. **Erste Ideen-Runde des Autors
+    (11.08.):** der Aussichtsort vor dem fast vollendeten Werk, die
+    Duft-Ökonomie (Mehrwert ist nicht Profit; hundert Kilo für eine
+    Flasche), der vertuschte Labor-Unfall — Befund und Rückfragen in
+    `strang-1/entwicklung.md`. Die Vertuschung hat ihr reales
+    Vorbild schon im Bestand (Eintrag 20: Minamata — wissen und
+    schweigen); die Ideen ziehen erkennbar Richtung Jahn.
+    **Nachtrag 12.08.:** Das Treatment des Strangs liegt vor
+    (`strang-1/treatment-v1.md`) — Doppelporträt, das Gewicht
+    wechselt mit der Stimme; die Szenen-Outline folgt nach der
+    Abarbeitung durch den Autor. **14.08.:** Die Unglücks-Ursache
+    ist intern präzisiert — der Kesseldruck der reinen
+    Tau-Ernten; das zweite Gutachten enthält alle Warnungen und
+    schließt mit „wird halten" (Protokoll:
+    `strang-1/entwicklung.md`). Referenz-Kandidat dazu: die
+    **Challenger-Startentscheidung 1986** — die Warnung stand in
+    den Papieren, der Schluss lautete Start.
 11. **Das Mal — ENTSCHIEDEN (13.07., Design 14.07.):** Das Mal ist
     ein Krankheitszeichen (Option A), ohne Pflanzenform. Jeder
     Erwachsene ist gezeichnet, die Kohorte hat reine Haut — das Mal
@@ -815,6 +844,61 @@ die Punkte, Stand heute. Entscheidungen trifft der Autor.
     Die EN-Fassung driftet nach jeder Beat-Runde des
     Autors — der DE↔EN-Abgleich gehört seither fest zu
     jeder Abarbeitung.
+
+22. **Tagline gesetzt (04.08.2026):** Der Autor hat die
+    Poster-Tagline entschieden —
+    *„Die Erinnerung ist die einzige Zeugin. Und sie
+    ändert ihre Aussage."* / EN (Wahl des Autors, die
+    knappe Form): *„Memory is the only witness. And it
+    changes its testimony."* Sie destilliert die drei
+    Wiederkehren der Nacht (Prinzip 6: nicht „wer trägt
+    das Mal?", sondern „trägt die Erinnerung?").
+    **Offen:** die Stoff-Logline — drei Kandidaten der
+    Werkstatt vorgelegt (Welt-Ironie: „Der Mann, der ihre
+    Eltern erschoss, trug ein Mal auf dem Arm. Zehn Jahre
+    später sucht Anna dieses Mal in einer abgeriegelten,
+    sterbenden Stadt — in der jeder Erwachsene gezeichnet
+    ist."; die geschärfte Klassische mit „gewesen sein
+    könnte"; das Dilemma als Spätform); bis zur
+    Entscheidung gilt die alte Vorrats-Logline aus
+    Eintrag 19 weiter. Für die Website gilt unverändert:
+    Rahmentexte sprechen über das Projekt, nicht über den
+    Stoff — Tagline und Logline sind Film-Werkzeuge, kein
+    Site-Text, solange der Autor nichts anderes
+    entscheidet.
+
+23. **Das Waschhaus ausgemalt (05.08.2026):** Auf Ansage des
+    Autors ist Szene 23 zur vollen Institution geworden: das
+    einzige Tagfeuer der Stadt hinter der niedrigen Tür, zwei
+    Männer mit dem Bottich, verhüllt sind manche, nicht
+    alle — und die Freiwilligen waschen die Schwachen, ihr
+    erster Auftritt im Film. Das Sterbesystem der Stadt hat
+    damit drei sichtbare Stufen (Waschhaus → Sterbezimmer →
+    Waschung), und die Waschung in Sequenz 8 zitiert eine
+    Geste, die wir längst kennen. Neue kleine Setzung: das
+    heiße Wasser gehört zuerst den Schwachen. Handwerklich:
+    Wiederholung als System-Erzählung — dieselbe Formel
+    („niemand teilt sie ein, sie kommen von selbst") an zwei
+    Enden des Films ersetzt jede Erklärung. Nachtrag, gleiche
+    Sitzung: das Schuh-Regal vor der Tür, unbewacht wie der
+    Tisch der Läufer — es pflanzt die Möglichkeit, wie Jakob
+    später die Sohle flickt, ohne die Ambiguität der
+    Entdeckung („Wir auch nicht.") anzutasten.
+
+24. **Jakobs Platz, der Blechbecher, die Routine
+    (07.08.2026):** Drei Setzungen einer Sitzung. Jakob
+    schläft auf Decke und Kissen am Boden, eine Handbreit
+    neben dem glatt gespannten Feldbett des Abwesenden — der
+    Raum erzählt die Familie ohne ein Wort. Der Blechbecher
+    hat jetzt eine Herkunft (halbes Brot am Markt, Spiegel
+    des Heim-Tauschs) und tritt in die Objekt-Kette. Und
+    zwischen Brunnen und Speicher-Abend steht eine
+    Drei-Zeilen-Szene, die Annas Waschhaus-Gänge zur
+    Routine macht — Schuhe ins Regal „mit dem Griff einer
+    Gewohnheit"; damit schließt sich die Sohlen-Mechanik
+    des Tages, ohne ausgesprochen zu werden. Handwerklich:
+    Jakobs erstes Hinsehen ist eine stehende Feder — ein
+    Geräusch, das aufhört, als Aufmerksamkeit.
 
 ---
 

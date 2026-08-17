@@ -479,6 +479,228 @@ body.thumbs-open .thumbs {
   .page-meta { margin-top: -1rem; }
 }
 
+/* --- Der Player (die Lesefassung, auf jeder Seite) --------------------- */
+/* Unten rechts eine kleine Karte im Papierton der Seite; schmal eine
+ * feste Leiste am unteren Rand. Beides zur Seite einklappbar — dann
+ * bleibt nur der Reiter stehen. Aufgebaut von js/player.js.            */
+
+.player {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  z-index: 15;             /* unter der Seitenleiste (20) */
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+}
+
+/* Platz unter der Seite, damit der Fuß nicht unter dem Player liegt */
+body.player-open { padding-bottom: 7rem; }
+
+.player-card {
+  width: 19.5rem;
+  max-width: calc(100vw - 3rem);
+  padding: 0.85rem 1.1rem 0.95rem;
+  background: var(--page);
+  border: 1px solid var(--rule);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07), 0 12px 30px rgba(0, 0, 0, 0.12);
+  transition: transform 0.28s ease, opacity 0.18s ease;
+}
+
+.player[data-open="false"] .player-card {
+  transform: translateX(calc(100% + 2.5rem));
+  opacity: 0;
+  pointer-events: none;
+}
+
+.player-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+
+.player-title {
+  margin: 0;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.player-sub {
+  margin: 0.1rem 0 0.75rem;
+  color: var(--ink-faint);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+}
+
+.player button {
+  appearance: none;
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--ink-faint);
+  font: inherit;
+  letter-spacing: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.player button:hover { color: var(--ink); }
+
+.player-mini {
+  padding: 0 0.25rem;
+  font-size: 0.95rem;
+}
+
+/* --- Der Balken -------------------------------------------------------- */
+
+.player-scrub {
+  padding: 0.45rem 0;
+  cursor: pointer;
+  touch-action: none;
+}
+
+.player-scrub:focus-visible { outline: 1px dotted var(--ink-faint); outline-offset: 2px; }
+
+.player-line {
+  display: block;
+  height: 1px;
+  background: var(--rule);
+  position: relative;
+}
+
+.player-fill {
+  display: block;
+  height: 1px;
+  width: 0;
+  background: var(--ink-faint);
+  position: relative;
+}
+
+/* Der Schreibkopf: ein kleines Quadrat auf der Zeile */
+.player-fill::after {
+  content: "";
+  position: absolute;
+  right: -3px;
+  top: -2.5px;
+  width: 6px;
+  height: 6px;
+  background: var(--ink);
+}
+
+/* --- Knöpfe und Zeit ---------------------------------------------------- */
+
+.player-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-top: 0.55rem;
+}
+
+.player-play {
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid var(--ink-faint);
+  color: var(--ink);
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-play:hover { border-color: var(--ink); }
+
+.player-back,
+.player-fwd {
+  font-size: 0.72rem;
+  white-space: nowrap;
+}
+
+.player-time {
+  margin-left: auto;
+  color: var(--ink-faint);
+  font-size: 0.72rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+/* --- Der Reiter (eingeklappt) -------------------------------------------- */
+
+.player-tab {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.5rem 0.85rem;
+  background: var(--page);
+  border: 1px solid var(--rule) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07), 0 8px 20px rgba(0, 0, 0, 0.1);
+  color: var(--ink);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  transition: transform 0.28s ease, opacity 0.18s ease;
+}
+
+.player[data-open="true"] .player-tab {
+  transform: translateX(calc(100% + 2.5rem));
+  opacity: 0;
+  pointer-events: none;
+}
+
+.player-tab-glyph { font-size: 0.62rem; }
+
+/* Der blinkende Cursor zeigt an, dass es eingeklappt weiterläuft */
+.player-tab .cursor { display: none; margin-left: -0.2rem; }
+.player.is-playing .player-tab .cursor { display: inline-block; }
+.player.is-playing .player-tab-glyph { display: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .player-card,
+  .player-tab { transition: none; }
+}
+
+/* --- Schmale Schirme: feste Leiste am unteren Rand ----------------------- */
+
+@media (max-width: 640px) {
+  .player {
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+
+  .player-card {
+    width: 100%;
+    max-width: none;
+    padding: 0.7rem 1.1rem 0.8rem;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .player[data-open="false"] .player-card {
+    transform: translateX(100%);
+  }
+
+  /* Wie ein Reiter, der aus dem Rand schaut */
+  .player-tab {
+    right: 0;
+    bottom: 1.2rem;
+    border-right: none !important;
+    padding: 0.55rem 0.8rem;
+  }
+
+  .player[data-open="true"] .player-tab {
+    transform: translateX(calc(100% + 1.5rem));
+  }
+
+  body.player-open { padding-bottom: 8.5rem; }
+}
+
 /* --- Szenenformat: Slugline, Dialog ----------------------------------- */
 
 .slugline {
