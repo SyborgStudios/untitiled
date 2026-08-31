@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Die Verwebungsprobe — Karten</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: #f4f1ea; color: #232323;
+    font-family: "Courier Prime", "Courier New", Courier, monospace; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 24px 16px 120px; }
+  header h1 { font-size: 1.05rem; letter-spacing: .14em; text-transform: uppercase; }
+  header .sub { font-size: .8rem; color: #6d675c; margin-top: 4px; }
+  .legende { display: flex; gap: 14px; flex-wrap: wrap; margin: 14px 0 4px;
+    font-size: .75rem; align-items: center; }
+  .dot { display: inline-block; width: 11px; height: 11px; border-radius: 2px;
+    margin-right: 5px; vertical-align: -1px; border: 1px solid transparent; }
+  .dot.g { background: #9cb9d6; } .dot.f { background: #d0a75f; }
+  .dot.n { background: #fbf9f4; border-color: #8a8374; }
+  .hilfe { font-size: .72rem; color: #6d675c; margin: 6px 0 14px; line-height: 1.5; }
+  .toolbar { position: sticky; top: 0; z-index: 50; background: #f4f1eaee;
+    backdrop-filter: blur(2px); padding: 10px 0; display: flex; gap: 8px;
+    flex-wrap: wrap; border-bottom: 1px solid #d8d3c8; margin-bottom: 14px; }
+  button { font-family: inherit; font-size: .72rem; letter-spacing: .06em;
+    padding: 6px 10px; background: #fbf9f4; border: 1px solid #b9b2a4;
+    border-radius: 3px; cursor: pointer; color: #232323; }
+  button:hover { background: #fff; }
+  button.aktiv { background: #232323; color: #fbf9f4; border-color: #232323; }
+  .zaehler { font-size: .7rem; color: #6d675c; margin-left: auto; align-self: center; }
+  #liste, #delListe { list-style: none; }
+  .card { background: #fbf9f4; border: 1px solid #cfc9bc; border-left: 6px solid #999;
+    border-radius: 3px; padding: 8px 10px; margin-bottom: 6px; cursor: grab;
+    user-select: none; -webkit-user-select: none; touch-action: none; position: relative; }
+  .card.g { background: #edf0f3; border-left-color: #9cb9d6; }
+  .card.f { background: #f8efdb; border-left-color: #d0a75f; }
+  .card.n { background: #fbf9f4; border-left-color: #8a8374; }
+  .card .kopf { display: flex; gap: 10px; align-items: baseline; }
+  .card .tag { font-size: .66rem; letter-spacing: .08em; color: #6d675c; white-space: nowrap; }
+  .card.g .tag b { color: #4d6e91; } .card.f .tag b { color: #8a6d2f; }
+  .card.n .tag b { color: #55503f; }
+  .card .titel { font-weight: bold; font-size: .86rem; }
+  .card .detail { display: none; margin-top: 7px; padding-top: 7px;
+    border-top: 1px dashed #b9b2a4; font-size: .74rem; line-height: 1.5; color: #444; }
+  .card.offen .detail { display: block; }
+  .card .detail .last { font-style: italic; margin-top: 4px; color: #6d675c; }
+  .card textarea, .card input[type=text] { font-family: inherit; width: 100%;
+    border: 1px solid #cfc9bc; background: #fff; padding: 5px 7px; font-size: .74rem;
+    border-radius: 2px; cursor: text; }
+  .card textarea { resize: none; overflow: hidden; min-height: 2.1em; line-height: 1.45; }
+  .card .notizlabel { display: block; font-size: .62rem; letter-spacing: .1em;
+    text-transform: uppercase; color: #8a3b2f; margin: 8px 0 3px; }
+  .card textarea.notiz { border-color: #c9a196; color: #6e2f24; }
+  .card .titelfeld { font-weight: bold; margin-bottom: 5px; }
+  .card .aktionen { text-align: right; margin-top: 7px; }
+  .card .aktionen button { font-size: .64rem; padding: 3px 8px; color: #8a3b2f;
+    border-color: #c9a196; background: transparent; }
+  .card .aktionen button:hover { background: #fff; }
+  .card.dragging { opacity: .95; box-shadow: 0 8px 22px rgba(0,0,0,.25);
+    transform: rotate(.6deg); pointer-events: none; z-index: 100; }
+  .platzhalter { border: 2px dashed #b9b2a4; border-radius: 3px; margin-bottom: 6px;
+    background: transparent; }
+  .versteckt { display: none; }
+  .filterhinweis { display: none; font-size: .7rem; color: #8a3b2f; margin: 0 0 10px; }
+  body.gefiltert .filterhinweis { display: block; }
+  body.gefiltert .card { cursor: default; }
+  #papierkorb { margin-top: 34px; }
+  #papierkorb h2 { font-size: .78rem; letter-spacing: .12em; text-transform: uppercase;
+    color: #6d675c; border-top: 1px solid #d8d3c8; padding-top: 14px; margin-bottom: 10px; }
+  #papierkorb .card { opacity: .62; cursor: default; }
+  #papierkorb:not(.hat) { display: none; }
+  #overlay { display: none; position: fixed; inset: 0; background: rgba(35,35,35,.55);
+    z-index: 200; padding: 5vh 16px; }
+  #overlay.offen { display: block; }
+  #overlay .box { max-width: 680px; margin: 0 auto; background: #fbf9f4;
+    border-radius: 4px; padding: 18px; }
+  #overlay h2 { font-size: .85rem; letter-spacing: .1em; text-transform: uppercase;
+    margin-bottom: 10px; }
+  #export { width: 100%; height: 52vh; font-family: inherit; font-size: .72rem;
+    border: 1px solid #b9b2a4; padding: 8px; background: #fff; }
+  #overlay .reihe { display: flex; gap: 8px; margin-top: 10px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Die Verwebungsprobe</h1>
+    <div class="sub">Alle Szenen beider Stränge als Karten · Stand 17.08.2026 · Werkstatt, intern</div>
+    <div class="legende">
+      <span><span class="dot f"></span><b>Die Felder</b> (Vergangenheit) — in Farbe</span>
+      <span><span class="dot g"></span><b>TAU, erste Fassung</b> (Gegenwart) — grau</span>
+      <span><span class="dot n"></span><b>Neue Szenen</b> — weiß</span>
+    </div>
+    <div class="hilfe">Karte <b>ziehen</b> = sortieren &nbsp;·&nbsp; Kopf <b>antippen</b> =
+    auf/zu &nbsp;·&nbsp; Auf jeder Karte: ein Feld für <b>Änderungen/Notizen</b> und
+    <b>„Szene in den Papierkorb"</b> (unten wiederherstellbar — nichts geht
+    verloren) sowie <b>„Notiz leeren"</b>.
+    &nbsp;<b>+ Neue Szene</b> legt eine weiße Karte oben an. Alles speichert sich in
+    diesem Browser; <b>Export</b> macht daraus die Textliste für die Werkstatt —
+    samt Notizen, neuen und gelöschten Szenen.</div>
+  </header>
+
+  <div class="toolbar">
+    <button id="btnAlle" class="aktiv">Alle</button>
+    <button id="btnG">Nur Gegenwart</button>
+    <button id="btnF">Nur Felder</button>
+    <button id="btnNeu">+ Neue Szene</button>
+    <button id="btnExport">Export</button>
+    <button id="btnAusgang">Ausgangslage</button>
+    <button id="btnChrono">Chronologie</button>
+    <button id="btnVorschlag">Vorschlag Co-Autor</button>
+    <button id="btnKlapp">Alle zuklappen</button>
+    <span class="zaehler" id="zaehler"></span>
+  </div>
+  <p class="filterhinweis">Im Filter ist das Sortieren ausgeschaltet — „Alle" wählen, um zu ziehen.</p>
+
+  <ul id="liste"></ul>
+
+  <section id="papierkorb">
+    <h2>Papierkorb — gelöschte Szenen</h2>
+    <ul id="delListe"></ul>
+  </section>
+</div>
+
+<div id="overlay">
+  <div class="box">
+    <h2>Die Reihenfolge als Text</h2>
+    <textarea id="export" readonly></textarea>
+    <div class="reihe">
+      <button id="btnKopieren">In die Zwischenablage</button>
+      <button id="btnZu">Schließen</button>
+    </div>
+  </div>
+</div>
+
+<script>
+var DATA = {"gegenwart": [{"id": "G01", "strang": "G", "seq": "Seq 1", "seqTitle": "Die Nacht", "titel": "Die Welt aus Unterkanten", "detail": "INNEN. VERSTECK, WOHNRAUM — NACHT  ·  „Die Welt aus Unterkanten\" · „Das Klopfen\" · „Der Arm im Licht\" · „Zwei Schüsse\""}, {"id": "G02", "strang": "G", "seq": "Seq 2", "seqTitle": "Das Heim", "titel": "Das Haus hören", "detail": "INNEN. SCHLAFSAAL, HEIM — VOR DEM MORGEN"}, {"id": "G03", "strang": "G", "seq": "Seq 2", "seqTitle": "Das Heim", "titel": "Die Drops", "detail": "AUSSEN. HOF, HEIM / HIMMEL — TAG"}, {"id": "G04", "strang": "G", "seq": "Seq 2", "seqTitle": "Das Heim", "titel": "Die Sechzehn", "detail": "AUSSEN./INNEN. HOF / VORRATSRAUM — TAG"}, {"id": "G05", "strang": "G", "seq": "Seq 2", "seqTitle": "Das Heim", "titel": "Die halbe Ration", "detail": "AUSSEN. HOF, HEIM — SPÄTER"}, {"id": "G06", "strang": "G", "seq": "Seq 2", "seqTitle": "Das Heim", "titel": "Das Diktat", "detail": "INNEN. KLASSENRAUM, HEIM — TAG"}, {"id": "G07", "strang": "G", "seq": "Seq 2", "seqTitle": "Das Heim", "titel": "Die Jacke", "detail": "INNEN. VORRATSRAUM — TAG"}, {"id": "G08", "strang": "G", "seq": "Seq 2", "seqTitle": "Das Heim", "titel": "Das Fast-Mal", "detail": "INNEN. KAMMER DES HAUSMEISTERS — TAG"}, {"id": "G09", "strang": "G", "seq": "Seq 2", "seqTitle": "Das Heim", "titel": "Das Heft", "detail": "INNEN. WINKEL UNTER DER TREPPE, HEIM — TAG"}, {"id": "G10", "strang": "G", "seq": "Seq 2", "seqTitle": "Das Heim", "titel": "Der Nagel", "detail": "AUSSEN. HEIM VERWALTUNG, FENSTER — ABEND"}, {"id": "G11", "strang": "G", "seq": "Seq 2", "seqTitle": "Das Heim", "titel": "Die Muttergeschichte", "detail": "INNEN. SCHLAFSAAL — NACHT"}, {"id": "G12", "strang": "G", "seq": "Seq 2", "seqTitle": "Das Heim", "titel": "Der Bleistift", "detail": "INNEN. FLUR, HEIM — TAG"}, {"id": "G13", "strang": "G", "seq": "Seq 2", "seqTitle": "Das Heim", "titel": "Die Rechnung", "detail": "AUSSEN. HOF, HEIM — TAG"}, {"id": "G14", "strang": "G", "seq": "Seq 2", "seqTitle": "Das Heim", "titel": "Die Imitation", "detail": "INNEN. SCHLAFSAAL DER KLEINEN — ABEND"}, {"id": "G15", "strang": "G", "seq": "Seq 2", "seqTitle": "Das Heim", "titel": "Die Revolte", "detail": "AUSSEN. HOF, HEIM — MORGEN"}, {"id": "G16", "strang": "G", "seq": "Seq 2", "seqTitle": "Das Heim", "titel": "Das offene Tor", "detail": "AUSSEN. TOR, HEIM — TAG"}, {"id": "G17", "strang": "G", "seq": "Seq 3", "seqTitle": "Die Stadt", "titel": "Die Regeln", "detail": "AUSSEN. STRASSENZÜGE — TAG"}, {"id": "G18", "strang": "G", "seq": "Seq 3", "seqTitle": "Die Stadt", "titel": "Riecht ihr's noch?", "detail": "AUSSEN. BRANDMAUER — TAG"}, {"id": "G19", "strang": "G", "seq": "Seq 3", "seqTitle": "Die Stadt", "titel": "Die Trommelkammer", "detail": "AUSSEN./INNEN. ALTE DESTILLERIE — TAG"}, {"id": "G20", "strang": "G", "seq": "Seq 3", "seqTitle": "Die Stadt", "titel": "Der Hund", "detail": "AUSSEN. BRACHE — TAG"}, {"id": "G21", "strang": "G", "seq": "Seq 3", "seqTitle": "Die Stadt", "titel": "Ohne Rechnung", "detail": "AUSSEN. NISCHE ZWISCHEN ZWEI HÄUSERN — NACHT"}, {"id": "G22", "strang": "G", "seq": "Seq 3", "seqTitle": "Die Stadt", "titel": "Der Morgen unten", "detail": "AUSSEN. NISCHE ZWISCHEN ZWEI HÄUSERN — MORGEN"}, {"id": "G23", "strang": "G", "seq": "Seq 3", "seqTitle": "Die Stadt", "titel": "Kirche - Tag", "detail": "AUSSEN. KIRCHE - TAG"}, {"id": "G24", "strang": "G", "seq": "Seq 3", "seqTitle": "Die Stadt", "titel": "Das Fahrrad auf dem Altar", "detail": "INNEN. KIRCHE — TAG"}, {"id": "G25", "strang": "G", "seq": "Seq 3", "seqTitle": "Die Stadt", "titel": "Hoch schlafen", "detail": "AUSSEN./INNEN. SPEICHER ÜBER EINER TOTEN GASSE — ABEND"}, {"id": "G26", "strang": "G", "seq": "Seq 3", "seqTitle": "Die Stadt", "titel": "Das Archiv des Nicht-Findens", "detail": "AUSSEN. WASCHHAUS — TAG"}, {"id": "G27", "strang": "G", "seq": "Seq 3", "seqTitle": "Die Stadt", "titel": "Waschhaus", "detail": "INNEN. WASCHHAUS — TAG"}, {"id": "G28", "strang": "G", "seq": "Seq 3", "seqTitle": "Die Stadt", "titel": "Waschhaus", "detail": "AUSSEN./INNEN. WASCHHAUS — Abend"}, {"id": "G29", "strang": "G", "seq": "Seq 3", "seqTitle": "Die Stadt", "titel": "Speicher Über Einer Toten Gasse", "detail": "AUSSEN./INNEN. SPEICHER ÜBER EINER TOTEN GASSE — NAcht"}, {"id": "G30", "strang": "G", "seq": "Seq 3", "seqTitle": "Die Stadt", "titel": "Der Zoll", "detail": "AUSSEN. GANG-REVIER / MARKT — TAG"}, {"id": "G31", "strang": "G", "seq": "Seq 3", "seqTitle": "Die Stadt", "titel": "Die geflickte Sohle", "detail": "AUSSEN. RAND DES REVIERS — TAG"}, {"id": "G32", "strang": "G", "seq": "Seq 3", "seqTitle": "Die Stadt", "titel": "Der Brunnen", "detail": "AUSSEN. BRUNNEN OHNE EIMER — TAG"}, {"id": "G33", "strang": "G", "seq": "Seq 3", "seqTitle": "Die Stadt", "titel": "Waschhaus", "detail": "AUSSEN. WASCHHAUS — TAG"}, {"id": "G34", "strang": "G", "seq": "Seq 3", "seqTitle": "Die Stadt", "titel": "Speicher", "detail": "INNEN. SPEICHER — ABEND"}, {"id": "G35", "strang": "G", "seq": "Seq 4", "seqTitle": "Der Junge", "titel": "Der Reparierer", "detail": "AUSSEN. GANG-REVIER, WERKSTATT-ECKE — TAG"}, {"id": "G36", "strang": "G", "seq": "Seq 4", "seqTitle": "Der Junge", "titel": "Der zweite Schuh", "detail": "AUSSEN./INNEN. DAS HAUS MIT DEM KINDERSCHUH — TAG"}, {"id": "G37", "strang": "G", "seq": "Seq 4", "seqTitle": "Der Junge", "titel": "Kisten vom Himmel", "detail": "AUSSEN. GASSEN / BRACHE — TAG"}, {"id": "G38", "strang": "G", "seq": "Seq 4", "seqTitle": "Der Junge", "titel": "Der Tacho", "detail": "AUSSEN. GANG-REVIER, WERKSTATT-ECKE — TAG"}, {"id": "G39", "strang": "G", "seq": "Seq 4", "seqTitle": "Der Junge", "titel": "Das halbe Ding", "detail": "AUSSEN. GANG-REVIER, WERKSTATT-ECKE — SPÄTER NACHMITTAG"}, {"id": "G40", "strang": "G", "seq": "Seq 4", "seqTitle": "Der Junge", "titel": "Bis zur Tür", "detail": "AUSSEN. GASSEN — SPÄTER NACHMITTAG"}, {"id": "G41", "strang": "G", "seq": "Seq 4", "seqTitle": "Der Junge", "titel": "Ruth", "detail": "INNEN. WERKSTATTWOHNUNG — SPÄTER NACHMITTAG"}, {"id": "G42", "strang": "G", "seq": "Seq 4", "seqTitle": "Der Junge", "titel": "Das Feldbett", "detail": "INNEN. WERKSTATTWOHNUNG — NACHT"}, {"id": "G43", "strang": "G", "seq": "Seq 4", "seqTitle": "Der Junge", "titel": "Die Sichtlinie", "detail": "AUSSEN. MARKT — TAG"}, {"id": "G44", "strang": "G", "seq": "Seq 4", "seqTitle": "Der Junge", "titel": "Das Lachen", "detail": "INNEN. WERKSTATTWOHNUNG — TAG"}, {"id": "G45", "strang": "G", "seq": "Seq 4", "seqTitle": "Der Junge", "titel": "Zwei Geheimnisse, ein Frieden", "detail": "AUSSEN. DACH ÜBER DER GASSE — ABEND"}, {"id": "G46", "strang": "G", "seq": "Seq 4", "seqTitle": "Der Junge", "titel": "Die Nacht, zweites Mal", "detail": "INNEN. — NACHT"}, {"id": "G47", "strang": "G", "seq": "Seq 5", "seqTitle": "Die Lüge der Stadt", "titel": "Wasser tragen", "detail": "INNEN. FLURE DER STERBEZIMMER — TAG"}, {"id": "G48", "strang": "G", "seq": "Seq 5", "seqTitle": "Die Lüge der Stadt", "titel": "Die Alte mit dem Takt, I", "detail": "INNEN. STERBEZIMMER — TAG"}, {"id": "G49", "strang": "G", "seq": "Seq 5", "seqTitle": "Die Lüge der Stadt", "titel": "JAH ERK", "detail": "AUSSEN. RUINE AM FLUSS — ABENDS"}, {"id": "G50", "strang": "G", "seq": "Seq 5", "seqTitle": "Die Lüge der Stadt", "titel": "Die Ernte", "detail": "AUSSEN. DIE FELDER — NACHT"}, {"id": "G51", "strang": "G", "seq": "Seq 5", "seqTitle": "Die Lüge der Stadt", "titel": "Der Flakon", "detail": "AUSSEN. FELDRAND — NACHT"}, {"id": "G52", "strang": "G", "seq": "Seq 5", "seqTitle": "Die Lüge der Stadt", "titel": "Der erste Lauf", "detail": "AUSSEN. DACH — ABEND"}, {"id": "G53", "strang": "G", "seq": "Seq 5", "seqTitle": "Die Lüge der Stadt", "titel": "Nur ehrlicher", "detail": "AUSSEN. RÜCKWEG ÜBER DIE DÄCHER — NACHT"}, {"id": "G54", "strang": "G", "seq": "Seq 5", "seqTitle": "Die Lüge der Stadt", "titel": "Der Tisch am Morgen danach", "detail": "AUSSEN. INNENHOF DER DESTILLERIE — MORGEN"}, {"id": "G55", "strang": "G", "seq": "Seq 5", "seqTitle": "Die Lüge der Stadt", "titel": "Die Alte, II: Frau", "detail": "INNEN. STERBEZIMMER — TAG"}, {"id": "G56", "strang": "G", "seq": "Seq 6", "seqTitle": "Die guten Tage", "titel": "Die fehlende Stufe", "detail": "AUSSEN. WASSERTURM — TAG"}, {"id": "G57", "strang": "G", "seq": "Seq 6", "seqTitle": "Die guten Tage", "titel": "Der Aufstieg", "detail": "AUSSEN. WEG ZUM AUSSICHTSORT — TAG"}, {"id": "G58", "strang": "G", "seq": "Seq 6", "seqTitle": "Die guten Tage", "titel": "Das Panorama", "detail": "AUSSEN. AUSSICHTSORT — TAG"}, {"id": "G59", "strang": "G", "seq": "Seq 6", "seqTitle": "Die guten Tage", "titel": "Weg wie weg", "detail": "AUSSEN. WEG VOM AUSSICHTSORT — TAG"}, {"id": "G60", "strang": "G", "seq": "Seq 6", "seqTitle": "Die guten Tage", "titel": "Das Kino", "detail": "AUSSEN./INNEN. ALTES KINO — SPÄTER NACHMITTAG"}, {"id": "G61", "strang": "G", "seq": "Seq 6", "seqTitle": "Die guten Tage", "titel": "Ruths guter Tag, I: Die Kondensmilch", "detail": "INNEN. WERKSTATTWOHNUNG — MORGEN"}, {"id": "G62", "strang": "G", "seq": "Seq 6", "seqTitle": "Die guten Tage", "titel": "Ruths guter Tag, II: Anton", "detail": "INNEN. WERKSTATTWOHNUNG — MITTAG"}, {"id": "G63", "strang": "G", "seq": "Seq 6", "seqTitle": "Die guten Tage", "titel": "Ruths guter Tag, III: Jakob", "detail": "INNEN. WERKSTATTWOHNUNG — ABEND"}, {"id": "G64", "strang": "G", "seq": "Seq 6", "seqTitle": "Die guten Tage", "titel": "Lenz trinkt nichts", "detail": "AUSSEN. HOF DER WERKSTATT — NACHT"}, {"id": "G65", "strang": "G", "seq": "Seq 6", "seqTitle": "Die guten Tage", "titel": "Die kleine Beerdigung", "detail": "AUSSEN. BRACHE / GRABSTELLE — TAG"}, {"id": "G66", "strang": "G", "seq": "Seq 6", "seqTitle": "Die guten Tage", "titel": "Wie das Heim fiel", "detail": "AUSSEN. STADT — TAG"}, {"id": "G67", "strang": "G", "seq": "Seq 6", "seqTitle": "Die guten Tage", "titel": "Der Souffleur", "detail": "INNEN. WERKSTATTWOHNUNG — TAG"}, {"id": "G68", "strang": "G", "seq": "Seq 6", "seqTitle": "Die guten Tage", "titel": "Bleib", "detail": "AUSSEN. STRASSENZUG / X-STRASSE — TAG"}, {"id": "G69", "strang": "G", "seq": "Seq 7", "seqTitle": "Das Kind der Lüge", "titel": "Der Bürgermeister", "detail": "INNEN. WERKSTATTWOHNUNG — TAG"}, {"id": "G70", "strang": "G", "seq": "Seq 7", "seqTitle": "Das Kind der Lüge", "titel": "Anton", "detail": "AUSSEN. BRACHE / GRABSTELLE — TAG"}, {"id": "G71", "strang": "G", "seq": "Seq 7", "seqTitle": "Das Kind der Lüge", "titel": "Die Stühle", "detail": "INNEN. WERKSTATTWOHNUNG — TAG"}, {"id": "G72", "strang": "G", "seq": "Seq 7", "seqTitle": "Das Kind der Lüge", "titel": "Sätze nebeneinander", "detail": "INNEN. SPEICHER — NACHT"}, {"id": "G73", "strang": "G", "seq": "Seq 7", "seqTitle": "Das Kind der Lüge", "titel": "Ich habe Tee", "detail": "AUSSEN./INNEN. HEIM, ARCHIVFENSTER — NACHT"}, {"id": "G74", "strang": "G", "seq": "Seq 7", "seqTitle": "Das Kind der Lüge", "titel": "Das Pferdchen", "detail": "INNEN. ARCHIV — NACHT"}, {"id": "G75", "strang": "G", "seq": "Seq 7", "seqTitle": "Das Kind der Lüge", "titel": "Die Nacht, drittes Mal", "detail": "INNEN. — NACHT"}, {"id": "G76", "strang": "G", "seq": "Seq 7", "seqTitle": "Das Kind der Lüge", "titel": "Die Überlagerung", "detail": "AUSSEN. DACH DES HEIMS — NACHT"}, {"id": "G77", "strang": "G", "seq": "Seq 7", "seqTitle": "Das Kind der Lüge", "titel": "Das vierte Gesicht", "detail": "INNEN. KLASSENRAUM, HEIM — NACHT"}, {"id": "G78", "strang": "G", "seq": "Seq 7", "seqTitle": "Das Kind der Lüge", "titel": "Die Kreideliste", "detail": "AUSSEN. DESTILLERIE, MAUER — TAG"}, {"id": "G79", "strang": "G", "seq": "Seq 7", "seqTitle": "Das Kind der Lüge", "titel": "Die Bitte", "detail": "AUSSEN. VOR DER WERKSTATT — TAG"}, {"id": "G80", "strang": "G", "seq": "Seq 7", "seqTitle": "Das Kind der Lüge", "titel": "Das Fernglas vor der Tür", "detail": "AUSSEN. VOR DER WERKSTATT — NACHT"}, {"id": "G81", "strang": "G", "seq": "Seq 8", "seqTitle": "Der Lauf", "titel": "Die Waschung", "detail": "AUSSEN. INNENHOF DER DESTILLERIE — MORGEN  ·  „Die Waschung\" · „Die Schrift auf den Armen\" · „Das Vielleicht\" · „Das Pferdchen auf dem Tisch\""}, {"id": "G82", "strang": "G", "seq": "Seq 8", "seqTitle": "Der Lauf", "titel": "Der Zug", "detail": "AUSSEN. HAUPTSTRASSE — TAG"}, {"id": "G83", "strang": "G", "seq": "Seq 8", "seqTitle": "Der Lauf", "titel": "Die Supernova", "detail": "AUSSEN. DIE FELDER — TAG"}, {"id": "G84", "strang": "G", "seq": "Seq 8", "seqTitle": "Der Lauf", "titel": "Die Stille danach", "detail": "AUSSEN. STADT / WEG ZUM HÜGEL — TAG"}, {"id": "G85", "strang": "G", "seq": "Seq 8", "seqTitle": "Der Lauf", "titel": "Die Geschichte, laut", "detail": "AUSSEN. AUSSICHTSORT — MORGENGRAUEN"}, {"id": "G86", "strang": "G", "seq": "Seq 8", "seqTitle": "Der Lauf", "titel": "Das Schild", "detail": "AUSSEN. WEG ZUR ABSPERRUNG — TAG"}, {"id": "G87", "strang": "G", "seq": "Seq 8", "seqTitle": "Der Lauf", "titel": "Der Hund", "detail": "AUSSEN. MAUER DER GANG — TAG"}], "felder": [{"id": "F1", "strang": "F", "seq": "Seq I", "seqTitle": "Die Felder", "titel": "Farbe", "detail": "Die Felder in Blüte, die Ernte in Reihen, das τ-Plakat am Feldweg; Fuhre um Fuhre rollt hinter die Hofmauer der Destillerie — und im Schaufenster der Stadt der winzige Flakon hinter Glas.", "last": "Die Welt vor dem Grau. Die Ökonomie als Bild (viel Pflanze, kleine Flasche — Setup für 9); Tau/τ etabliert."}, {"id": "F2", "strang": "F", "seq": "Seq I", "seqTitle": "Die Felder", "titel": "Drei Stunden", "detail": "Paul Jahn am Feldrand, Stadtschuhe. Man hat ihm Lenz empfohlen — den einen, der die Pflanze mit den Händen kennt; Jahn kennt sie aus Papieren. Seine Fragen sind keine offensichtlichen, sondern detaillierte — und Lenz antwortet drei Stunden lang: die Erntezeitpunkte, die dem normalen Arbeiter egal sind und der Produktion wohl auch. Er zerreibt zwei Blüten verschiedener Ernte in den Handflächen: zwei verschiedene Filme auf der Haut. Jahn erkennt den Unterschied — fein für ihn, krass für Lenz. Zum Abschied gibt Lenz ihm Proben mit, nach Erntezeit getrennt.", "last": "Buch und Hand — Wissen gegen Würde; es fragt ihn zum ersten Mal ein Studierter, statt zu befehlen; der Unterschied, den nur Lenz ernst nimmt, und die Proben (das Setup von 5)."}, {"id": "F3", "strang": "F", "seq": "Seq I", "seqTitle": "Die Felder", "titel": "Die Nase", "detail": "Destillerie innen: Lenz prüft die Maische — ein Zug durch die Nase, ein Wort, und der Meister korrigiert den Kessel.", "last": "Lenz' Meisterschaft; Setup der gefallenen Fertigkeit (der Fusel, 23) und der Nase."}, {"id": "F4", "strang": "F", "seq": "Seq I", "seqTitle": "Die Felder", "titel": "Zwischen zwei Schlucken", "detail": "Ruths Küche, zu klein für die Leute darin; das Lachen zwei Häuser weit; Lenz' Nummer. Dann, beiläufig: Eigentlich gehören die Felder denen, die sie kennen. Jahn stellt sein Glas ab.", "last": "Der Satz und sein wahrer Besitzer (der Stachel — Zündstoff für 30–33); Ruth; das gute Leben."}, {"id": "F5", "strang": "F", "seq": "Seq I", "seqTitle": "Die Felder", "titel": "Der Schlag", "detail": "Jahns Labor, nachts: Er kocht Lenz' Proben, wie man Tau kocht — im luftdicht geschlossenen Gefäß, Routine, so würde er es immer machen. Als er die Stauden herausnimmt, halb abgekühlt, fasst er die von der guten Ernte an — die bei Tau geschnittenen — und bekommt einen elektrischen Schlag. Er erschrickt, probiert wieder, und wieder. „Was zur Hölle.\" Tage später: zwei Drähte an einer Staude, eine Lampe, die flackert — und hält.", "last": "Die Entdeckung als Zufall der Routine, nicht als Suche — und als Payoff von 2: Die Energie steckt genau in dem Unterschied, den nur die Felder kennen; der Satz aus 4 wird Physik. (Stille Pointe: Die gute Ernte ist die Tau-Ernte — im Namen des Luxusguts steckt von Anfang an die Energie.)"}, {"id": "F6", "strang": "F", "seq": "Seq II", "seqTitle": "Zwei Käufer", "titel": "Das Lachen an der falschen Stelle", "detail": "Der halbvolle Saal, die erste Rede — gut und eine Spur zu schön. Mitten hinein lacht eine Frau. Nach der Rede sucht er sie, nicht umgekehrt.", "last": "Beginn der Bewegung; Helene — die Einzige, die über seine Reden lachen darf."}, {"id": "F7", "strang": "F", "seq": "Seq II", "seqTitle": "Zwei Käufer", "titel": "Die Lehrerin", "detail": "Helene vor ihrer Klasse, eine Geschichte, dreißig stille Kinder; Jahn wartet an der Tür und hört zu.", "last": "Die Erzählerin (das spätere Erbe der Muttergeschichte); die Ehe im Werden — er spricht zu tausend, sie zu dreißig, und keiner hält seins für größer."}, {"id": "F8", "strang": "F", "seq": "Seq II", "seqTitle": "Zwei Käufer", "titel": "Der Souffleur", "detail": "Auftritte: Lenz steht daneben und hält keine Reden — sein Dastehen ist die Rede. Nachts in der Küche liefert er die Pointen; Jahn ruiniert am nächsten Tag jede einzelne; Ruth lacht trotzdem.", "last": "Die Mechanik der Bewegung; der Satz zieht durch die Stadt, und niemand weiß, wessen er ist."}, {"id": "F9", "strang": "F", "seq": "Seq II", "seqTitle": "Zwei Käufer", "titel": "Zwei Käufer", "detail": "Der Empfang: der Flakon Tau als Gastgeschenk; Verehrung gegen Mehrwert; hundert Kilo für eine Flasche; Mehrwert ist nicht Profit. Beide lassen das Angebot des anderen stehen.", "last": "Der Konflikt als Ökonomie; das einzige ehrliche Gespräch der beiden; im Lächeln die Strategiewahl (Setup 10)."}, {"id": "F9a", "strang": "F", "seq": "Seq II", "seqTitle": "Zwei Käufer", "titel": "Das Geschenk", "detail": "Tage nach dem Empfang: Bei Helene kommt ein Päckchen an — kein Absender, keine Karte. In Seide: der Flakon, Tau. Sie weiß, von wem es ist. Sie stellt ihn nicht auf, sie wirft ihn nicht weg — sie legt ihn in eine kleine Schachtel.", "last": "Die Verehrung findet den zweiten Weg, ins Haus des Mannes, der sie abgelehnt hat (Setzung 14.08.; die gesichtslose Sendung ist Inszenierungs-Angebot, Alternative persönliche Übergabe → `entwicklung.md`). Helenes Fingerhut Eitelkeit (Dossier); das Objekt der dritten Erbschaft kommt in die Welt."}, {"id": "F10", "strang": "F", "seq": "Seq III", "seqTitle": "Das Werk", "titel": "Termine wie Feiertage", "detail": "Der Magnat finanziert, drängt, lobt in jede Kamera. Schneller, Freunde. Die Zukunft wartet nicht. Wer bremst, ist Feind des Volkes.", "last": "Die Umarmungs-Sabotage; das Werk wird größer und schneller, als Jahn verantworten kann."}, {"id": "F11", "strang": "F", "seq": "Seq III", "seqTitle": "Das Werk", "titel": "Der Unfall", "detail": "Das Labor: Seit dem Schlag arbeiten sie mit reiner Tau-Ernte. Der Assistent kippt zwischen den Zerstäubern um, mitten im Satz — wie ein ausgeknipstes Licht. Er wacht wieder auf.", "last": "Die reine Tau-Ernte ist weit stärker, als alle Studien sagen — gemessen wurden immer Tagesmischungen (Setzung 14.08.); das Vorzeichen des Großen."}, {"id": "F12", "strang": "F", "seq": "Seq III", "seqTitle": "Das Werk", "titel": "Das Protokoll", "detail": "Jahn und die Sprachregelung: Nach außen existiert der Vorfall nicht, nach innen gilt ein Wortlaut. Der Assistent sagt nichts — er hält nur seither vor den Kesseln den Atem an.", "last": "Die Vertuschung als aktive erste Schuld; das halbe Wissen der Zeugen (Quelle der späteren Kanäle, 14/29)."}, {"id": "F13", "strang": "F", "seq": "Seq III", "seqTitle": "Das Werk", "titel": "Der Kessel wird halten", "detail": "Nachts über den Papieren: Das zweite Gutachten unterschlägt nichts — es beschreibt die krassere Wirkung der Dämpfe an der Luft und erklärt damit den Unfall; auch die zweite Schlussfolgerung steht darin: Mit den Tau-Ernten steigt der Druck im Kessel weit über das, was die Mischungen je erzeugt haben. Der Kessel ist gesichert — für einen gewissen Überdruck. Aber das Werk ist schon im Bau, es ist zu wenig Zeit, und der Kessel wird das schon halten: So schließt das Papier. Seine Zweifel behält Jahn für sich. Helene liest es nicht.", "last": "Die Beugung, präzisiert (Setzung 14.08.): keine unterschlagenen Fakten — der beruhigende Schluss über den eigenen Warnungen. Exakt das Papier, das die Intrige braucht (29); niemand weiß, was er weiß."}, {"id": "F14", "strang": "F", "seq": "Seq III", "seqTitle": "Das Werk", "titel": "Ein Wort, kein Maß", "detail": "Woanders: Hände, ein makelloser Rücken, eine Meldung. Der Magnat erfährt von einem Zwischenfall im Labor — ein Wort, kein Maß.", "last": "Die Kanäle; seine Rechnung bleibt die Blamage, nicht die Katastrophe."}, {"id": "F15", "strang": "F", "seq": "Seq III", "seqTitle": "Das Werk", "titel": "Das Richtfest", "detail": "Der Rohbau, drei Meter hohe Buchstaben: JAHN-WERK. Lenz legt die Hand an einen Träger und sagt nichts; Jahn sieht es und fragt nicht. Smalltalk.", "last": "Das versäumte Gespräch — der Stoff der späteren Reue beider Männer."}, {"id": "F15a", "strang": "F", "seq": "Seq III", "seqTitle": "Das Werk", "titel": "Das Foto", "detail": "Beim Richtfest: Ein Fotograf der Bewegung stellt vier Menschen mit Fahnen vor den Rohbau — Jahn, Lenz, Ruth mit Anton auf dem Arm, lachend, und Helene, ein wenig gedreht, eine Hand tief auf dem Kleid. Es dauert einen Atemzug, dann ist es ein Bild.", "last": "Der Ursprung des Klassenraum-Plakats (Fixpunkt 56a „Das vierte Gesicht\"; K2 entschieden 16.08.) — das Bild, aus dem die Stadt später drei Gesichter kratzt und eines nicht."}, {"id": "F16", "strang": "F", "seq": "Seq III", "seqTitle": "Das Werk", "titel": "Der Ort", "detail": "Der Aussichtsort: das Geländer, der weite Blick, das Familienwort ins Ohr. Unten im Panorama das fast vollendete Werk. Sie sagt ihm, dass sie schwanger ist.", "last": "Das Glück mit der Drohung im Bild — nur er kann sie sehen; der Spiegel-Ort der ersten Fassung; die Kohorten-Uhr beginnt."}, {"id": "F17", "strang": "F", "seq": "Seq III", "seqTitle": "Das Werk", "titel": "Feldfrauen", "detail": "Ruths Küche, leerer als früher: Ruth tastet Helenes Bauch, macht Feldfrauen-Witze — und ist selbst schwanger. Die Küche plant ein Fest, das nie stattfinden wird.", "last": "Nur Ruth weiß es (Setzung 24.07.); Jakob wird vorbereitet; die Vertrautheit der Frauen (Quelle von Lenz' späterem Wissen um das Kind)."}, {"id": "F18", "strang": "F", "seq": "Seq IV", "seqTitle": "Die Nacht des Werks", "titel": "Der Saal", "detail": "Vierhundert Stühle, eine Nacht lang — am Morgen soll die Feier sein. Lenz schleppt Stühle für die Zukunft und flucht liebevoll über den Freund. Zu Hause schläft Anton, zwei Jahre alt, neben der schwangeren Ruth.", "last": "Die private Mathematik wird geladen — bei der Sache statt beim Sohn (Fixpunkt: Lenz' „Stühle\"-Monolog der ersten Fassung)."}, {"id": "F19", "strang": "F", "seq": "Seq IV", "seqTitle": "Die Nacht des Werks", "titel": "Das Licht über dem Fluss", "detail": "Der Nachthimmel verliert die Farbe. Lenz rennt gegen einen Strom aus Menschen — und kommt zu spät. Ruth im Hof, lebend, schreiend; ein Kinderbett, das niemand mehr braucht; der süße, falsche Geruch.", "last": "Die Katastrophe aus Lenz' Nähe; Antons Tod; der Geruch als Vorbote des Sterbens (Echo von 11)."}, {"id": "F20", "strang": "F", "seq": "Seq IV", "seqTitle": "Die Nacht des Werks", "titel": "Das Kommuniqué", "detail": "Noch während es brennt: die Radiostimme — Terroranschlag aus dem Umfeld des Politikers Jahn, er selbst tot. Ein Stempel, Hände, kein Gesicht.", "last": "Die Geburt der Lüge als Verwaltungsakt; sie verbiegt eine Wahrheit (der Name auf dem Werk, der verschwiegene Unfall)."}, {"id": "F21", "strang": "F", "seq": "Seq IV", "seqTitle": "Die Nacht des Werks", "titel": "Hinterhöfe", "detail": "Drei Menschen verschwinden in der brennenden Nacht: ein Mann, eine Frau, ein ungeborener dritter.", "last": "Die Flucht; das formale Scharnier — hier wechselt die Erzählung die Seite (S1)."}, {"id": "F22", "strang": "F", "seq": "Seq V", "seqTitle": "Vier Jahre", "titel": "Die Monate", "detail": "Die Stadt stirbt in Monaten: die ersten Male, die Abriegelung. Jakob wird in ein Haus geboren, in dem ein Bett zu viel steht. (Die Drops setzen erst Jahre später ein — Setzung 16.08., K4; wann genau, bleibt diesig, auch Ruth weiß es nicht genau.)", "last": "Der Weltumbau im Raffer; die Kohortenlogik konkret."}, {"id": "F23", "strang": "F", "seq": "Seq V", "seqTitle": "Vier Jahre", "titel": "Der stille Säufer", "detail": "Lenz pflegt Ruth und destilliert Fusel — dieselbe Fertigkeit, gefallen. Er trinkt gegen die Präzision: Nüchtern rechnet die Selbstanklage, und die Nase liest die Male der Frau.", "last": "Ich war bei dir statt bei ihm — die Schuld ist älter als jede Intrige (Fundament der Doppel-Lesbarkeit von 34–36)."}, {"id": "F24", "strang": "F", "seq": "Seq V", "seqTitle": "Vier Jahre", "titel": "Drei Zimmer", "detail": "Das Versteck in Ausschnitten: der Redner, der berufsmäßig flüstert; Helene geht hinaus — tauschen, besorgen, horchen — und trägt die Familie.", "last": "Die Enge als Form (S1); die Rollenumkehr; Anna lernt die Welt als Fensterausschnitt."}, {"id": "F25", "strang": "F", "seq": "Seq V", "seqTitle": "Vier Jahre", "titel": "Das Fensterspiel", "detail": "Hinter dem Vorhang: Namen für die Leute unten, Wolken zu Tieren, unterdrücktes Kichern. Auf der Fensterbank das hölzerne Pferdchen.", "last": "Die innige Vater-Beziehung (gesetzt 15.07.); das Verstecken als Spiel — das Setup, das in 34 das Leben rettet; das Pferdchen."}, {"id": "F26", "strang": "F", "seq": "Seq V", "seqTitle": "Vier Jahre", "titel": "Das Familienwort", "detail": "An guten Abenden: die Geschichte vom Ort mit dem Licht — man geht den Weg, der sich dreht, und zählt die Schritte —, das Pferdchen in der Kinderhand (Setzung 16.08., K3), das Wort ins Ohr, immer nur ins Ohr. Wenn alles vorbei ist, gehen wir hin.", "last": "Das Erbe der Mutter; das Versprechen, das erst die Kinder der ersten Fassung einlösen."}, {"id": "F26a", "strang": "F", "seq": "Seq V", "seqTitle": "Vier Jahre", "titel": "Der Tropfen", "detail": "Beim Kramen, das Kind auf dem Arm, stoßen sie auf die Schachtel. Helene öffnet sie: ein einziger Tropfen auf den Handrücken, die Hand vors Gesicht der Kleinen. Anna riecht. Dann schließt sich die Schachtel wieder.", "last": "Die wärmste Minute des Verstecks — Liebe als Geruch, ohne ein Wort, das man erinnern könnte; der Ursprung der dritten Erbschaft (der Duft-Rest, Dossier). Der Payoff — Anna, Jahre später, im Feld — ist geparkt (`../ideen.md`, Eintrag 2)."}, {"id": "F27", "strang": "F", "seq": "Seq V", "seqTitle": "Vier Jahre", "titel": "Die Zeile", "detail": "Helene bringt eine Nachricht mit: Der älteste Sohn des Freundes ist in der Nacht gestorben. Jahn setzt eine Zeile an — und riskiert sie nicht.", "last": "Die unterlassene Zeile, seine schwerste Schuld; eine Tür, die sich lautlos schließt."}, {"id": "F28", "strang": "F", "seq": "Seq VI", "seqTitle": "Der Umschlag", "titel": "Die Frau, die einkaufen geht", "detail": "Ein Gesicht, das zweimal auffällt; ein Bote, der wartet.", "last": "Die schuldlose Spur — Helene, die vier Jahre alles richtig machte, wird einfach gesehen."}, {"id": "F29", "strang": "F", "seq": "Seq VI", "seqTitle": "Der Umschlag", "titel": "Ein Recht darauf", "detail": "Hände halten einen Umschlag: die Nachricht, dass der Mann lebt, und eine Abschrift des Gutachtens — weich genug, um gebaut worden zu sein, deutlich genug, um zu „beweisen\". Die temperierte Stimme: Ich finde, der Mann hat ein Recht darauf, es zu wissen.", "last": "Die reinen Hände; gefälscht wird mit echtem Material; die Herkunft der Abschrift bleibt geahnt (halbes Wissen sucht Kanäle, 12)."}, {"id": "F30", "strang": "F", "seq": "Seq VI", "seqTitle": "Der Umschlag", "titel": "Eigene Findigkeit", "detail": "Der Umschlag erreicht Lenz so, dass er ihn für eigene Findigkeit hält.", "last": "Die unsichtbare Führung; sein Irrtum beginnt als Stolz."}, {"id": "F31", "strang": "F", "seq": "Seq VI", "seqTitle": "Der Umschlag", "titel": "Die Probe", "detail": "Er will es nicht glauben. Er säuft sich durch die Nacht. Er steht vor der Ruine und liest den Namen in drei Meter hohen Buchstaben.", "last": "Die Alternativen-Prüfung, erster Teil — der Kohlhaas-Kipp bekommt seine Sorgfalt."}, {"id": "F32", "strang": "F", "seq": "Seq VI", "seqTitle": "Der Umschlag", "titel": "Am Bett", "detail": "Er kommt zu Ruth und bringt es nicht über die Lippen. Die Trauer kippt in Sinn: Wenn er lebt, hat mein Sohn einen Schuldigen.", "last": "Der Kipp vollzogen — Notwehr der Seele, keine Dummheit."}, {"id": "F33", "strang": "F", "seq": "Seq VI", "seqTitle": "Der Umschlag", "titel": "Die Waffe", "detail": "Er nimmt sie wie ein Mann, der ein Geständnis erzwingen will und sich selbst nicht mehr traut. Zu Hause schläft ein Dreijähriger. Er tritt in die Nacht — und die Erzählung verliert ihn in den Hinterhöfen.", "last": "Der Aufbruch und die Lücke — hier beginnt die Indizien-Lösung; ein Umkehren bliebe denkbar, wir sehen es nicht."}, {"id": "F34", "strang": "F", "seq": "Seq VII", "seqTitle": "Die Tür", "titel": "Das Klopfen", "detail": "Ein Abend wie hundert davor: das Fläschchen im Lampenkreis am Boden (Fixpunkt: Szene 1 der ersten Fassung; das Pferdchen zeigt die Nacht nicht — Setzung 16.08., K3). Dann das Klopfen; ein Blick der Eltern — und das Kind ist unter dem Tisch, bevor jemand ein Wort sagt. Der Vater öffnet: die Stimme zum ersten Mal in vier Jahren laut, ein einziges Wort, beinahe froh — zwei Silben, die das Kind nicht kennt.", "last": "Der Wechsel zum Kind (S1, dritter Schritt); kein Name, kein Gesicht — für niemanden; das Verstecken-Spiel (25) zahlt aus."}, {"id": "F35", "strang": "F", "seq": "Seq VII", "seqTitle": "Die Tür", "titel": "Unter dem Tisch", "detail": "Stimmen, die steigen und brechen; die Wörter kommen nicht bis unter den Tisch. Ein gestreckter Arm im gelben Licht, eine Waffe am Ende; am inneren Unterarm, überscharf, ein Mal. Der erste Schuss. Die Mutter — Füße, Lauf, Mantelstoff — geht dazwischen. Der zweite. Stille. Die Stiefel bleiben zu lange; das Geräusch ist Weinen — wessen, sagt der Strang nicht.", "last": "Die Tat in der Blickgeometrie des Kindes — Motiv, Mal und Weg sprechen, bewiesen ist nichts (Täter-Entscheidung A)."}, {"id": "F36", "strang": "F", "seq": "Seq VII", "seqTitle": "Die Tür", "titel": "Die offene Tür", "detail": "Die Stiefel gehen. Im gelben Lichtkreis: das Kind, das alles gesehen hat. Die Tür steht offen.", "last": "Das Endbild — hier endet der Strang; unter dem Tisch beginnt der andere."}]};
+var VORSCHLAG = ["G01", "F1", "F2", "F3", "F4", "F5", "G02", "G03", "G04", "G05", "G06", "G07", "G08", "G09", "G10", "G11", "G12", "G13", "G14", "G15", "G16", "F6", "F7", "F8", "F9", "F9a", "G17", "G18", "G19", "G20", "G21", "G22", "G23", "G24", "G25", "G26", "G27", "G28", "G29", "G30", "G31", "G32", "G33", "G34", "F10", "F11", "F12", "F13", "F14", "F15", "F15a", "G35", "G36", "G37", "G38", "G39", "G40", "G41", "G42", "G43", "G44", "G45", "G46", "F16", "F17", "F18", "F19", "F20", "F21", "G47", "G48", "G49", "G50", "G51", "G52", "G53", "G54", "G55", "F22", "F23", "F24", "F25", "F26", "F26a", "F27", "G56", "G57", "G58", "G59", "G60", "G61", "G62", "G63", "G64", "G65", "G66", "G67", "G68", "F28", "F29", "F30", "F31", "F32", "F33", "G69", "G70", "G71", "G72", "G73", "G74", "G75", "G76", "G77", "G78", "G79", "G80", "F34", "F35", "F36", "G81", "G82", "G83", "G84", "G85", "G86", "G87"];
+
+var KARTEN = {};
+DATA.gegenwart.concat(DATA.felder).forEach(function (k) { KARTEN[k.id] = k; });
+var AUSGANG = DATA.gegenwart.map(function(k){return k.id;})
+  .concat(DATA.felder.map(function(k){return k.id;}));
+var CHRONO = DATA.felder.map(function(k){return k.id;})
+  .concat(DATA.gegenwart.map(function(k){return k.id;}));
+var KEY = "verwebungsprobe-stand-v2";
+var ALTKEY = "verwebungsprobe-reihenfolge-v1";
+
+var stand = ladeStand();
+
+function ladeStand() {
+  try {
+    var s = JSON.parse(localStorage.getItem(KEY) || "null");
+    if (s && s.order) {
+      s.deleted = s.deleted || [];
+      s.notes = s.notes || {};
+      s.custom = s.custom || {};
+      return s;
+    }
+  } catch (e) {}
+  var order = AUSGANG.slice();
+  try {
+    var alt = JSON.parse(localStorage.getItem(ALTKEY) || "null");
+    if (alt && alt.length) order = alt;
+  } catch (e) {}
+  return { order: order, deleted: [], notes: {}, custom: {} };
+}
+
+function alleIds() {
+  var ids = AUSGANG.slice();
+  Object.keys(stand.custom).forEach(function (id) {
+    if (ids.indexOf(id) === -1) ids.push(id);
+  });
+  return ids;
+}
+
+function normalisiere() {
+  var bekannt = function (id) { return KARTEN[id] || stand.custom[id]; };
+  stand.order = stand.order.filter(bekannt);
+  stand.deleted = stand.deleted.filter(bekannt);
+  alleIds().forEach(function (id) {
+    if (stand.order.indexOf(id) === -1 && stand.deleted.indexOf(id) === -1) {
+      stand.order.push(id);
+    }
+  });
+}
+
+function speichere() {
+  stand.order = [].map.call(liste.children, function (li) { return li.dataset.id; });
+  localStorage.setItem(KEY, JSON.stringify(stand));
+}
+function speichereOhneDom() { localStorage.setItem(KEY, JSON.stringify(stand)); }
+
+var liste = document.getElementById("liste");
+var delListe = document.getElementById("delListe");
+
+function info(id) {
+  if (KARTEN[id]) return KARTEN[id];
+  var c = stand.custom[id] || {};
+  return { id: id, strang: "N", seq: "neu", titel: c.titel || "Neue Szene" };
+}
+
+function wachse(t) { t.style.height = "auto"; t.style.height = (t.scrollHeight + 2) + "px"; }
+
+function karteEl(id, imKorb) {
+  var k = info(id);
+  var cls = k.strang === "G" ? "g" : (k.strang === "F" ? "f" : "n");
+  var li = document.createElement("li");
+  li.className = "card offen " + cls;
+  li.dataset.id = id;
+  var nr = k.strang === "N" ? id.replace(/^N/, "") : id.replace(/^[GF]/, "");
+  var tag = "<b>" + k.strang + "</b> " + nr + " · " + k.seq;
+
+  var html = '<div class="kopf"><span class="tag">' + tag + '</span>';
+  if (k.strang !== "N") html += '<span class="titel">' + k.titel + "</span>";
+  html += "</div>";
+  html += '<div class="detail">';
+  if (k.strang === "N") {
+    html += '<input type="text" class="titelfeld" placeholder="Titel der neuen Szene">';
+    html += '<textarea class="textfeld" placeholder="Was die Szene zeigt — und ihre Last."></textarea>';
+  } else {
+    var quelle = k.detail || "";
+    if (k.strang === "F" && k.last) quelle += '<div class="last">Last: ' + k.last + "</div>";
+    html += '<div class="quelle">' + quelle + "</div>";
+  }
+  html += '<label class="notizlabel">Änderung / Notiz</label>';
+  html += '<textarea class="notiz" placeholder="—"></textarea>';
+  html += '<div class="aktionen"><button class="btnNotiz">Notiz leeren</button> <button class="btnDel">' +
+    (imKorb ? "Wiederherstellen" : "Szene in den Papierkorb") + "</button></div>";
+  html += "</div>";
+  li.innerHTML = html;
+
+  var notiz = li.querySelector(".notiz");
+  notiz.value = stand.notes[id] || "";
+  notiz.addEventListener("input", function () {
+    stand.notes[id] = notiz.value;
+    if (!notiz.value) delete stand.notes[id];
+    wachse(notiz); speichereOhneDom();
+  });
+  if (k.strang === "N") {
+    var tf = li.querySelector(".titelfeld"), xf = li.querySelector(".textfeld");
+    var c = stand.custom[id] || {};
+    tf.value = (c.titel && c.titel !== "Neue Szene") ? c.titel : "";
+    xf.value = c.text || "";
+    tf.addEventListener("input", function () {
+      stand.custom[id].titel = tf.value || "Neue Szene"; speichereOhneDom();
+    });
+    xf.addEventListener("input", function () {
+      stand.custom[id].text = xf.value; wachse(xf); speichereOhneDom();
+    });
+  }
+  li.querySelector(".btnNotiz").addEventListener("click", function () {
+    notiz.value = "";
+    delete stand.notes[id];
+    wachse(notiz); speichereOhneDom();
+  });
+  li.querySelector(".btnDel").addEventListener("click", function () {
+    if (imKorb) {
+      stand.deleted = stand.deleted.filter(function (d) { return d !== id; });
+      li.remove();
+      liste.appendChild(karteEl(id, false));
+      speichere();
+    } else {
+      li.remove();
+      stand.deleted.push(id);
+      delListe.appendChild(karteEl(id, true));
+      speichere();
+    }
+    korbAnzeigen(); zaehle();
+  });
+  return li;
+}
+
+function baue() {
+  normalisiere();
+  liste.innerHTML = ""; delListe.innerHTML = "";
+  stand.order.forEach(function (id) { liste.appendChild(karteEl(id, false)); });
+  stand.deleted.forEach(function (id) { delListe.appendChild(karteEl(id, true)); });
+  korbAnzeigen(); zaehle();
+  [].forEach.call(document.querySelectorAll("textarea"), wachse);
+}
+
+function korbAnzeigen() {
+  document.getElementById("papierkorb").classList.toggle("hat", delListe.children.length > 0);
+}
+
+function zaehle() {
+  var sichtbar = liste.querySelectorAll(".card:not(.versteckt)").length;
+  var extra = delListe.children.length;
+  document.getElementById("zaehler").textContent =
+    sichtbar + " Karten" + (extra ? " · " + extra + " im Korb" : "");
+}
+
+/* ---------- Ziehen (Pointer-basiert, mit Autoscroll) ---------- */
+var zieh = null;
+liste.addEventListener("pointerdown", function (e) {
+  var card = e.target.closest(".card");
+  if (!card || document.body.classList.contains("gefiltert")) return;
+  if (e.target.closest("textarea, input, button, .aktionen")) return;
+  zieh = { card: card, x: e.clientX, y: e.clientY, aktiv: false, ph: null };
+  try { card.setPointerCapture(e.pointerId); } catch (err) {}
+});
+liste.addEventListener("pointermove", function (e) {
+  if (!zieh) return;
+  var dy = e.clientY - zieh.y, dx = e.clientX - zieh.x;
+  if (!zieh.aktiv) {
+    if (Math.abs(dy) < 7 && Math.abs(dx) < 7) return;
+    zieh.aktiv = true;
+    var r = zieh.card.getBoundingClientRect();
+    zieh.war_offen = zieh.card.classList.contains("offen");
+    zieh.card.classList.remove("offen");
+    zieh.ph = document.createElement("li");
+    zieh.ph.className = "platzhalter";
+    zieh.ph.style.height = "42px";
+    zieh.card.parentNode.insertBefore(zieh.ph, zieh.card.nextSibling);
+    zieh.card.classList.add("dragging");
+    zieh.card.style.position = "fixed";
+    zieh.card.style.width = r.width + "px";
+    zieh.card.style.left = r.left + "px";
+    zieh.offset = Math.min(e.clientY - r.top, 20);
+  }
+  zieh.card.style.top = (e.clientY - zieh.offset) + "px";
+  if (e.clientY < 90) window.scrollBy(0, -14);
+  else if (e.clientY > window.innerHeight - 90) window.scrollBy(0, 14);
+  var ziel = document.elementFromPoint(e.clientX, e.clientY);
+  ziel = ziel && ziel.closest ? ziel.closest("#liste .card") : null;
+  if (ziel && ziel !== zieh.card) {
+    var r2 = ziel.getBoundingClientRect();
+    if (e.clientY < r2.top + r2.height / 2) liste.insertBefore(zieh.ph, ziel);
+    else liste.insertBefore(zieh.ph, ziel.nextSibling);
+  }
+});
+function ziehEnde(e) {
+  if (!zieh) return;
+  var card = zieh.card;
+  if (zieh.aktiv) {
+    card.classList.remove("dragging");
+    if (zieh.war_offen) card.classList.add("offen");
+    card.style.position = ""; card.style.width = "";
+    card.style.left = ""; card.style.top = "";
+    liste.insertBefore(card, zieh.ph);
+    zieh.ph.remove();
+    speichere();
+  } else if (!e.target.closest("textarea, input, button, .aktionen")) {
+    card.classList.toggle("offen");
+  }
+  zieh = null;
+}
+liste.addEventListener("pointerup", ziehEnde);
+liste.addEventListener("pointercancel", ziehEnde);
+
+/* ---------- Filter ---------- */
+function filter(art, knopf) {
+  ["btnAlle", "btnG", "btnF"].forEach(function (b) {
+    document.getElementById(b).classList.remove("aktiv");
+  });
+  knopf.classList.add("aktiv");
+  document.body.classList.toggle("gefiltert", art !== null);
+  [].forEach.call(liste.children, function (li) {
+    li.classList.toggle("versteckt", art !== null && !li.classList.contains(art));
+  });
+  zaehle();
+}
+document.getElementById("btnAlle").onclick = function () { filter(null, this); };
+document.getElementById("btnG").onclick = function () { filter("g", this); };
+document.getElementById("btnF").onclick = function () { filter("f", this); };
+
+/* ---------- Neue Szene ---------- */
+document.getElementById("btnNeu").onclick = function () {
+  var n = 1;
+  Object.keys(stand.custom).forEach(function (id) {
+    var m = id.match(/^N(\d+)$/);
+    if (m) n = Math.max(n, parseInt(m[1], 10) + 1);
+  });
+  var id = "N" + n;
+  stand.custom[id] = { titel: "Neue Szene", text: "" };
+  var li = karteEl(id, false);
+  liste.insertBefore(li, liste.firstChild);
+  speichere(); zaehle();
+  window.scrollTo({ top: 0 });
+  li.querySelector(".titelfeld").focus();
+};
+
+/* ---------- Vorlagen ---------- */
+function vorlage(basis, name) {
+  if (!confirm("Reihenfolge auf \u201E" + name + "\u201C setzen? Notizen, neue und gel\u00f6schte Szenen bleiben erhalten \u2014 nur die Sortierung wird ersetzt.")) return;
+  var custom = Object.keys(stand.custom).filter(function (id) {
+    return stand.deleted.indexOf(id) === -1;
+  });
+  stand.order = basis.filter(function (id) {
+    return stand.deleted.indexOf(id) === -1;
+  }).concat(custom);
+  speichereOhneDom(); baue();
+  filter(null, document.getElementById("btnAlle"));
+}
+document.getElementById("btnAusgang").onclick = function () { vorlage(AUSGANG, "Ausgangslage"); };
+document.getElementById("btnChrono").onclick = function () { vorlage(CHRONO, "Chronologie"); };
+document.getElementById("btnVorschlag").onclick = function () { vorlage(VORSCHLAG, "Vorschlag Co-Autor"); };
+
+/* ---------- Auf-/Zuklappen ---------- */
+document.getElementById("btnKlapp").onclick = function () {
+  var offen = liste.querySelector(".card.offen");
+  [].forEach.call(liste.children, function (li) {
+    li.classList.toggle("offen", !offen);
+  });
+  this.textContent = offen ? "Alle aufklappen" : "Alle zuklappen";
+};
+
+/* ---------- Export ---------- */
+function exportZeile(id) {
+  var k = info(id);
+  var z = id + " \u00b7 " + k.seq + " \u00b7 " + (k.strang === "N" ? ((stand.custom[id] || {}).titel || "Neue Szene") : k.titel);
+  var extra = [];
+  if (k.strang === "N" && (stand.custom[id] || {}).text) {
+    extra.push("   TEXT: " + stand.custom[id].text.split("\n").join("\n         "));
+  }
+  if (stand.notes[id]) {
+    extra.push("   \u00c4NDERUNG: " + stand.notes[id].split("\n").join("\n             "));
+  }
+  return [z].concat(extra).join("\n");
+}
+document.getElementById("btnExport").onclick = function () {
+  speichere();
+  var teile = ["Verwebungsprobe \u2014 Reihenfolge (Stand: " + new Date().toLocaleString("de-DE") + ")",
+    "F = Die Felder \u00b7 G = TAU, erste Fassung \u00b7 N = neue Szene", ""];
+  stand.order.forEach(function (id) { teile.push(exportZeile(id)); });
+  if (stand.deleted.length) {
+    teile.push(""); teile.push("\u2014 Gel\u00f6schte Szenen:");
+    stand.deleted.forEach(function (id) { teile.push(exportZeile(id)); });
+  }
+  document.getElementById("export").value = teile.join("\n");
+  document.getElementById("overlay").classList.add("offen");
+};
+document.getElementById("btnKopieren").onclick = function () {
+  var t = document.getElementById("export");
+  t.select(); document.execCommand("copy");
+  this.textContent = "Kopiert.";
+  var self = this;
+  setTimeout(function () { self.textContent = "In die Zwischenablage"; }, 1500);
+};
+document.getElementById("btnZu").onclick = function () {
+  document.getElementById("overlay").classList.remove("offen");
+};
+
+baue();
+</script>
+</body>
+</html>

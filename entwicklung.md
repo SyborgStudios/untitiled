@@ -542,6 +542,80 @@ sich zu doppeln.
 
 ## Entscheidungslog
 
+**18.08.2026** — Zweiter Verwebungs-Entwurf des Autors
+(`verwebung/stand-20260818.md`, 09:55): 125 Karten (die leere
+Karte N1 im Export war ein Versehen, gleichentags
+zurückgenommen — die Pretitle-Nacht bleibt der Anfang);
+**G55 „Die Alte, II: Frau" gelöscht** — die
+Vergangenheit erzählt Helene jetzt selbst (F6/F7), die
+Exposition durch die Alte wird entbehrlich (Fassung-2-Flag G
+tritt ein); Folge zu prüfen: die Alte-Stimme in G72 „Sätze
+nebeneinander" und das Heft-Zeigen. Der Tropfen (F26a) und die
+Zeile (F27) rücken **hinter** den Aussichtsort; die Intrige
+(F28–F33) wird als **Countdown durch die Sequenzen 6 und 7
+gestreut** (je ein Splitter zwischen den Gegenwarts-Blöcken),
+„Die Waffe" schneidet direkt auf die Kreideliste. Das Ende:
+**Klopfen/Unter dem Tisch vor der Waschung, „Die offene Tür"
+als Schlussbild** hinter dem Hund. Befund des Co-Autors im
+Werkstatt-Gespräch (Nähte, Kosten der Löschung, das neue Ende:
+Verweigerung bleibt intakt, weil das Kind unterm Tisch als
+Bild kein Urteil ist). **Gleichentags entschieden (Autor): Das
+Heft zeigt sich niemandem** — die erste Seite bleibt für alle
+Figuren und fürs Publikum ungezeigt; „Hier sind alle
+gezeichnet" entfällt als Dialogzeile (lebt in den Bildern der
+Waschung). Für die Alte-Stimme in G72 „Sätze nebeneinander"
+liegt ein Vorschlag vor: die Zeile geht an Lenz, aus dem
+Souffleur-Monolog („… ihr gefiel seine Freundin besser. Die
+hatten immer gut was zu Lachen …") — zwei von vier Stimmen aus
+demselben Mund. Protokoll und Alternative:
+`verwebung/loeschfolgen.md`. **Beides angenommen (Autor, gleicher
+Tag)** — daraufhin das **Fountain-Gerüst des verwobenen Buchs**
+gebaut: `verwebung/Verwebung.fountain` (125 Szenen, G mit Text,
+F als Überschrift + Werkstatt-Notiz, 36 Farb/Grau-Sections). Ab
+jetzt Arbeitskopie fürs neue Buch in Beat; die erste Fassung
+bleibt unangetastet. **Seite 16 ist gebaut** (blaue Seite des
+Co-Autors, „Die Verwebung"): erzählt den Weg — Strang 1 als
+eigene Geschichte, Fixpunkte, das Board, die zwei Entwürfe,
+was die Sortierung des Autors zeigt, das Heft, das Beat-Gerüst,
+die vorsichtige Antwort auf Seite 15 —, und trägt als Anlage A
+das Karten-Board selbst (`site/verwebung.html`, iframe, DE/EN,
+startet mit dem Stand des Autors), zum Selbst-Sortieren.
+Datenschutzerklärung um den Local-Storage-Absatz ergänzt.
+**Gleicher Tag, auf Ansage des Autors („alle vier Blöcke am
+Stück"): die erste Fassung der „Felder" geschrieben** — alle 39
+Szenen, in `verwebung/Verwebung.fountain` eingesetzt und als
+eigenes Drehbuch `strang-1/Die-Felder.fountain`; Befund und
+Löcher in `strang-1/befund-erste-fassung.md`. Wartet auf die
+Abarbeitung des Autors. Auf seinen Wunsch dazu eine
+**Lesefassung des verwobenen Buchs** (nur DE):
+`audio/verwebung-lesefassung-de.mp3`, 2:30 h — zum
+Korrektur-Hören, wie er es an der ersten Fassung gemacht hat.
+**Erster Befund des Autors (Seite 17, gleicher Abend): Claude
+drückt sich ums Schreiben von Dialogen** — Gespräche werden als
+Regieanweisung zusammengefasst statt ausformuliert; die
+Wortkargheit ist nicht nur Stoff, sondern Gewohnheit; im
+Strang 1 fühlt sich alles „zu knapp und wenig flüssig" an. Der
+Autor geht selbst an die Dialoge. Für die Werkstatt ist das ab
+jetzt Arbeitsregel (Nachtrag zur Bilanz vom 11.08.).
+
+**17.08.2026** — Ansage des Autors: **Die Verwebungsprobe
+beginnt.** Beide Szenenbestände (87 Szenen der ersten Fassung,
+39 der „Felder") als sortierbares Karten-Board mit
+Strang-Farben — `verwebung/karten.html` (eigenständige
+HTML-Datei; Reihenfolge per Ziehen, Export als Textliste für
+die Werkstatt). Die Vergangenheit in Farbe, die Gegenwart
+grau — die Bild-Grammatik von Fassung 2 als Werkzeug-Farbe.
+Ziel: am Material prüfen, ob sich die Stränge verheiraten
+lassen (Seite-15-Frage), bevor ein neues Buch entsteht.
+Noch am selben Abend (21:20) liefert der Autor den **ersten
+eigenen Verwebungs-Entwurf** (alle 126 Karten, abgelegt als
+`verwebung/stand-20260817.md`): ein feinerer Reißverschluss als
+der Block-Vorschlag des Co-Autors — F-Splitter von zwei bis
+vier Karten im Gegenwarts-Fluss; das Diktat vor den Feldern
+(die Lüge zuerst, dann der Mensch), der Takt der Alten als
+Zünder der Unglücksnacht, JAH ERK als Ruinen-Echo direkt
+danach, „Die Stühle" nach der Waffe.
+
 **16.08.2026** — Entscheidungen des Autors (nach dem
 Fixpunkte-Durchgang der Strang-1-Werkstatt; Befund und
 Konflikte K1–K5: `strang-1/fixpunkte.md`):

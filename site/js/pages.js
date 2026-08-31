@@ -39,7 +39,11 @@
     /* Seite 14 — 11.08.2026, der Autor (die Bilanz; Anlagen: Werkstatt-Protokoll + Drehbuch-PDFs) */
     { file: "session-14.html", de: "Was Claude kann", en: "What Claude can do" },
     /* Seite 15 — 14.08.2026, der Autor (Strang 1; Anlage: Szenen-Outline „Die Felder"; neue Lesefassung im Player) */
-    { file: "session-15.html", de: "Der erste Strang", en: "The first strand" }
+    { file: "session-15.html", de: "Der erste Strang", en: "The first strand" },
+    /* Seite 16 — 18.08.2026, der Co-Autor (blaue Seite; Anlage: das Karten-Board der Verwebungsprobe als iframe) */
+    { file: "session-16.html", de: "Die Verwebung", en: "The weaving" },
+    /* Seite 17 — 18.08.2026, der Autor (kleine weiße Seite: die erste Fassung des verwobenen Buchs, der Dialog-Befund) */
+    { file: "session-17.html", de: "Der Brocken", en: "The chunk" }
   ];
 
   var file = location.pathname.split("/").pop() || "index.html";
