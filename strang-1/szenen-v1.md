@@ -1,8 +1,9 @@
 # Die Felder — Szenen-Outline, Fassung 1 (Strang 1)
 
 Internes Arbeitsdokument, kein Spoiler-Schutz. Angelegt
-13.08.2026: **39 Szenen** (36 der Erstfassung + Einschübe 9a,
-15a und 26a vom 14.08.), verankert in den sieben Sequenzen von
+13.08.2026: **42 Szenen** (36 der Erstfassung + Einschübe 9a,
+15a und 26a vom 14.08., 8a und 9b vom 31.08. sowie 7a vom
+01.09.), verankert in den sieben Sequenzen von
 `treatment-v1.md` (Stand nach der Täter-Entscheidung —
 Indizien-Lösung). Jede Szene trägt eine benennbare **Last**; eine
 Szene ohne Last fliegt raus. Konventionen wie im Hauptprojekt:
@@ -65,7 +66,7 @@ Unterschied, den nur die Felder kennen; der Satz aus 4 wird
 Physik. (Stille Pointe: Die gute Ernte ist die Tau-Ernte — im
 Namen des Luxusguts steckt von Anfang an die Energie.)
 
-## Sequenz II — Zwei Käufer (6–9a)
+## Sequenz II — Zwei Käufer (6–9b)
 
 **6 — Das Lachen an der falschen Stelle**
 Der halbvolle Saal, die erste Rede — gut und eine Spur zu schön.
@@ -81,6 +82,16 @@ Jahn wartet an der Tür und hört zu.
 die Ehe im Werden — er spricht zu tausend, sie zu dreißig, und
 keiner hält seins für größer.
 
+**7a — Das kleine Licht**
+Jahns Hinterzimmer: Er zeigt Helene die echte Lampe aus 5; sie
+schließt den Kreis, das Licht flackert und hält — und sie, die
+zu allem etwas sagt, sagt nichts. Die Staude gibt auf, es wird
+dunkel, keiner macht Licht: das erste Du.
+*Last:* Die Brücke zur Hochzeit — die Liebe entsteht, wo er
+nicht übertreibt; Helenes Probe am Ding selbst (Spiegel von 2);
+Vorwegnahme des Verstecks: ein kleiner Raum, ein Licht, die
+zwei — und es trägt (Einschub 01.09.).
+
 **8 — Der Souffleur**
 Auftritte: Lenz steht daneben und hält keine Reden — sein
 Dastehen ist die Rede. Nachts in der Küche liefert er die
@@ -88,6 +99,17 @@ Pointen; Jahn ruiniert am nächsten Tag jede einzelne; Ruth lacht
 trotzdem.
 *Last:* Die Mechanik der Bewegung; der Satz zieht durch die
 Stadt, und niemand weiß, wessen er ist.
+
+**8a — Das Lachen an der richtigen Stelle**
+Die Hochzeit: die Kirchentreppe, eine Menge, die niemand
+eingeladen hat; Tau-Blüten, Hände über Hände — die Menge schiebt
+sich zwischen die beiden, bis Helenes Lachen ihn durch den Jubel
+findet.
+*Last:* Das Private hat keinen Ort mehr (Spiegel des Verstecks);
+das Lachen als Signal der beiden — Szene 6 gespiegelt; vor 9a,
+damit „Helene Jahn" auf dem Paket stimmt (Einschub 31.08.;
+Farbbeutel-Frage ohne Anschlag gelöst, Pfiff-Alternative als
+Anmerkung in der Szene).
 
 **9 — Zwei Käufer**
 Der Empfang: der Flakon Tau als Gastgeschenk; Verehrung gegen
@@ -106,6 +128,15 @@ Mannes, der sie abgelehnt hat (Setzung 14.08.; die gesichtslose
 Sendung ist Inszenierungs-Angebot, Alternative persönliche
 Übergabe → `entwicklung.md`). Helenes Fingerhut Eitelkeit
 (Dossier); das Objekt der dritten Erbschaft kommt in die Welt.
+
+**9b — Die Sachen von früher**
+Der Einzug bei Jahn: das alte Zimmer in Kisten; die
+Blechschachtel wandert ungeöffnet ganz nach unten, Bücher
+darüber — „Von früher. Nichts Wichtiges." Zuletzt das leere
+Zimmer, der Schlüssel.
+*Last:* Der Abschied vom eigenen Zimmer; das Geheimnis zieht
+mit — dieselbe Kiste wie in 26a, „von früher" wird Helenes
+Formel für die Schachtel (Einschub 31.08.).
 
 ## Sequenz III — Das Werk (10–17)
 

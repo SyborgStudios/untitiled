@@ -43,7 +43,11 @@
     /* Seite 16 — 18.08.2026, der Co-Autor (blaue Seite; Anlage: das Karten-Board der Verwebungsprobe als iframe) */
     { file: "session-16.html", de: "Die Verwebung", en: "The weaving" },
     /* Seite 17 — 18.08.2026, der Autor (kleine weiße Seite: die erste Fassung des verwobenen Buchs, der Dialog-Befund) */
-    { file: "session-17.html", de: "Der Brocken", en: "The chunk" }
+    { file: "session-17.html", de: "Der Brocken", en: "The chunk" },
+    /* Seite 18 — 31.08.2026, der Autor (kleine weiße Seite: der erste Durchlauf durchs verwobene Buch ist beendet) */
+    { file: "session-18.html", de: "Gute Nacht", en: "Good night" },
+    /* Seite 19 — 01.09.2026, der Co-Autor (blaue Seite; Anlage: die Dramaturgie-Tafel als iframe) */
+    { file: "session-19.html", de: "Die Dramaturgie-Tafel", en: "The dramaturgy board" }
   ];
 
   var file = location.pathname.split("/").pop() || "index.html";

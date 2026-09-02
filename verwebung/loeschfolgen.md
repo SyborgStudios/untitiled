@@ -116,3 +116,60 @@ auf das verwobene Buch; die erste Fassung in `Untitled.fountain`
 bleibt unangetastet, dort steht die Szene weiter mit der Alten —
 und der ältere offene Autor-Marker zur Neufassung von Szene 52
 gilt dort weiter.)
+
+---
+
+## G06 „Das Diktat" — der Name fällt (geändert 01.09.2026)
+
+Keine Löschung, aber dieselbe Kategorie: eine Grau-Szene weicht
+im verwobenen Buch von der ersten Fassung ab. **Ansage des
+Autors:** Das Diktat nennt Jahn nicht mehr („… den der Verräter
+an seiner eigenen Stadt verübte"), und das Klassenraum-Plakat
+wird namenlos beschrieben („Ein gewaltiger Bau, stolz, im
+Anschnitt von unten"). Wirkung: Das Diktat fühlt sich zunächst
+wie ferner Schulstoff an; erst mit dem Kommuniqué (F20) wird es
+rückwirkend als Propaganda lesbar. In der Verwebung ist das
+möglich, weil die Farbe-Szenen den lebendigen Jahn liefern —
+geprüft: Vor der Unglücksnacht trug in Grau nur diese eine Szene
+den Namen. `Untitled.fountain` behält „J-a-h-n" — TAU solo
+braucht das Diktat als Exposition der Stadt-Lüge.
+
+---
+
+## F25 „Das Fensterspiel" (gestrichen 01.09.2026)
+
+Ansage des Autors. Was die Szene trug — und wohin es fällt:
+
+- **Das Pferdchen** hatte hier seinen ersten Auftritt in der
+  Vergangenheit. Es lebt jetzt **beiläufig in F26** weiter (an der
+  Wange, rutscht am Ende aus der Hand) — **gewollte Tarnung:**
+  Der Zuschauer soll die Verbindung zum Täter-Mal (G01, der
+  Pferdekopf) nicht sofort ziehen; erst bei G74/G75 soll ihm
+  aufgehen, dass er das Pferdchen längst gesehen hat. Die
+  herausgehobenen Pferdchen-Momente in F26 (es drehte sich mit,
+  es bekam das Wort ins Ohr) sind darum ebenfalls gefallen.
+- **Annas Schau-Lernen** (hinter Vorhängen stehen, Leute lesen —
+  als Spiel vom Vater) verliert seine Ursprungsszene. Der
+  Unter-den-Tisch-Reflex in F34 trägt auch ohne Erklärung; die
+  Herkunft bleibt unerzählt.
+- **„Herr Hut"**, die Wolke als Pferd und die beste Stunde des
+  Tages entfallen ersatzlos.
+- **Folge-Edit F26a:** Der Anfang verwies aufs Fensterspiel —
+  neu: der Vater schläft im hinteren Zimmer (die halbe Nacht an
+  der Tür), Helene horcht auf seinen Atem, bevor sie die
+  Schachtel öffnet.
+- **Zu bedenken:** Mit F25 fällt die einzige warme
+  Vater-Tochter-Szene des Verstecks; Jahn ist in Annas
+  Versteck-Alltag jetzt fast unsichtbar (F26: im Nebenzimmer,
+  F26a: schläft, F24: die unverständliche Stimme). Das passt zur
+  Richtung — der Vater als die dünne Erinnerung —, ist aber eine
+  Setzung, keine Nebenwirkung.
+
+Neu etabliert (in F26/F26a): **die Tür-Wache** — abends sitzt
+Jahn im anderen Zimmer bei der Tür (wer dort sitzt, hört die
+Treppe zuerst), die Vormittage verschläft er. Nebeneffekt: „Es
+hat in vier Jahren nie geklopft" (F34) wird schwerer — vier
+Jahre Wache, und das eine Klopfen kommt trotzdem.
+
+Betrifft nur das verwobene Buch; im eigenständigen Strang steht
+F25 unverändert.

@@ -4,50 +4,8 @@
     {
       "name": "site",
       "runtimeExecutable": "python3",
-      "runtimeArgs": [
-        "-m",
-        "http.server",
-        "8123",
-        "--directory",
-        "site"
-      ],
+      "runtimeArgs": ["-m", "http.server", "8123", "--directory", "site"],
       "port": 8123
-    },
-    {
-      "name": "site-frisch",
-      "runtimeExecutable": "python3",
-      "runtimeArgs": [
-        "-m",
-        "http.server",
-        "8124",
-        "--directory",
-        "site"
-      ],
-      "port": 8124
-    },
-    {
-      "name": "verwebung",
-      "runtimeExecutable": "python3",
-      "runtimeArgs": [
-        "-m",
-        "http.server",
-        "8126",
-        "--directory",
-        "verwebung"
-      ],
-      "port": 8126
-    },
-    {
-      "name": "site-16",
-      "runtimeExecutable": "python3",
-      "runtimeArgs": [
-        "-m",
-        "http.server",
-        "8127",
-        "--directory",
-        "site"
-      ],
-      "port": 8127
     }
   ]
 }
