@@ -345,3 +345,74 @@ der Buch-Taste.
 
 Stände: Verwebung weiterhin 142 Szenen, 38 Sections; Outline und
 Strang 42 Szenen.
+
+**Abendrunde 02.09.2026 (Antwort des Autors auf die Abarbeitung):**
+
+- **F5a:** vom Autor zurückgeschoben — bleibt hinter F5 (Sections
+  wieder F4–F5a / F6–F7a, Board-Taste wieder „Stand des Buchs
+  (01.09.)"). Die Verschiebung war in seiner Speicherung von 21:55
+  nicht enthalten; in der Datei nachvollzogen, DE und EN.
+- **F26:** vom Autor selbst neu geschrieben (Anna mit dem Kopf im
+  Schoß, „Mama, ich weiß", die Träne, „Schlaf."). Der Spiel-Vorschlag
+  des Co-Autors ist damit ersetzt; EN nachgezogen; Tippfehler
+  („Ihrem", Komma) bereinigt.
+- **F18, F21:** bleiben wie abgearbeitet.
+- **F34-Platz geklärt (Ansage des Autors):** Die Szene zeigt den
+  Moment objektiv, wie Anna ihn erlebt hat, und führt das
+  Handzeichen ein — die flache Hand, die nach unten geht: „bleib".
+  Das Zeichen ist in der ersten Fassung bereits im Gebrauch, Anna
+  zum Hund: am Zoll („Flach, ruhig, abwärts: bleib.") und in der
+  X-Straße („Ihre Hand hebt sich. Halb. Flach. Der Hund bleibt.").
+  In der Buchfolge sieht der Zuschauer also erst Annas „bleib" und
+  ganz am Ende die Hand der Mutter, von der es stammt. Der
+  Prüfpunkt von oben ist damit gestrichen; die Note an F34 trägt die
+  Begründung.
+- **Beobachtung (Angebot):** Jakobs Vorwurf in der Streit-Szene —
+  „Du hast genickt und bist gegangen" — beschreibt am Zoll ein
+  Nicken; der Zoll-Text zeigt die Hand. Steht so auch in
+  `Untitled.fountain`. Kann als Jakobs Lesart aus der Entfernung
+  stehen bleiben oder auf die Hand umgestellt werden.
+- **F4, Lenz' Nummer (Frage des Autors „kannst du den Witz mal
+  erklären?"):** Die Thermometer-Nummer war ein Bild ohne den Beat
+  davor — dass die Maische recht hatte und der Brand verdorben war,
+  wurde nie erzählt, die Frauen-Pointe hing in der Luft. Drei
+  Vorschläge (Vorlauf / Hochzeit / Thermometer repariert), der Autor
+  nimmt den Vorlauf: „Der Vorlauf macht blind, der Nachlauf dumm,
+  das dazwischen den Herrn Direktor reich — seitdem trink ich nur
+  Vorlauf und Nachlauf. Blind und dumm. Aber meins." — und dann doch
+  die **Variante** mit der umgedrehten Pointe: „Das dazwischen macht
+  reich." / „Wen, Meister?" / „Siehst du. Du hast schon vom Nachlauf
+  getrunken." Eingebaut DE und EN (heads/tails). Wer fragt, wer
+  reich wird, gilt in dieser Stadt als dumm; Jahn ist der, der die
+  Frage stellen wird — sein spätes Lachen hat einen zweiten Boden.
+- **F7, die Klassenzimmer-Geschichte, komplett neu:** Dem Autor
+  gefiel die Geschichte auch mit neuem Ende nicht — die Anleihe an
+  die Ort-Geschichte (zählen, der Weg von oben) störte ihn; Wunsch:
+  „ruhig eine sehr spannende Geschichte mit einer Tür, vielleicht
+  einem Geräusch dahinter". Drei Vorschläge (das Atmen hinter der
+  Tür, das nur sein eigenes war / das Klopfen im Keller, die
+  Großmutter mit der Marmelade / der Wolf an der Hüttentür); der
+  Autor nimmt den Wolf: der Junge allein, das Kratzen, der alte
+  Riegel, die ganze Nacht mit dem Rücken an der Tür, „wenn ich
+  weine, hört er's", morgens die Kratzer, die Tür hängt heute noch
+  bei Helenes Großmutter am Schuppen. Eingebaut DE und EN; der Autor
+  schreibt sie ggf. noch um. Das Echo auf die Nacht (das Kind, das
+  still bleibt, weil es sonst gehört wird) ist ihm benannt und
+  bewusst.
+
+**Nachzug 03.09.2026:** Der Autor hat F4 und F7 in Beat
+nachgeschliffen. F4: „Und was mache ich mit dem Nachlauf, Meister?",
+„Wen, Meister? Wen?", Pointe jetzt „Na, da hat wohl einer zuviel
+vom Nachlauf genascht." F7: „— und die Tür hielt. Die ganze Nacht."
+und ein neues Ende — hinter der Tür kein Wolf, sondern sein Vater,
+„kreidebleich und kalt"; danach Jahn: „Interessante Geschichte …
+Vielleicht 'n Ticken zu düster?", Helene: „Mir muss es auch
+gefallen.", Jahn: „Ich erzähle tausend Leuten meine Geschichte. Da
+habe ich keine dreißig, die so gespannt dabei sind." Vom Co-Autor:
+Cue-Format der Helene-Zeile normalisiert (Parenthetical statt
+Erweiterung im Namen), „30" → „dreißig", EN nachgezogen (F4 und F7),
+Szenen-Notes ergänzt.
+Setzung des Autors: F7 ist eine Werwolf-Geschichte — der Vater war
+das, was die ganze Nacht gekratzt hat. Der Text lässt beide Lesarten
+zu (erfroren / Werwolf); das Angebot eines Hinweises („unter den
+Fingernägeln: Holz") hat der Autor abgelehnt, es bleibt ohne.
