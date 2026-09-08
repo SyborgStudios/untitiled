@@ -503,3 +503,96 @@ Backup 10:42 → 11:34). Abgearbeitet vom Co-Autor, DE + EN:
 
 Board: G48 in der Buch-Taste hinter F18, Taste heißt „Stand des
 Buchs (06.09.)". Dramaturgie-Tafeln nicht neu generiert.
+
+## Nachtrag 08.09.2026 — Die Schachtel (F22b/F22c)
+
+Frage des Autors: Wie kommt das Kästchen mit dem Flakon von der
+gemeinsamen Wohnung ins Versteck? Drei Runden: Elternwohnung als
+Versteck (Vorschlag Co-Autor) — verworfen, die Eltern leben
+vermutlich; das alte Zimmer, in dem die Kiste „vergessen" bleibt
+(Vorschlag Autor) — verworfen, weil **Helene wie Jahn als tot gelten
+muss** (sonst würden Ruth und Lenz nach ihr suchen; Setzung
+08.09.2026). Entscheidung des Autors: **Helene holt die Schachtel
+selbst**, einige Monate nach dem Unglück, „in der Zeit, als Geld
+noch was zählte" — und in der Schachtel liegt genug, um dafür
+zurückzugehen.
+
+Umgesetzt (DE + EN, Strang, Outline, Board, `handlung.md`):
+
+- **F9a:** Beim Verstauen des Flakons sehen wir die Schachtel einmal
+  offen: ein paar Scheine, zusammengerollt; eine dünne Kette, ein
+  Ring; ein Holzpferdchen, so klein, dass es in eine Kinderhand
+  passt. Der Flakon kommt obenauf. (Zwei Tippfehler bereinigt.)
+- **F22b „Die Schachtel"** (neu, hinter F22 „Die Monate", vor dem
+  Kessler-Lauf; Kennung 22b, weil 22a in der Verwebung „Das neue
+  Kind" ist): Helene, verhüllt, nachts in der versiegelten Wohnung
+  — ausgeräumt, nicht durchsucht; nur die Kiste mit den Heften
+  unberührt, „alte Schulhefte wollte niemand"; ganz unten die
+  Schachtel, sie tastet hinein (Scheine, Kette, Pferdchen, die
+  Seide); sie legt die Hefte zurück und drückt das Siegel wieder an.
+  Kein Wort in der Szene.
+- **F22c „Das Brot"** (abgeteilt, Schauplatzwechsel): Morgengrauen,
+  der erste Laden mit Licht, ein Schein, Münzen zurück, das Brot
+  unter den Mantel neben die Schachtel. Geld zählt noch.
+- **F26a:** „unter dem Wenigen, das von früher geblieben ist" statt
+  „unter den Sachen von früher" — die Kiste blieb in der Wohnung.
+  F9b-Note entsprechend berichtigt.
+- Nebeneffekte: Annas Pferdchen hat jetzt eine Herkunft (Helenes
+  eigenes), der Flakon wird zur Reserve, die man nicht verkaufen kann
+  (jeder wüsste, wessen er ist) und deshalb nicht anrührt — bis auf
+  den Tropfen. Outline und Strang 43 Szenen (F22b im Strang mit
+  beiden Schauplätzen in einer Szene).
+
+**Dazu die Runde des Autors vom 07./08.09.2026** (in Beat, über die
+Backups isoliert; vor dem Einbau der Schachtel-Szenen): **F36 „Die
+offene Tür" gestrichen** — das Buch endet beim Hund, SCHWARZ, ENDE
+(Folgen in `verwebung/loeschfolgen.md`); **F13/F13a umgestellt**
+hinter den Grau-Block G35–G38, direkt vor F14 (Sections 12 = F10–F12,
+14 = F13–F14); vier Kürzungen: F21 „Hier wechselt die Geschichte die
+Seite" fällt, F27 „sie erkennt kaum noch wen, sagt man" fällt, F31a
+„Er geht nach Hause." fällt, G81 „als wir ihn zuletzt gesehen haben"
+statt „je". Alles in der EN nachgezogen; die GELÖSCHT-Buchhaltung
+steht wieder als Note hinter ENDE. Stände: Verwebung **143 Szenen**
+(86 G + 57 F-Teile; F26 in drei Teilen = 145 Headings), **39
+Sections**.
+
+**Runde des Autors 08.09.2026, nachmittags** (Beat-Backups 16:54 →
+17:36; Anlass: die neue DE-Lesefassung): **G50 „Die Ernte"** mit
+neuem Text an der Absperrung — ein Mann mit Gewehr („Komm, komm.
+Alle Mann ein Stück zurück." / „Ihr zwei."), zwei Kinder übernehmen
+die Übergabe, „Später": die Jungs verteilen die Ausbeute, Annas
+Anteil die Schokolade; **G51** „ein kleiner Rest"; **G56 „Die
+fehlende Stufe"** aus der eigenen Section hinter G54 gezogen (Section
+23 jetzt G49–G54 + G56, die leere Section entfernt, Rest
+umnummeriert: 38 Sections); **F33a „Der Torbogen" gestrichen**
+(Folgen in `verwebung/loeschfolgen.md`); **G81:** Jakob sagt jetzt
+„Er war drei." — **Prüfpunkt:** F18a setzt Anton in der Nacht auf
+„zwei Jahre alt" (F4: ein Jahr, Monate davor). Eins von beiden muss
+sich bewegen. Alles in der EN nachgezogen (G81 wie DE, mit dem
+Prüfpunkt). Stände: Verwebung **142 Szenen** (86 G + 56 F-Teile; F26
+in drei Teilen = 144 Headings), **38 Sections**. Neue DE-Lesefassung
+`verwebung` in Arbeit (Vorspann „Stand achter September").
+
+**Abend 08.09.2026 — G59 „Weg wie weg" neu:** Nach der Recherche zu
+geglückten DDR-Fluchten hat der Autor die Frage, ob Anna und Jakob
+durchkommen, im Dialog gelöst und das Ende offen gelassen: Auf Annas
+„Ist da hinten mal einer durch?" jetzt Jakob: „Am Anfang angeblich
+einige. Dann wohl niemand mehr. Ich glaube, jetzt ist es für die
+meisten eh zu spät." — „Und du?" — „Vielleicht. Irgendwann." — Anna:
+„Ich frag mich, ob überhaupt noch jemand schaut." Die Pointe „Weg wie
+durch? Oder weg wie weg?" ist damit weg; der Arbeitstitel der Szene
+sagt es noch. EN nachgezogen. **Technik:** Die Speicherung von 21:14
+kam aus einem nicht neu geladenen Beat und hat den Section-Fix vom
+Nachmittag (leere Section 25, Spannen 23/35, GELÖSCHT-Note)
+überschrieben; über das Backup 17:36 isoliert und neu angewendet.
+
+**Setzung 08.09.2026 — Strang-Namen:** Strang 1 heißt „Die Eltern"
+(vormals Die Felder), Strang 2 „Die Kinder" (vormals TAU/Gegenwart).
+Die Marke steht am Ende jeder Szenenüberschrift beider Stränge, ohne
+Zeitangaben. Umgesetzt in `Verwebung.fountain` und `-en.fountain`:
+die Sluglines sind jetzt die Überschriften (58 Eltern-, 86
+Kinder-Szenen), die Werkstatt-Überschriften „F9a — …" sind in die
+Synopsen gewandert, Sections und Kennungen umbenannt; Lesefassungs-
+Skript und Board nachgezogen. Vorschläge des Co-Autors waren DAMALS,
+DIE ELTERN/DIE KINDER und DAVOR; die Begründung gegen „Die Felder" als
+Marke: ein Ort, und es gibt Gegenwartsszenen auf den Feldern.

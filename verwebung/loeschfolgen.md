@@ -202,3 +202,43 @@ Drahtarbeit als frühe Fährte — die könnte in G33 (Waschhaus, das
 Schuhregal) oder G61 (Werkstatt) mit einem Satz nachgeholt werden,
 falls gewünscht. Entscheidung beim Autor; die Note steht in der
 Datei.
+
+
+## F36 „Die offene Tür" — gestrichen (Autor, 07./08.09.2026)
+
+**Entscheidung:** Das verwobene Buch endet nicht mehr mit der
+Rückkehr in die Nacht (Anna unter dem Tisch, die Tür steht offen,
+Credits), sondern beim Hund auf der Mauer (G87), dann SCHWARZ, dann
+ENDE. Damit ist die Sortierungs-Idee vom 18.08. („nach dem Hund,
+nach der Hoffnung, zurück in die Nacht — kein Urteil, ein Bild")
+zurückgenommen; das Buch schließt auf der Hoffnung.
+
+**Was mitgeht:**
+
+- Der Rahmen Nacht → Nacht (G01 am Anfang, F36 am Ende) fällt; die
+  Nacht steht jetzt nur noch am Anfang (G01) und als F34 vor der
+  Waschung. Das Handzeichen (F34) und Annas „bleib" zum Hund (G30,
+  G68) tragen die Verbindung weiter.
+- Das Bild der offenen Tür — hier endet der Strang, unter dem Tisch
+  beginnt der andere — existiert im verwobenen Buch nicht mehr; für
+  den **eigenständigen Strang** (`Die-Felder.fountain`) bleibt F36
+  das Ende, dort ist es unverzichtbar.
+- Die Board-Taste legt F36 mit in den Papierkorb (wiederherstellbar).
+- Die drei Werkstatt-Notes zum Schlussbild (18.08.) und die N1-Frage
+  (leere Karte im Export vom 01.09.) sind mit dem Block gelöscht; die
+  N1-Frage gilt damit als erledigt (Versehen).
+
+## F33a „Der Torbogen" — gestrichen (Autor, 08.09.2026)
+
+**Was die Szene tat:** Lenz tritt mit der Waffe in die Nacht; die
+Erzählung „verliert ihn" an einem Torbogen — der Ort, an dem ein
+Umkehren noch möglich wäre, ausgesprochen als Erzähler-Text
+(„Irgendwo dahinter wäre auch ein Umkehren noch möglich …").
+
+**Was mitgeht:** Der ausgesprochene Grundsatz der Indizien-Lösung —
+ab hier keine Außensicht auf Lenz mehr — steht nicht mehr im Text,
+gilt aber weiter: F33 endet mit „Er steckt sie ein.", die Nacht
+erzählt nur noch F34 (Anna unter dem Tisch), und G01 liefert die
+Indizien. Die Werkstatt-Note „Die Lücke der Indizien-Lösung" ist mit
+dem Block gelöscht; die Setzung steht in `strang-1/entwicklung.md`
+(13.08.2026). Der eigenständige Strang behält 33a.

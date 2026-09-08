@@ -256,6 +256,22 @@ Jakob wird in ein Haus geboren, in dem ein Bett zu viel steht.
 wann genau, bleibt diesig, auch Ruth weiß es nicht genau.)
 *Last:* Der Weltumbau im Raffer; die Kohortenlogik konkret.
 
+**22b — Die Schachtel** (Einschub 08.09.2026; die Kennung 22a ist in
+der Verwebung der Teil „Das neue Kind")
+Monate nach dem Unglück, in der Zeit, als Geld noch etwas zählte:
+Helene, verhüllt, nachts in der versiegelten Wohnung — ausgeräumt,
+nicht durchsucht; nur die Kiste mit den Heften unberührt, alte
+Schulhefte wollte niemand. Ganz unten die Blechschachtel (seit 9a
+sichtbar: Geld, Kette und Ring, das Holzpferdchen, der Flakon
+obenauf). Sie legt die Hefte zurück, drückt das Siegel wieder an; im
+Morgengrauen Brot für einen Schein, Münzen zurück. Kein Wort.
+(Setzung: Helene gilt wie Jahn als tot — deshalb weder das alte
+Zimmer noch eine Elternwohnung als Versteck.)
+*Last:* Die Frau, die als tot gilt, geht den Weg, den niemand von ihr
+erwartet; die Schachtel bekommt ihren Weg ins Versteck, das
+Pferdchen seine Herkunft, der Flakon wird zur Reserve, die man nicht
+anrührt (26a).
+
 **23 — Der stille Säufer**
 Lenz pflegt Ruth und destilliert Fusel — dieselbe Fertigkeit,
 gefallen. Er trinkt gegen die Präzision: Nüchtern rechnet die

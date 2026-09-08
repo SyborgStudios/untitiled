@@ -316,6 +316,20 @@ ist seine zweite Schuld, und sie wiegt bei ihm schwerer als das
 Gutachten.** (Das Brief-Ritual — schreiben und verbrennen — ist
 verworfen, 15.07.: too much.)
 
+**Setzung 08.09.2026 — die Schachtel und der Weg ins Versteck:**
+Helene gilt wie Jahn als tot; sonst würden Ruth und Lenz nach ihr
+suchen. Deshalb ist das Versteck weder ihr altes Zimmer noch eine
+Wohnung ihrer Eltern (die vermutlich noch leben). Die Blechschachtel
+— seit F9a sichtbar mit Geld, Kette und Ring, dem Holzpferdchen und
+dem Flakon obenauf — bleibt in der gemeinsamen Wohnung, ganz unten
+in der Kiste mit den Heften. Einige Monate nach dem Unglück, in der
+Zeit, als Geld noch etwas zählte, holt Helene sie selbst: nachts,
+verhüllt, in der versiegelten, geplünderten Wohnung; die Kiste mit
+den Heften hat niemand gewollt (F22b), im Morgengrauen Brot für
+einen Schein (F22c). Damit hat Annas Pferdchen seine Herkunft
+(Helenes eigenes), und der Flakon wird zur Reserve, die man nicht
+anrührt — bis auf den einen Tropfen (F26a).
+
 ## 6. Die Intrige
 
 Ein lebender Jahn ist eine tickende Bombe unter der Lüge; eigene
