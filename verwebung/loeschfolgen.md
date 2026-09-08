@@ -173,3 +173,32 @@ Jahre Wache, und das eine Klopfen kommt trotzdem.
 
 Betrifft nur das verwobene Buch; im eigenständigen Strang steht
 F25 unverändert.
+
+## G32 „Der Brunnen" — Streichkandidat (Note des Autors, 06.09.2026)
+
+**Was die Szene tut:** Am guten Brunnen teilt sich die Reihe der
+Gezeichneten wortlos für Anna — die Stadt macht dem ungezeichneten
+Kind Platz, ohne dass jemand erklärt, warum. Anna sucht den Preis
+und findet keinen. Und: An der Winde bleibt ihr Blick hängen — „der
+Griff neu, das Seil frisch gespleißt — Drahtarbeit, ordentlich wie
+Nähte".
+
+**Was mitgeht, wenn sie fällt:**
+
+- Die **Drahtarbeit** ist eine Spur zu Lenz' Händen (die Nähte, die
+  Werkstatt) — eine der stillen Fährten, die Anna sammelt, bevor sie
+  ihn kennt. Fällt G32, fehlt diese Fährte; die anderen (Tacho,
+  Fernglas, X-Straße) tragen sie aber auch allein.
+- Das **Ritual der Reihe, die sich teilt** ist die erste Szene, in
+  der die Stadt Anna als Ausnahme behandelt. Der Brunnen mit dem
+  umgedrehten Eimer (G31, davor) bleibt; die Waschhaus-Ordnung (G27)
+  zeigt dieselbe Stadt schon von innen.
+- „Der gute Brunnen, zwei Straßen hinter dem mit dem umgedrehten
+  Eimer" — der Verweis auf G31 fällt mit.
+
+**Einschätzung:** Streichbar. Die Szene ist schön, aber ihre beiden
+Lasten werden anderswo getragen; was verloren ginge, ist die
+Drahtarbeit als frühe Fährte — die könnte in G33 (Waschhaus, das
+Schuhregal) oder G61 (Werkstatt) mit einem Satz nachgeholt werden,
+falls gewünscht. Entscheidung beim Autor; die Note steht in der
+Datei.

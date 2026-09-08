@@ -416,3 +416,90 @@ Setzung des Autors: F7 ist eine Werwolf-Geschichte — der Vater war
 das, was die ganze Nacht gekratzt hat. Der Text lässt beide Lesarten
 zu (erfroren / Werwolf); das Angebot eines Hinweises („unter den
 Fingernägeln: Holz") hat der Autor abgelehnt, es bleibt ohne.
+
+## Nachtrag 04.09.2026 — F8 mit Helene
+
+Ansage des Autors: In F8 („Der Souffleur", die Küche bei Nacht) soll
+Helene dabei sein, Ruth und Helene sollen sich richtig sympathisch
+sein, und ein kleiner beiläufiger Kuss für Paul — die beiden sind
+ein Paar. Umgesetzt (DE + EN):
+
+- **Auftakt:** „nur die vier" — Ruth hat Helene ein Geschirrtuch in
+  die Hand gedrückt statt eines Stuhls am Tischende (Familie, nicht
+  Gast; das Tischende ist in F4 der Platz für Gäste, die man noch
+  nicht kennt). Die beiden Frauen am Spülstein, Rücken zu den
+  Männern.
+- **Sympathie ohne Erklärsatz:** „Helene lacht mit. An derselben
+  Stelle." Ruths Zeile geht jetzt an Helene („zu Helene, ohne sich
+  umzudrehen"), Helene übernimmt „Er hat's aufgeschrieben. Ich hab's
+  gesehen. Mit Unterstreichungen." — sie kennt seine Zettel; Lenz
+  behält „Ich hab's ihm nur gesagt."
+- **Der Kuss:** Helene bringt den Krug vom Spülstein zum Tisch und
+  küsst Jahn im Vorbeigehen auf die Schläfe, ohne langsamer zu
+  werden. Niemand kommentiert. Er redet weiter und ruiniert die
+  Zeile ein drittes Mal — Ruth lacht „aus Prinzip", wie gehabt.
+- Der Schluss (der Satz, die Stille, Lenz legt ein Blatt über die
+  Handschrift) ist unverändert. Die Lesefassung „felder" vom 03.09.
+  hat diese Fassung noch nicht.
+
+**F8a, das Ende (04.09.2026):** Der Autor fragte nach dem
+„aufrecht"-Wortwechsel auf der Kirchentreppe. Befund des Co-Autors:
+ein wörtliches Zitat des ersten Gesprächs aus F6 (Du statt Sie), das
+an einem einzigen Wort aus einer Viertelstunde zuvor hing; dazu
+meinte „vor dem Pfarrer" den falschen Moment (das Händeschütteln ist
+nach der Trauung, auf der Treppe). Angebot war „Du hast eine Rede
+gehalten. Auf deiner Hochzeit." — der Autor hat es selbst
+umgeschrieben: „Du kannst es einfach nicht lassen." /
+„Entschuldigung." / „Ich lass dich heute nicht mehr los.", ein
+dicker Kuss, die Menge jubelt. Der Satz „Er lacht — einen Takt zu
+spät" und das Schlussbild am Geländer sind damit weg. EN
+nachgezogen, Tippfehler („ihn" → „ihm") bereinigt.
+
+## Nachtrag 06.09.2026 — Umstellungen und Kommentare des Autors
+
+Der Autor hat in Beat umgestellt und kommentiert (Diff über Beats
+Backup 10:42 → 11:34). Abgearbeitet vom Co-Autor, DE + EN:
+
+- **G48 „Die Alte mit dem Takt, I" wandert** aus dem Grau-Block
+  G45–G48 zwischen F18 „Der Saal" und F18a „Das offene Fenster" —
+  der Takt der Alten („Schneller. Schneller. Schneller.") steht jetzt
+  unmittelbar vor der Nacht des Werks. Der Autor hat den Schluss
+  gekürzt: „Mich hat der Jahn damals nicht überzeugt. Aber Absicht?"
+  und Annas „Registriert." fallen, die Szene endet mit dem Glas.
+  Sections: 19 = G45–G47, 20 = F18, neu 21 = G48, neu 22 = F18a–F21.
+- **F26 „Das Familienwort" als Parallelmontage** (Note des Autors:
+  „Die nächste Szene ist parallel montiert mit den darauffolgenden"):
+  Helene beginnt die Geschichte im Versteck („Oben, hoch oben über der
+  Stadt liegt ein Ort."), Schnitt auf G57 „Der Aufstieg" mit Helenes
+  Stimme als Voice-over („Du gehst den Weg, der sich dreht. Am
+  Geländer entlang. Du zählst die Schritte."), zurück ins Versteck
+  („Mama, ich weiß" bis „Schlaf."), G58 „Das Panorama", zuletzt das
+  Pferdchen und der Vater an der Tür. Konvention: die drei Teile
+  behalten die Kennung F26, die Headings heißen „Das Familienwort" /
+  „…, Fortsetzung" / „…, Schluss" (mit Synopsen), das Ganze steht in
+  einer neuen Section-Art **MONTAGE** (Section 26: „F26 ∥ G57–G58"),
+  damit die Lesefassung eine einzige Ansage macht („Sequenz 26.
+  Parallelmontage — Vier Jahre und Die guten Tage"; Skript
+  angepasst). Section 27 = G59–G60. Die Verwebung zählt damit 40
+  Sections und 152 Headings (142 Szenen, F26 in drei Teilen). Für
+  den eigenständigen Strang bleibt F26 eine Szene; die Felder-
+  Lesefassung verlöre in dieser Form Helenes Voice-over-Zeile, weil
+  sie in einer G-Szene steht — beim nächsten Build prüfen.
+- **F11a:** der Autor hat den Schluss gestrichen („Vor der Tür bleibt
+  er einen halben Schritt stehen — holt Luft. Und nimmt sie mit
+  hinein."), passend zur Streichung desselben Motivs in F12.
+- **F9b „Wörterbücher ist zu schwammig":** jetzt „Sieben Jahrgänge." /
+  „Was?" / „Meine Kinder. Jedes Heft, seit ich angefangen habe." /
+  „Alle?" / „Du wolltest tragen." — Helene hebt die Hefte ihrer
+  Schüler auf (die Hefte, die in F26a oben in der Kiste liegen;
+  Annas Heft in TAU).
+- **F17 „Was erzählt sie hier laut?":** Ruths Ende ausgeschrieben —
+  „— was schief wird. Ich sag dir, was: das Werk. Meine Kinder werden
+  nicht schief." Dann lacht sie selber am lautesten. (Beides wird
+  schief: das Werk und Anton — die Zeile weiß es nicht.)
+- **G32 „Der Brunnen" — „Streichkandidat":** Note des Autors bleibt
+  stehen, Entscheidung bei ihm. Was an der Szene hängt, steht in
+  `verwebung/loeschfolgen.md`.
+
+Board: G48 in der Buch-Taste hinter F18, Taste heißt „Stand des
+Buchs (06.09.)". Dramaturgie-Tafeln nicht neu generiert.
