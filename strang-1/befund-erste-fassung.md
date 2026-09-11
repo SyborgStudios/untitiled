@@ -596,3 +596,30 @@ Synopsen gewandert, Sections und Kennungen umbenannt; Lesefassungs-
 Skript und Board nachgezogen. Vorschläge des Co-Autors waren DAMALS,
 DIE ELTERN/DIE KINDER und DAVOR; die Begründung gegen „Die Felder" als
 Marke: ein Ort, und es gibt Gegenwartsszenen auf den Feldern.
+
+## Nachtrag 09.09.2026 — F16, Jahns Antwort
+
+Frage des Autors zu F16 „Der Ort" (Szene 72 in Beat): Sollen wir
+hören, was Jahn sagt, nachdem Helene ihm vom Kind erzählt hat?
+Befund: Die Szene hatte zwei Unhörbarkeiten (das Wort ins Ohr und
+Jahns Antwort), die einander entwerten; das Wort muss stumm bleiben,
+die Antwort darf sprechen — und sie muss etwas sein, worüber Helene
+lacht. Drei Vorschläge (der Mann ohne Satz / „Dann ist das Werk
+fertig" / zu dritt zählen), der Autor nimmt den dritten:
+„Zweihundertzwölf." (Beat) „Nächstes Mal zählen wir zu dritt." Der
+Satz ist das Versprechen, das Helene in F26 an Anna weitergibt
+(„Wir drei. Und du zählst.") und das Anna in G85 aufsagt. Eingebaut
+in `Verwebung.fountain`, `-en.fountain` und `Die-Felder.fountain`.
+Gleichentags vom Autor: in F17 der Erzähler-Satz „Es ist ihr letztes
+Gespräch vor der Katastrophe …" gestrichen — auch der letzte
+„faktische" Erzähler-Satz ist damit gefallen; EN nachgezogen.
+
+**F22c „Das Brot" (10.09.2026, Ansage des Autors):** die Inflation
+beiläufig — hinter der Theke schreibt der Bäcker die Preise neu, „die
+Zahlen werden länger. Niemand sagt etwas dazu."; die Münzen wenige,
+kleine (der Autor hatte „wenige" schon gesetzt). DE, EN, Strang.
+Dazu nachgezogen (EN) aus den Runden des Autors 08.–10.09.: F4 Anton
+„ein halbes Jahr alt" (statt ein Jahr; F18a bleibt bei zwei Jahren in
+der Nacht), F11a „Du hast eine Pause eingelegt." und „es funktioniert
+mäßig", F22b „Hochschwanger" und „im Halbdunkeln", F22c „wenige
+Münzen".

@@ -3000,4 +3000,27 @@ die Actionzeile mit dem geerbten Witz bleibt. Ein
 Lenz-Echo beim Zug wurde erwogen und verworfen.
 DE und EN (Einzelheiten: `szenen-v1.md`).
 
+### Nachtrag — Zwei Szenen aus der Verwebung zurückgeholt (09.09.2026)
+
+Auf Ansage des Autors sind zwei Szenen, die er im verwobenen Buch
+(`verwebung/Verwebung.fountain`) umgeschrieben hat, in die erste
+Fassung übernommen worden — wortgleich, ohne die Werkstatt-Notes
+und ohne die Strang-Marke der Verwebung:
+
+- **„Die Ernte"** (Szene 50): an der Absperrung steht jetzt ein Mann
+  mit Gewehr („Komm, komm. Alle Mann ein Stück zurück." / „Ihr
+  zwei."), zwei Kinder übernehmen die Übergabe; „Später": die beiden
+  Jungs verteilen die Ausbeute, Annas Anteil die Schokolade.
+- **„Weg wie weg"** (Szene 59): der Dialog auf dem Rückweg neu —
+  „Am Anfang angeblich einige. Dann wohl niemand mehr. Ich glaube,
+  jetzt ist es für die meisten eh zu spät." / „Und du?" /
+  „Vielleicht. Irgendwann." / „Ich frag mich, ob überhaupt noch
+  jemand schaut." Die Pointe „Weg wie durch? Oder weg wie weg?" ist
+  damit weg; der Arbeitstitel bleibt.
+
+DE (`Untitled.fountain`) und EN (`drehbuch-v1-en.fountain`, aus
+`verwebung/Verwebung-en.fountain`). Die Drehbuch-PDFs und die
+Lesefassungen der ersten Fassung tragen an beiden Stellen noch den
+alten Text.
+
 *21.07.2026 — der Co-Autor*
