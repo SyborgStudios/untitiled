@@ -26,11 +26,11 @@
   if (window.self !== window.top) return;
 
   var TRACKS = {
-    de: { src: "audio/drehbuch-v1-lesefassung-de.mp3", secs: 4787 },
-    en: { src: "audio/drehbuch-v1-lesefassung-en.mp3", secs: 5262 }
+    de: { src: "audio/verwebung-lesefassung-de.mp3", secs: 8933 },
+    en: { src: "audio/verwebung-lesefassung-en.mp3", secs: 9697 }
   };
 
-  var POS_KEY   = "untitled-movie-player-pos";    /* {track, t} — bleibt */
+  var POS_KEY   = "untitled-movie-player-pos-2";  /* {track, t} — bleibt; -2 seit dem Buch τ (11.09.2026): alte Hörstellen der ersten Fassung passen nicht */
   var UI_KEY    = "untitled-movie-player-ui";     /* "open" | "mini"     */
   var RUN_KEY   = "untitled-movie-player-run";    /* nur diese Sitzung   */
   var HEARD_KEY = "untitled-movie-player-heard";  /* gehörte Sekunden    */
@@ -39,7 +39,7 @@
     de: {
       title: "Die Lesefassung",
       lang: { de: "Deutsch", en: "Englisch" },
-      sub: "Erste Fassung",
+      sub: "τ — das verwobene Buch",
       play: "Abspielen", pause: "Pause",
       back: "30 Sekunden zurück", fwd: "30 Sekunden vor",
       mini: "Player einklappen", open: "Lesefassung anhören",
@@ -48,7 +48,7 @@
     en: {
       title: "The reading version",
       lang: { de: "German", en: "English" },
-      sub: "First draft",
+      sub: "τ — the woven book",
       play: "Play", pause: "Pause",
       back: "Back 30 seconds", fwd: "Forward 30 seconds",
       mini: "Collapse player", open: "Listen to the reading version",

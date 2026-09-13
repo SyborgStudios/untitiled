@@ -47,7 +47,8 @@
     /* Seite 18 — 31.08.2026, der Autor (kleine weiße Seite: der erste Durchlauf durchs verwobene Buch ist beendet) */
     { file: "session-18.html", de: "Gute Nacht", en: "Good night" },
     /* Seite 19 — 01.09.2026, der Co-Autor (blaue Seite; Anlage: die Dramaturgie-Tafel als iframe) */
-    { file: "session-19.html", de: "Die Dramaturgie-Tafel", en: "The dramaturgy board" }
+    { file: "session-19.html", de: "Die Dramaturgie-Tafel", en: "The dramaturgy board" },
+    { file: "session-20.html", de: "Das Buch τ", en: "The book τ" }
   ];
 
   var file = location.pathname.split("/").pop() || "index.html";
